@@ -1,0 +1,115 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 3.00kB done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 30B 0.0s
+#2 transferring dockerfile: 1.28kB 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/apache/hadoop:3.3.6
+#3 DONE 2.5s
+
+#4 [internal] load metadata for docker.io/apache/spark:3.5.7-scala2.12-java11-python3-ubuntu
+#4 DONE 2.5s
+
+#5 [internal] load metadata for docker.io/library/eclipse-temurin:11-jre-jammy
+#5 DONE 2.5s
+
+#6 [internal] load metadata for docker.io/library/python:3.11-slim-bookworm
+#6 DONE 2.5s
+
+#7 [internal] load .dockerignore
+#7 transferring context: 137B done
+#7 DONE 0.0s
+
+#8 [internal] load build context
+#8 DONE 0.0s
+
+#9 [hadoop 1/1] FROM docker.io/apache/hadoop:3.3.6@sha256:62a22627f35a1bbf29c721192c02fe311c93749cc43d51df01792b2ac40ff144
+#9 resolve docker.io/apache/hadoop:3.3.6@sha256:62a22627f35a1bbf29c721192c02fe311c93749cc43d51df01792b2ac40ff144 0.1s done
+#9 DONE 0.1s
+
+#10 [spark 1/1] FROM docker.io/apache/spark:3.5.7-scala2.12-java11-python3-ubuntu@sha256:936ff39fd63e2bb5ed064f0fbe1518198473f1cdbfa2f863d087a9a8e58116ba
+#10 resolve docker.io/apache/spark:3.5.7-scala2.12-java11-python3-ubuntu@sha256:936ff39fd63e2bb5ed064f0fbe1518198473f1cdbfa2f863d087a9a8e58116ba 0.1s done
+#10 DONE 0.1s
+
+#11 [runtime  1/11] FROM docker.io/library/python:3.11-slim-bookworm@sha256:0a310eeecf4e1f5a0743f9a6520c90c88d089c903ca5fd283f501e3a805f5f89
+#11 resolve docker.io/library/python:3.11-slim-bookworm@sha256:0a310eeecf4e1f5a0743f9a6520c90c88d089c903ca5fd283f501e3a805f5f89 0.1s done
+#11 DONE 0.1s
+
+#12 [java 1/1] FROM docker.io/library/eclipse-temurin:11-jre-jammy@sha256:1adc4db6079f9a35c45f36b0907dd94232a0b9b409a4088a7fe0c77b14e99294
+#12 resolve docker.io/library/eclipse-temurin:11-jre-jammy@sha256:1adc4db6079f9a35c45f36b0907dd94232a0b9b409a4088a7fe0c77b14e99294 0.1s done
+#12 DONE 0.1s
+
+#8 [internal] load build context
+#8 transferring context: 1.87kB 0.0s done
+#8 DONE 0.1s
+
+#13 [runtime  2/11] COPY --from=java /opt/java/openjdk /opt/java/openjdk
+#13 CACHED
+
+#14 [runtime  3/11] RUN apt-get update && apt-get install -y --no-install-recommends procps libgomp1 tini libstdc++6     && rm -rf /var/lib/apt/lists/*
+#14 CACHED
+
+#15 [runtime  4/11] COPY --from=hadoop /opt/hadoop /opt/hadoop
+#15 CACHED
+
+#16 [runtime  5/11] COPY --from=spark /opt/spark /opt/spark
+#16 CACHED
+
+#17 [runtime  6/11] COPY requirements-runtime.txt /tmp/requirements-runtime.txt
+#17 DONE 0.1s
+
+#18 [runtime  7/11] RUN pip install --no-cache-dir -r /tmp/requirements-runtime.txt
+#18 7.923 Collecting numpy==1.26.4 (from -r /tmp/requirements-runtime.txt (line 1))
+#18 8.242   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#18 8.319      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 732.4 kB/s eta 0:00:00
+#18 8.427 Collecting kafka-python==2.2.15 (from -r /tmp/requirements-runtime.txt (line 2))
+#18 8.494   Downloading kafka_python-2.2.15-py2.py3-none-any.whl.metadata (10.0 kB)
+#18 8.585 Collecting google-play-scraper==1.2.7 (from -r /tmp/requirements-runtime.txt (line 4))
+#18 8.652   Downloading google_play_scraper-1.2.7-py3-none-any.whl.metadata (50 kB)
+#18 8.671      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 kB 3.5 MB/s eta 0:00:00
+#18 8.778 Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#18 10.14    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 12.9 MB/s eta 0:00:00
+#18 10.24 Downloading kafka_python-2.2.15-py2.py3-none-any.whl (309 kB)
+#18 10.26    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 309.8/309.8 kB 42.5 MB/s eta 0:00:00
+#18 10.35 Downloading google_play_scraper-1.2.7-py3-none-any.whl (28 kB)
+#18 10.71 Installing collected packages: kafka-python, numpy, google-play-scraper
+#18 29.84 Successfully installed google-play-scraper-1.2.7 kafka-python-2.2.15 numpy-1.26.4
+#18 29.85 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#18 30.65 
+#18 30.65 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#18 30.65 [notice] To update, run: pip install --upgrade pip
+#18 DONE 32.2s
+
+#19 [runtime  8/11] COPY infra/hadoop/ /opt/hadoop/etc/hadoop/
+#19 DONE 0.3s
+
+#20 [runtime  9/11] COPY infra/entrypoint.sh /entrypoint.sh
+#20 DONE 0.9s
+
+#21 [runtime 10/11] RUN chmod +x /entrypoint.sh && mkdir -p /exports /workspace /hadoop/name /hadoop/data
+#21 DONE 1.3s
+
+#22 [runtime 11/11] WORKDIR /workspace
+#22 DONE 0.2s
+
+#23 exporting to image
+#23 exporting layers
+#23 exporting layers 25.8s done
+#23 exporting manifest sha256:99b89f053367950d97703f856cccd69da67da5cd870e331e66596b7edb6616d5 0.1s done
+#23 exporting config sha256:926c749f89218c2095d012be29db949ed74cb42ca3e19fbd4749941ecfa55a47
+#23 exporting config sha256:926c749f89218c2095d012be29db949ed74cb42ca3e19fbd4749941ecfa55a47 0.4s done
+#23 exporting attestation manifest sha256:cffebd4de6d05654fd3ff71328e3fbc8ad0a9dd4394848194fc3d48eca61380f
+#23 exporting attestation manifest sha256:cffebd4de6d05654fd3ff71328e3fbc8ad0a9dd4394848194fc3d48eca61380f 0.1s done
+#23 exporting manifest list sha256:d4354c2cfa5a5893f36839f60df407858dc432ab268458597bee3698349dc8a0 0.1s done
+#23 naming to docker.io/library/bigdata-review-runtime:local
+#23 naming to docker.io/library/bigdata-review-runtime:local done
+#23 unpacking to docker.io/library/bigdata-review-runtime:local
+#23 unpacking to docker.io/library/bigdata-review-runtime:local 11.0s done
+#23 DONE 38.2s
+
+#24 resolving provenance for metadata file
+#24 DONE 0.2s
+ bigdata-review-runtime:local  Built

@@ -1,0 +1,303 @@
+{
+  "k": 8,
+  "seed": 42,
+  "distance": "cosine",
+  "training_rows": 61241,
+  "sample_percent": 25,
+  "silhouette_sample_max": 10000,
+  "silhouette_cosine": 0.021614557813238584,
+  "tokenization": "Vietnamese syllable unigrams/bigrams",
+  "clusters": [
+    {
+      "cluster": 0,
+      "top_terms": [
+        "không",
+        "như",
+        "mua",
+        "hàng",
+        "làm",
+        "app",
+        "cái",
+        "shopee",
+        "ko",
+        "ăn",
+        "gì",
+        "lazada",
+        "lại",
+        "trả",
+        "giá"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 1,
+      "top_terms": [
+        "lừa",
+        "đảo",
+        "lừa đảo",
+        "bán",
+        "chất",
+        "chất lượng",
+        "lượng",
+        "hàng",
+        "kém",
+        "toàn",
+        "bán hàng",
+        "kém chất",
+        "hàng kém",
+        "shop",
+        "mua"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 2,
+      "top_terms": [
+        "dụng",
+        "ứng",
+        "ứng dụng",
+        "càng",
+        "tệ",
+        "cập",
+        "nhật",
+        "cập nhật",
+        "ngày càng",
+        "ngày",
+        "càng ngày",
+        "lag",
+        "dụng như",
+        "không",
+        "sử dụng"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 3,
+      "top_terms": [
+        "hang",
+        "lag",
+        "ma",
+        "dung",
+        "khong",
+        "co",
+        "toi",
+        "quang",
+        "duoc",
+        "lam",
+        "quang cao",
+        "thi",
+        "nhu",
+        "ban",
+        "la"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 4,
+      "top_terms": [
+        "giao",
+        "giao hàng",
+        "hàng",
+        "lâu",
+        "chậm",
+        "đơn",
+        "hàng chậm",
+        "hàng lâu",
+        "hủy",
+        "đặt",
+        "đơn hàng",
+        "ngày",
+        "không",
+        "chưa",
+        "hủy đơn"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 5,
+      "top_terms": [
+        "ship",
+        "phí",
+        "cao",
+        "phí ship",
+        "ship cao",
+        "đắt",
+        "tiền ship",
+        "tiền",
+        "vận",
+        "vận chuyển",
+        "chuyển",
+        "phí vận",
+        "ship đắt",
+        "mắc",
+        "hơn"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 6,
+      "top_terms": [
+        "lỗi",
+        "đc",
+        "đăng",
+        "nhập",
+        "ko",
+        "sao",
+        "đăng nhập",
+        "bị",
+        "toán",
+        "không",
+        "thanh",
+        "thanh toán",
+        "đặt",
+        "hàng",
+        "tải"
+      ],
+      "human_label": "unassigned"
+    },
+    {
+      "cluster": 7,
+      "top_terms": [
+        "cáo",
+        "quảng",
+        "quảng cáo",
+        "cáo nhiều",
+        "nhiều",
+        "phiền",
+        "cáo hoài",
+        "hoài",
+        "cc",
+        "quản cáo",
+        "quản",
+        "lắm",
+        "làm phiền",
+        "cáo cc",
+        "cái"
+      ],
+      "human_label": "unassigned"
+    }
+  ],
+  "examples": [
+    {
+      "prediction": 0,
+      "platform": "Shopee",
+      "content": "xàm quá tôi muốn mua cây baton mà nó ra tài lao này thì áo ngực balo các thứ"
+    },
+    {
+      "prediction": 0,
+      "platform": "Shopee",
+      "content": "Hiện tại shopee đã làm lộ sđt và địa chỉ nhà của mình thật đáng thất vọng mà , vì mình biết shopee làm lộ sđt của mình á vì khi người ta gọi đến có xưng là quản lí gì bên shopee rồi kêu mình mua hàng , trong tất cả cái app thì sài mỗi shopee là có sđt và địa chỉ nhà mình thôi"
+    },
+    {
+      "prediction": 0,
+      "platform": "Tiki",
+      "content": "App như cức đặt hàng xong ko gọi xong tới tổng đài báo tin ko liên hệ đc, hệ thống quá kém cỏi nhân viên giao hàng muốn hủy hay gì cũng đc nói chung là tiki bán hàng giá cao hơn các app khác mà nhân viên cũng chính trong cty nên quản lý rất kém vì ko có chế tài cụ thể với nhân viên"
+    },
+    {
+      "prediction": 1,
+      "platform": "Shopee",
+      "content": "Shop điên tàng ngu si mát chó hahaha"
+    },
+    {
+      "prediction": 1,
+      "platform": "Lazada",
+      "content": "Lừa đảo nha mấy bạn"
+    },
+    {
+      "prediction": 1,
+      "platform": "Shopee",
+      "content": "lừa đảo, vô trách nhiệm, tránh xa nó ra mọi người ơi."
+    },
+    {
+      "prediction": 2,
+      "platform": "Sendo",
+      "content": "quá tệ cho một ứng dụng giao hàng sai địa chỉ"
+    },
+    {
+      "prediction": 2,
+      "platform": "Lazada",
+      "content": "ỨNG DỤNG NHƯ CỨC CHÓ LAZADA CÁI MẶT NHƯ CON ĐŨ💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩"
+    },
+    {
+      "prediction": 2,
+      "platform": "Shopee",
+      "content": "Nói chung là hàng hóa đa dạng. Nhưng ứng dụng này rất nặng, rất hay bị đơ máy cho dù máy có ram 8g. Bởi thế cho nên nhiều khi đang mua hàng bị đơ thì lại chuyển sang lazada mua."
+    },
+    {
+      "prediction": 3,
+      "platform": "Lazada",
+      "content": "Sao khong ban chó"
+    },
+    {
+      "prediction": 3,
+      "platform": "Shopee",
+      "content": "Tệ Mk mua thẻ 50 k trên shopee bị trừ tai khoan nhg k đc cong tien vao sddt, Đn vao shopee game k đc mac du mang khỏe"
+    },
+    {
+      "prediction": 3,
+      "platform": "Shopee",
+      "content": "Shopee là một ẩn dung lua đao"
+    },
+    {
+      "prediction": 4,
+      "platform": "Lazada",
+      "content": "đặt hàng có 200k hoi tiền giao thêm 200 nữa là mất bà bốn trăm tiền giao hàng nên giảm ko bán giao hàng ko cũng giàu"
+    },
+    {
+      "prediction": 4,
+      "platform": "Lazada",
+      "content": "Loading chậm vl Mong sửa lại"
+    },
+    {
+      "prediction": 4,
+      "platform": "Shopee",
+      "content": "Từ lúc chuyển đơn vị vận chuyển shoppe là chán hẳn giao hàng siêu siêu lâu luôn."
+    },
+    {
+      "prediction": 5,
+      "platform": "Shopee",
+      "content": "Tiền ship còn đắt hơn cả món đồ 😡😡 vay mà kêu online giá rẻ"
+    },
+    {
+      "prediction": 5,
+      "platform": "Shopee",
+      "content": "Tại sao k kích hoạt đơn vị vận chuyển đc. Tại sao đăng bán sản phẩm đến mục phí vận chuyển đã ghi đầy đủ địa chỉ rồi nhưng vẫn k chọn đc đơn vị vận chuyển????"
+    },
+    {
+      "prediction": 5,
+      "platform": "Lazada",
+      "content": "Phí ship quá mắc so với giá thành sản phẩm"
+    },
+    {
+      "prediction": 6,
+      "platform": "Shopee",
+      "content": "Đăng nhập là một cực hình"
+    },
+    {
+      "prediction": 6,
+      "platform": "Shopee",
+      "content": "thanh toán bằng tài khoản ngân hàng thì nuốt tiền mà không giao hàng"
+    },
+    {
+      "prediction": 6,
+      "platform": "Lazada",
+      "content": "Ko cho thanh toán tiền mặt nên khắc phục"
+    },
+    {
+      "prediction": 7,
+      "platform": "Lazada",
+      "content": "Tự ý nhảy quảng cáo trên trình duyệt bắt tải app về. Rất điên vụ này. Tẩy chay"
+    },
+    {
+      "prediction": 7,
+      "platform": "Shopee",
+      "content": "Cứ quảng cáo hoài"
+    },
+    {
+      "prediction": 7,
+      "platform": "Lazada",
+      "content": "Cho thằng trấn thành cút khỏi hình ảnh quảng cáo đi."
+    }
+  ],
+  "interpretation": "Exploratory clusters; not aspect classification accuracy or causal proof."
+}

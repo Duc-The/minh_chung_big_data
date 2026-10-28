@@ -1,0 +1,17 @@
+Found 16 items
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/aspect_mentions
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:41 /ecommerce/output/batch_success
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:39 /ecommerce/output/cluster_assignments_sample
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:39 /ecommerce/output/cluster_metadata
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:42 /ecommerce/output/dashboard_cube
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:37 /ecommerce/output/data_quality
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/monthly_summary
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:49 /ecommerce/output/persisted_validation
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/platform_summary
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/rating_distribution
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:35 /ecommerce/output/raw_inspection
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:37 /ecommerce/output/review_length_summary
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:41 /ecommerce/output/sentiment_evaluation
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:41 /ecommerce/output/sentiment_test_predictions
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/spam_sensitivity
+drwxr-xr-x   - airflow supergroup          0 2026-10-14 17:38 /ecommerce/output/unmatched_low_ratings

@@ -1,0 +1,8 @@
+[2026-10-14T17:50:37.400+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.8', 29092)]>: connecting to kafka:29092 [('172.18.0.8', 29092) IPv4]
+[2026-10-14T17:50:37.407+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:29092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 29092)]>: Broker version identified as 2.6
+[2026-10-14T17:50:37.408+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.8', 29092)]>: Connection complete.
+[2026-10-14T17:50:37.414+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.8', 29092)]>: connecting to kafka:29092 [('172.18.0.8', 29092) IPv4]
+[2026-10-14T17:50:37.415+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:29092 <connected> [IPv4 ('172.18.0.8', 29092)]>: Connection complete.
+[2026-10-14T17:50:37.415+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.8', 29092)]>: Closing connection. 
+[2026-10-14T17:50:37.519+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:29092 <connected> [IPv4 ('172.18.0.8', 29092)]>: Closing connection. 
+{"dag": "success", "successful_tasks": 10, "kafka_total_offsets": 2000, "repeated_batch_counts_unchanged": true}

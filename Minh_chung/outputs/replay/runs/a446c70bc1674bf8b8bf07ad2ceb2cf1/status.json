@@ -1,0 +1,838 @@
+{
+  "run_id": "a446c70bc1674bf8b8bf07ad2ceb2cf1",
+  "source_mode": "historical_replay",
+  "source_generation": "e30bc0ca30184d7d8bf4a10e5ff12bf5",
+  "phase": "paused",
+  "cursor": 36,
+  "frames": [
+    {
+      "month": "2013-06",
+      "platforms": {
+        "Lazada": {
+          "reviews": 36,
+          "low": 8,
+          "rating_sum": 132
+        }
+      },
+      "reviews": 36,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-06",
+      "files": 1,
+      "bytes": 10520,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-06",
+      "loaded_utc": "2026-10-15T02:06:40.371280+00:00",
+      "cumulative_reviews": 36
+    },
+    {
+      "month": "2013-07",
+      "platforms": {
+        "Lazada": {
+          "reviews": 6,
+          "low": 1,
+          "rating_sum": 23
+        }
+      },
+      "reviews": 6,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-07",
+      "files": 1,
+      "bytes": 5119,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-07",
+      "loaded_utc": "2026-10-15T02:06:44.463319+00:00",
+      "cumulative_reviews": 42
+    },
+    {
+      "month": "2013-08",
+      "platforms": {
+        "Lazada": {
+          "reviews": 1,
+          "low": 0,
+          "rating_sum": 5
+        }
+      },
+      "reviews": 1,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-08",
+      "files": 1,
+      "bytes": 3142,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-08",
+      "loaded_utc": "2026-10-15T02:06:48.550880+00:00",
+      "cumulative_reviews": 43
+    },
+    {
+      "month": "2013-09",
+      "platforms": {
+        "Lazada": {
+          "reviews": 3,
+          "low": 1,
+          "rating_sum": 9
+        }
+      },
+      "reviews": 3,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-09",
+      "files": 1,
+      "bytes": 3831,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-09",
+      "loaded_utc": "2026-10-15T02:06:52.649133+00:00",
+      "cumulative_reviews": 46
+    },
+    {
+      "month": "2013-10",
+      "platforms": {
+        "Lazada": {
+          "reviews": 6,
+          "low": 1,
+          "rating_sum": 24
+        }
+      },
+      "reviews": 6,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-10",
+      "files": 1,
+      "bytes": 3685,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-10",
+      "loaded_utc": "2026-10-15T02:06:56.745883+00:00",
+      "cumulative_reviews": 52
+    },
+    {
+      "month": "2013-11",
+      "platforms": {
+        "Lazada": {
+          "reviews": 8,
+          "low": 1,
+          "rating_sum": 36
+        }
+      },
+      "reviews": 8,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-11",
+      "files": 1,
+      "bytes": 3588,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-11",
+      "loaded_utc": "2026-10-15T02:07:00.849219+00:00",
+      "cumulative_reviews": 60
+    },
+    {
+      "month": "2013-12",
+      "platforms": {
+        "Lazada": {
+          "reviews": 17,
+          "low": 0,
+          "rating_sum": 77
+        }
+      },
+      "reviews": 17,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-12",
+      "files": 1,
+      "bytes": 4270,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2013-12",
+      "loaded_utc": "2026-10-15T02:07:04.942335+00:00",
+      "cumulative_reviews": 77
+    },
+    {
+      "month": "2014-01",
+      "platforms": {
+        "Lazada": {
+          "reviews": 19,
+          "low": 2,
+          "rating_sum": 83
+        }
+      },
+      "reviews": 19,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-01",
+      "files": 1,
+      "bytes": 7261,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-01",
+      "loaded_utc": "2026-10-15T02:07:09.031577+00:00",
+      "cumulative_reviews": 96
+    },
+    {
+      "month": "2014-02",
+      "platforms": {
+        "Lazada": {
+          "reviews": 12,
+          "low": 1,
+          "rating_sum": 53
+        }
+      },
+      "reviews": 12,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-02",
+      "files": 1,
+      "bytes": 4943,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-02",
+      "loaded_utc": "2026-10-15T02:07:13.537888+00:00",
+      "cumulative_reviews": 108
+    },
+    {
+      "month": "2014-03",
+      "platforms": {
+        "Lazada": {
+          "reviews": 21,
+          "low": 3,
+          "rating_sum": 93
+        }
+      },
+      "reviews": 21,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-03",
+      "files": 1,
+      "bytes": 5824,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-03",
+      "loaded_utc": "2026-10-15T02:07:17.634013+00:00",
+      "cumulative_reviews": 129
+    },
+    {
+      "month": "2014-04",
+      "platforms": {
+        "Lazada": {
+          "reviews": 38,
+          "low": 4,
+          "rating_sum": 167
+        }
+      },
+      "reviews": 38,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-04",
+      "files": 1,
+      "bytes": 6814,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-04",
+      "loaded_utc": "2026-10-15T02:07:21.322366+00:00",
+      "cumulative_reviews": 167
+    },
+    {
+      "month": "2014-05",
+      "platforms": {
+        "Lazada": {
+          "reviews": 34,
+          "low": 5,
+          "rating_sum": 145
+        }
+      },
+      "reviews": 34,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-05",
+      "files": 1,
+      "bytes": 7310,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-05",
+      "loaded_utc": "2026-10-15T02:07:25.475099+00:00",
+      "cumulative_reviews": 201
+    },
+    {
+      "month": "2014-06",
+      "platforms": {
+        "Lazada": {
+          "reviews": 38,
+          "low": 4,
+          "rating_sum": 172
+        }
+      },
+      "reviews": 38,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-06",
+      "files": 1,
+      "bytes": 7587,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-06",
+      "loaded_utc": "2026-10-15T02:07:29.582185+00:00",
+      "cumulative_reviews": 239
+    },
+    {
+      "month": "2014-07",
+      "platforms": {
+        "Lazada": {
+          "reviews": 47,
+          "low": 3,
+          "rating_sum": 209
+        }
+      },
+      "reviews": 47,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-07",
+      "files": 1,
+      "bytes": 6955,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-07",
+      "loaded_utc": "2026-10-15T02:07:33.706689+00:00",
+      "cumulative_reviews": 286
+    },
+    {
+      "month": "2014-08",
+      "platforms": {
+        "Lazada": {
+          "reviews": 101,
+          "low": 11,
+          "rating_sum": 431
+        }
+      },
+      "reviews": 101,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-08",
+      "files": 1,
+      "bytes": 11662,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-08",
+      "loaded_utc": "2026-10-15T02:07:37.810908+00:00",
+      "cumulative_reviews": 387
+    },
+    {
+      "month": "2014-09",
+      "platforms": {
+        "Lazada": {
+          "reviews": 138,
+          "low": 15,
+          "rating_sum": 574
+        }
+      },
+      "reviews": 138,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-09",
+      "files": 1,
+      "bytes": 15040,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-09",
+      "loaded_utc": "2026-10-15T02:07:41.904883+00:00",
+      "cumulative_reviews": 525
+    },
+    {
+      "month": "2014-10",
+      "platforms": {
+        "Lazada": {
+          "reviews": 129,
+          "low": 19,
+          "rating_sum": 532
+        }
+      },
+      "reviews": 129,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-10",
+      "files": 1,
+      "bytes": 14090,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-10",
+      "loaded_utc": "2026-10-15T02:07:45.980625+00:00",
+      "cumulative_reviews": 654
+    },
+    {
+      "month": "2014-11",
+      "platforms": {
+        "Lazada": {
+          "reviews": 149,
+          "low": 15,
+          "rating_sum": 643
+        }
+      },
+      "reviews": 149,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-11",
+      "files": 1,
+      "bytes": 16127,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-11",
+      "loaded_utc": "2026-10-15T02:07:50.068532+00:00",
+      "cumulative_reviews": 803
+    },
+    {
+      "month": "2014-12",
+      "platforms": {
+        "Lazada": {
+          "reviews": 223,
+          "low": 23,
+          "rating_sum": 949
+        }
+      },
+      "reviews": 223,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-12",
+      "files": 1,
+      "bytes": 22313,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2014-12",
+      "loaded_utc": "2026-10-15T02:07:54.602290+00:00",
+      "cumulative_reviews": 1026
+    },
+    {
+      "month": "2015-01",
+      "platforms": {
+        "Lazada": {
+          "reviews": 336,
+          "low": 25,
+          "rating_sum": 1493
+        }
+      },
+      "reviews": 336,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-01",
+      "files": 1,
+      "bytes": 28421,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-01",
+      "loaded_utc": "2026-10-15T02:07:58.279407+00:00",
+      "cumulative_reviews": 1362
+    },
+    {
+      "month": "2015-02",
+      "platforms": {
+        "Lazada": {
+          "reviews": 205,
+          "low": 21,
+          "rating_sum": 893
+        }
+      },
+      "reviews": 205,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-02",
+      "files": 1,
+      "bytes": 21263,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-02",
+      "loaded_utc": "2026-10-15T02:08:02.373551+00:00",
+      "cumulative_reviews": 1567
+    },
+    {
+      "month": "2015-03",
+      "platforms": {
+        "Lazada": {
+          "reviews": 393,
+          "low": 37,
+          "rating_sum": 1708
+        },
+        "Tiki": {
+          "reviews": 23,
+          "low": 1,
+          "rating_sum": 106
+        }
+      },
+      "reviews": 416,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-03",
+      "files": 1,
+      "bytes": 35970,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-03",
+      "loaded_utc": "2026-10-15T02:08:06.468473+00:00",
+      "cumulative_reviews": 1983
+    },
+    {
+      "month": "2015-04",
+      "platforms": {
+        "Lazada": {
+          "reviews": 380,
+          "low": 54,
+          "rating_sum": 1591
+        },
+        "Tiki": {
+          "reviews": 10,
+          "low": 0,
+          "rating_sum": 46
+        }
+      },
+      "reviews": 390,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-04",
+      "files": 1,
+      "bytes": 36996,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-04",
+      "loaded_utc": "2026-10-15T02:08:10.634732+00:00",
+      "cumulative_reviews": 2373
+    },
+    {
+      "month": "2015-05",
+      "platforms": {
+        "Lazada": {
+          "reviews": 647,
+          "low": 92,
+          "rating_sum": 2689
+        },
+        "Sendo": {
+          "reviews": 7,
+          "low": 0,
+          "rating_sum": 33
+        },
+        "Shopee": {
+          "reviews": 9,
+          "low": 0,
+          "rating_sum": 45
+        },
+        "Tiki": {
+          "reviews": 7,
+          "low": 1,
+          "rating_sum": 26
+        }
+      },
+      "reviews": 670,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-05",
+      "files": 1,
+      "bytes": 69356,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-05",
+      "loaded_utc": "2026-10-15T02:08:14.762552+00:00",
+      "cumulative_reviews": 3043
+    },
+    {
+      "month": "2015-06",
+      "platforms": {
+        "Lazada": {
+          "reviews": 983,
+          "low": 86,
+          "rating_sum": 4364
+        },
+        "Sendo": {
+          "reviews": 89,
+          "low": 9,
+          "rating_sum": 384
+        },
+        "Shopee": {
+          "reviews": 49,
+          "low": 4,
+          "rating_sum": 218
+        },
+        "Tiki": {
+          "reviews": 7,
+          "low": 1,
+          "rating_sum": 30
+        }
+      },
+      "reviews": 1128,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-06",
+      "files": 1,
+      "bytes": 97467,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-06",
+      "loaded_utc": "2026-10-15T02:08:18.847218+00:00",
+      "cumulative_reviews": 4171
+    },
+    {
+      "month": "2015-07",
+      "platforms": {
+        "Lazada": {
+          "reviews": 1589,
+          "low": 146,
+          "rating_sum": 7027
+        },
+        "Sendo": {
+          "reviews": 160,
+          "low": 12,
+          "rating_sum": 697
+        },
+        "Shopee": {
+          "reviews": 339,
+          "low": 23,
+          "rating_sum": 1479
+        },
+        "Tiki": {
+          "reviews": 17,
+          "low": 7,
+          "rating_sum": 54
+        }
+      },
+      "reviews": 2105,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-07",
+      "files": 1,
+      "bytes": 182417,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-07",
+      "loaded_utc": "2026-10-15T02:08:23.332999+00:00",
+      "cumulative_reviews": 6276
+    },
+    {
+      "month": "2015-08",
+      "platforms": {
+        "Lazada": {
+          "reviews": 1121,
+          "low": 148,
+          "rating_sum": 4810
+        },
+        "Sendo": {
+          "reviews": 231,
+          "low": 18,
+          "rating_sum": 1001
+        },
+        "Shopee": {
+          "reviews": 328,
+          "low": 42,
+          "rating_sum": 1377
+        },
+        "Tiki": {
+          "reviews": 12,
+          "low": 5,
+          "rating_sum": 39
+        }
+      },
+      "reviews": 1692,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-08",
+      "files": 1,
+      "bytes": 153336,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-08",
+      "loaded_utc": "2026-10-15T02:08:27.017416+00:00",
+      "cumulative_reviews": 7968
+    },
+    {
+      "month": "2015-09",
+      "platforms": {
+        "Lazada": {
+          "reviews": 907,
+          "low": 145,
+          "rating_sum": 3763
+        },
+        "Sendo": {
+          "reviews": 222,
+          "low": 18,
+          "rating_sum": 942
+        },
+        "Shopee": {
+          "reviews": 388,
+          "low": 39,
+          "rating_sum": 1690
+        },
+        "Tiki": {
+          "reviews": 28,
+          "low": 6,
+          "rating_sum": 110
+        }
+      },
+      "reviews": 1545,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-09",
+      "files": 1,
+      "bytes": 129307,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-09",
+      "loaded_utc": "2026-10-15T02:08:31.545818+00:00",
+      "cumulative_reviews": 9513
+    },
+    {
+      "month": "2015-10",
+      "platforms": {
+        "Lazada": {
+          "reviews": 959,
+          "low": 114,
+          "rating_sum": 4107
+        },
+        "Sendo": {
+          "reviews": 495,
+          "low": 45,
+          "rating_sum": 2189
+        },
+        "Shopee": {
+          "reviews": 209,
+          "low": 20,
+          "rating_sum": 902
+        },
+        "Tiki": {
+          "reviews": 75,
+          "low": 22,
+          "rating_sum": 261
+        }
+      },
+      "reviews": 1738,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-10",
+      "files": 1,
+      "bytes": 163791,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-10",
+      "loaded_utc": "2026-10-15T02:08:35.640138+00:00",
+      "cumulative_reviews": 11251
+    },
+    {
+      "month": "2015-11",
+      "platforms": {
+        "Lazada": {
+          "reviews": 1049,
+          "low": 106,
+          "rating_sum": 4530
+        },
+        "Sendo": {
+          "reviews": 760,
+          "low": 47,
+          "rating_sum": 3426
+        },
+        "Shopee": {
+          "reviews": 259,
+          "low": 41,
+          "rating_sum": 1058
+        },
+        "Tiki": {
+          "reviews": 55,
+          "low": 18,
+          "rating_sum": 183
+        }
+      },
+      "reviews": 2123,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-11",
+      "files": 1,
+      "bytes": 186884,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-11",
+      "loaded_utc": "2026-10-15T02:08:39.321155+00:00",
+      "cumulative_reviews": 13374
+    },
+    {
+      "month": "2015-12",
+      "platforms": {
+        "Lazada": {
+          "reviews": 596,
+          "low": 83,
+          "rating_sum": 2470
+        },
+        "Sendo": {
+          "reviews": 608,
+          "low": 68,
+          "rating_sum": 2596
+        },
+        "Shopee": {
+          "reviews": 237,
+          "low": 34,
+          "rating_sum": 988
+        },
+        "Tiki": {
+          "reviews": 40,
+          "low": 4,
+          "rating_sum": 164
+        }
+      },
+      "reviews": 1481,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-12",
+      "files": 1,
+      "bytes": 144537,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2015-12",
+      "loaded_utc": "2026-10-15T02:08:43.413014+00:00",
+      "cumulative_reviews": 14855
+    },
+    {
+      "month": "2016-01",
+      "platforms": {
+        "Lazada": {
+          "reviews": 763,
+          "low": 81,
+          "rating_sum": 3269
+        },
+        "Sendo": {
+          "reviews": 446,
+          "low": 42,
+          "rating_sum": 1914
+        },
+        "Shopee": {
+          "reviews": 201,
+          "low": 29,
+          "rating_sum": 838
+        },
+        "Tiki": {
+          "reviews": 51,
+          "low": 8,
+          "rating_sum": 213
+        }
+      },
+      "reviews": 1461,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-01",
+      "files": 1,
+      "bytes": 148386,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2016-01",
+      "loaded_utc": "2026-10-15T02:08:47.498398+00:00",
+      "cumulative_reviews": 16316
+    },
+    {
+      "month": "2016-02",
+      "platforms": {
+        "Lazada": {
+          "reviews": 524,
+          "low": 72,
+          "rating_sum": 2198
+        },
+        "Sendo": {
+          "reviews": 233,
+          "low": 22,
+          "rating_sum": 1001
+        },
+        "Shopee": {
+          "reviews": 160,
+          "low": 17,
+          "rating_sum": 698
+        },
+        "Tiki": {
+          "reviews": 67,
+          "low": 5,
+          "rating_sum": 291
+        }
+      },
+      "reviews": 984,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-02",
+      "files": 1,
+      "bytes": 95145,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2016-02",
+      "loaded_utc": "2026-10-15T02:08:51.589564+00:00",
+      "cumulative_reviews": 17300
+    },
+    {
+      "month": "2016-03",
+      "platforms": {
+        "Lazada": {
+          "reviews": 591,
+          "low": 115,
+          "rating_sum": 2332
+        },
+        "Sendo": {
+          "reviews": 410,
+          "low": 35,
+          "rating_sum": 1785
+        },
+        "Shopee": {
+          "reviews": 164,
+          "low": 38,
+          "rating_sum": 622
+        },
+        "Tiki": {
+          "reviews": 65,
+          "low": 13,
+          "rating_sum": 246
+        }
+      },
+      "reviews": 1230,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-03",
+      "files": 1,
+      "bytes": 128338,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2016-03",
+      "loaded_utc": "2026-10-15T02:08:55.670959+00:00",
+      "cumulative_reviews": 18530
+    },
+    {
+      "month": "2016-04",
+      "platforms": {
+        "Lazada": {
+          "reviews": 866,
+          "low": 102,
+          "rating_sum": 3741
+        },
+        "Sendo": {
+          "reviews": 432,
+          "low": 65,
+          "rating_sum": 1741
+        },
+        "Shopee": {
+          "reviews": 189,
+          "low": 24,
+          "rating_sum": 790
+        },
+        "Tiki": {
+          "reviews": 43,
+          "low": 8,
+          "rating_sum": 175
+        }
+      },
+      "reviews": 1530,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-04",
+      "files": 1,
+      "bytes": 146154,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2016-04",
+      "loaded_utc": "2026-10-15T02:08:59.779951+00:00",
+      "cumulative_reviews": 20060
+    },
+    {
+      "month": "2016-05",
+      "platforms": {
+        "Lazada": {
+          "reviews": 987,
+          "low": 139,
+          "rating_sum": 4160
+        },
+        "Sendo": {
+          "reviews": 503,
+          "low": 81,
+          "rating_sum": 2023
+        },
+        "Shopee": {
+          "reviews": 371,
+          "low": 69,
+          "rating_sum": 1442
+        },
+        "Tiki": {
+          "reviews": 39,
+          "low": 4,
+          "rating_sum": 156
+        }
+      },
+      "reviews": 1900,
+      "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-05",
+      "files": 1,
+      "bytes": 176986,
+      "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded/month=2016-05",
+      "loaded_utc": "2026-10-15T02:09:04.284934+00:00",
+      "cumulative_reviews": 21960
+    }
+  ],
+  "loaded_reviews": 21960,
+  "total_reviews": 1299873,
+  "month_min": "2013-06",
+  "month_max": "2022-08",
+  "total_batches": 111,
+  "interval_seconds": 4,
+  "last_control": "7e01abe87e3a4c3ebbbaf710a35c6454",
+  "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/a446c70bc1674bf8b8bf07ad2ceb2cf1/loaded",
+  "started_utc": "2026-10-15T02:06:40.241291+00:00",
+  "updated_utc": "2026-10-15T02:09:04.894676+00:00",
+  "loading_month": null,
+  "current_month": "2016-05"
+}

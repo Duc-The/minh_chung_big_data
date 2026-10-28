@@ -1,0 +1,4 @@
+Topic: ecommerce-live-reviews	TopicId: o3IegyQISGOFO7G_yfcCFQ	PartitionCount: 3	ReplicationFactor: 1	Configs: 
+	Topic: ecommerce-live-reviews	Partition: 0	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 
+	Topic: ecommerce-live-reviews	Partition: 1	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 
+	Topic: ecommerce-live-reviews	Partition: 2	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 

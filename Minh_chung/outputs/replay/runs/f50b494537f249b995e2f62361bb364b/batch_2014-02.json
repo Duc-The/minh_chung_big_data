@@ -1,0 +1,17 @@
+{
+  "month": "2014-02",
+  "platforms": {
+    "Lazada": {
+      "reviews": 12,
+      "low": 1,
+      "rating_sum": 53
+    }
+  },
+  "reviews": 12,
+  "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-02",
+  "files": 1,
+  "bytes": 4943,
+  "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-02",
+  "loaded_utc": "2026-10-15T00:20:38.972781+00:00",
+  "cumulative_reviews": 108
+}

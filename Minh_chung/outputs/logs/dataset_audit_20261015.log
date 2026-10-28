@@ -1,0 +1,22 @@
+Audited 250,000 records
+Audited 500,000 records
+Audited 750,000 records
+Audited 1,000,000 records
+Audited 1,250,000 records
+{
+  "csv_records": 1300086,
+  "date_min": "2013-06-10 01:04:59",
+  "date_max": "2022-08-27 10:44:03",
+  "appid_counts": {
+    "vn.tiki.app.tikiandroid": 70655,
+    "com.sendo": 179643,
+    "com.shopee.vn": 519297,
+    "com.lazada.android": 530491
+  },
+  "malformed_records": 0,
+  "duplicate_id_rows": 139,
+  "repeated_text_rows_within_platform": 638855,
+  "blank_content_rows": 71,
+  "spam_candidate_rows": 88,
+  "elapsed_seconds": 48.43
+}

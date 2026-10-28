@@ -1,0 +1,3092 @@
+[
+  {
+    "poll_id": "d6dc602abb704f96be6ea4b543b0eb06",
+    "at": "2026-10-15T00:00:12.248132+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "77481bec5bf64264a4ba19798d30bf55",
+    "at": "2026-10-15T00:05:03.320218+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "c71da508075a45d98d548933054df87d",
+    "at": "2026-10-15T00:10:03.904207+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "5c545db946114621a1884614138b678f",
+    "at": "2026-10-15T00:15:03.989369+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "4d2da9c6a5e34859beab4bdaba503813",
+    "at": "2026-10-15T00:20:04.393340+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "b29d6b446296489192a7336b2eb56b8a",
+    "at": "2026-10-15T00:25:04.590216+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "092c5eedac6544ac9d3488c0cca2d859",
+    "at": "2026-10-15T00:30:04.087963+00:00",
+    "generation": "eed4f0bce85444f79a245cc05facfdf2",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 400,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 100,
+        "low": 43,
+        "rating_sum": 316
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "35bc0fe7736e484e8459c6906bc4b2d4",
+    "at": "2026-10-15T00:35:04.516006+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 4,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "ba4ef81d857a45b3b1b61ce2b4412643",
+    "at": "2026-10-15T00:40:04.477667+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "d473d83dd2d44e49b68b6639e0f39d94",
+    "at": "2026-10-15T00:45:04.012800+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "53380ed623524e01b2c32d914f4a5e3d",
+    "at": "2026-10-15T00:50:04.296060+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "78ad11caf01b47d6a232db9fef038ea5",
+    "at": "2026-10-15T00:55:04.174066+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "493612ce9a634f939103ded050d65159",
+    "at": "2026-10-15T01:00:03.240172+00:00",
+    "generation": "f02ba29bc1c84bc0afd33e867dad73b7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 404,
+    "platforms": {
+      "Lazada": {
+        "reviews": 100,
+        "low": 52,
+        "rating_sum": 286
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 104,
+        "low": 45,
+        "rating_sum": 328
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "9640310356a548a7a5f222d6b9f3d6e1",
+    "at": "2026-10-15T01:05:05.500511+00:00",
+    "generation": "5bf111f038694040a540af00fc0d109f",
+    "new_reviews": 3,
+    "updated_reviews": 0,
+    "total_reviews": 407,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 106,
+        "low": 47,
+        "rating_sum": 330
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "74877f3579444024acbfb53fce94e2b6",
+    "at": "2026-10-15T01:10:03.747418+00:00",
+    "generation": "5bf111f038694040a540af00fc0d109f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 407,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 106,
+        "low": 47,
+        "rating_sum": 330
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "02f2a64c89b342ff9283bf7be492e4e4",
+    "at": "2026-10-15T01:15:06.039474+00:00",
+    "generation": "5bf111f038694040a540af00fc0d109f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 407,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 106,
+        "low": 47,
+        "rating_sum": 330
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "d6a445f4a0a04a2390d9c20242a0190d",
+    "at": "2026-10-15T01:42:55.188309+00:00",
+    "generation": "5bf111f038694040a540af00fc0d109f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 407,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 106,
+        "low": 47,
+        "rating_sum": 330
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "76b0758e0afc4a6bbfdc90b93b9dfcb1",
+    "at": "2026-10-15T01:43:35.409133+00:00",
+    "generation": "c96d84944d9e43d3937a54166c8ea27f",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 408,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 107,
+        "low": 47,
+        "rating_sum": 335
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "1f7dc142cd0d435ca91945c404349bbf",
+    "at": "2026-10-15T01:45:25.643612+00:00",
+    "generation": "c96d84944d9e43d3937a54166c8ea27f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 408,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 107,
+        "low": 47,
+        "rating_sum": 335
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "6e67006a3b8448fb9445838d1f69b5d2",
+    "at": "2026-10-15T01:50:08.718102+00:00",
+    "generation": "c96d84944d9e43d3937a54166c8ea27f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 408,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 107,
+        "low": 47,
+        "rating_sum": 335
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "8f25a4efd2054fe4b95662b20de19fb7",
+    "at": "2026-10-15T01:55:07.308400+00:00",
+    "generation": "c96d84944d9e43d3937a54166c8ea27f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 408,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 107,
+        "low": 47,
+        "rating_sum": 335
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "1f58212fd22e4765908fdcb9895b84eb",
+    "at": "2026-10-15T02:00:06.850930+00:00",
+    "generation": "88889f4a2f83420583ed91f65614d2f0",
+    "new_reviews": 2,
+    "updated_reviews": 0,
+    "total_reviews": 410,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 109,
+        "low": 48,
+        "rating_sum": 341
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "65ba8c26c218420bb4665333e6e469df",
+    "at": "2026-10-15T02:05:07.319268+00:00",
+    "generation": "88889f4a2f83420583ed91f65614d2f0",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 410,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 109,
+        "low": 48,
+        "rating_sum": 341
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "7eae5278040b49009b908fb60477a551",
+    "at": "2026-10-15T02:10:07.337891+00:00",
+    "generation": "88889f4a2f83420583ed91f65614d2f0",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 410,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 109,
+        "low": 48,
+        "rating_sum": 341
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "8086f87224e14d6d8e2bbbdf9bc552e5",
+    "at": "2026-10-15T02:15:20.449356+00:00",
+    "generation": "88889f4a2f83420583ed91f65614d2f0",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 410,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 109,
+        "low": 48,
+        "rating_sum": 341
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "1664c3580bd74c398ffa04503def6bb1",
+    "at": "2026-10-15T02:37:46.370628+00:00",
+    "generation": "88889f4a2f83420583ed91f65614d2f0",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 410,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 109,
+        "low": 48,
+        "rating_sum": 341
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "a9b9c34c978946cfaf7725efc7964b90",
+    "at": "2026-10-15T02:40:04.882027+00:00",
+    "generation": "235c9c75331641f98ced99caec08a325",
+    "new_reviews": 10,
+    "updated_reviews": 0,
+    "total_reviews": 420,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 119,
+        "low": 55,
+        "rating_sum": 364
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "64baf07d957b4530accf2985781f775c",
+    "at": "2026-10-15T02:45:07.384152+00:00",
+    "generation": "52ca0f65562c4c3ab98b7696e3794ad6",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 421,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 120,
+        "low": 56,
+        "rating_sum": 365
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "9f5c4408b44a4e17806a44be449b6c4b",
+    "at": "2026-10-15T02:50:06.300562+00:00",
+    "generation": "52ca0f65562c4c3ab98b7696e3794ad6",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 421,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 120,
+        "low": 56,
+        "rating_sum": 365
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "e6cc3dd50a554a4d939b3d6edd512e1a",
+    "at": "2026-10-15T02:55:05.960184+00:00",
+    "generation": "52ca0f65562c4c3ab98b7696e3794ad6",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 421,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 120,
+        "low": 56,
+        "rating_sum": 365
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "d7faeabf5ebd492ba82471c03976de3e",
+    "at": "2026-10-15T03:00:09.729344+00:00",
+    "generation": "52ca0f65562c4c3ab98b7696e3794ad6",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 421,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 120,
+        "low": 56,
+        "rating_sum": 365
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "2f8e864f7f764e569eb4fd9aa52c818e",
+    "at": "2026-10-15T03:05:04.797091+00:00",
+    "generation": "b6ad9c649ca541cd827258b6e905f3fd",
+    "new_reviews": 5,
+    "updated_reviews": 0,
+    "total_reviews": 426,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 125,
+        "low": 58,
+        "rating_sum": 381
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "2fd6e82e369544c28f7e85cb5e66e6dc",
+    "at": "2026-10-15T03:10:49.614415+00:00",
+    "generation": "b6ad9c649ca541cd827258b6e905f3fd",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 426,
+    "platforms": {
+      "Lazada": {
+        "reviews": 101,
+        "low": 53,
+        "rating_sum": 287
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 125,
+        "low": 58,
+        "rating_sum": 381
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "a8514de1579f4c54b60435134fec3161",
+    "at": "2026-10-15T03:15:06.748715+00:00",
+    "generation": "02af9ebe3b804f729c4ae31b5c275d97",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 427,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 125,
+        "low": 58,
+        "rating_sum": 381
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "5087f11c607842a08494d6f55e011247",
+    "at": "2026-10-15T03:20:27.921300+00:00",
+    "generation": "02af9ebe3b804f729c4ae31b5c275d97",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 427,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 125,
+        "low": 58,
+        "rating_sum": 381
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "5a8d695b2e3f45368ce0490b22cc6cdd",
+    "at": "2026-10-15T03:25:11.229276+00:00",
+    "generation": "e3c8516c9bb04c1d912df350dca322e9",
+    "new_reviews": 2,
+    "updated_reviews": 0,
+    "total_reviews": 429,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 127,
+        "low": 58,
+        "rating_sum": 389
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "4189eba638ea4d33930fd20446ff4cf6",
+    "at": "2026-10-15T03:31:19.783577+00:00",
+    "generation": "e3c8516c9bb04c1d912df350dca322e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 429,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 127,
+        "low": 58,
+        "rating_sum": 389
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "944aa9464e2949168b340cf8a89ec2e0",
+    "at": "2026-10-15T03:35:13.138075+00:00",
+    "generation": "e3c8516c9bb04c1d912df350dca322e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 429,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 127,
+        "low": 58,
+        "rating_sum": 389
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "79303529dce34abfbd27bc45740b8023",
+    "at": "2026-10-15T03:40:08.443532+00:00",
+    "generation": "e3c8516c9bb04c1d912df350dca322e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 429,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 127,
+        "low": 58,
+        "rating_sum": 389
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "5f92b2eece2447b1af89a9f2383e0e3b",
+    "at": "2026-10-15T03:45:05.101982+00:00",
+    "generation": "e3c8516c9bb04c1d912df350dca322e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 429,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 127,
+        "low": 58,
+        "rating_sum": 389
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "65fe0eaf821542e0a7c0d83b6d2d40f1",
+    "at": "2026-10-15T03:50:05.074093+00:00",
+    "generation": "8178eb98ac1c488f93c9c5742313dfbf",
+    "new_reviews": 2,
+    "updated_reviews": 0,
+    "total_reviews": 431,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 129,
+        "low": 58,
+        "rating_sum": 399
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "376a0bd97d294bb0911c888ba6c1232d",
+    "at": "2026-10-15T03:55:06.436310+00:00",
+    "generation": "8178eb98ac1c488f93c9c5742313dfbf",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 431,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 129,
+        "low": 58,
+        "rating_sum": 399
+      },
+      "Tiki": {
+        "reviews": 100,
+        "low": 36,
+        "rating_sum": 352
+      }
+    }
+  },
+  {
+    "poll_id": "caffe2ca4b814ca7b649c3684e4552f8",
+    "at": "2026-10-15T05:04:39.149126+00:00",
+    "generation": "8cdddec9002448b99bf4e7f77f3268d6",
+    "new_reviews": 16,
+    "updated_reviews": 0,
+    "total_reviews": 447,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 144,
+        "low": 61,
+        "rating_sum": 458
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "a938ba9c4da644de8095f2f98bee0d90",
+    "at": "2026-10-15T05:06:46.552195+00:00",
+    "generation": "8cdddec9002448b99bf4e7f77f3268d6",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 447,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 144,
+        "low": 61,
+        "rating_sum": 458
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "f363782e083248129afc186fde84f15b",
+    "at": "2026-10-15T05:10:04.186747+00:00",
+    "generation": "8cdddec9002448b99bf4e7f77f3268d6",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 447,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 144,
+        "low": 61,
+        "rating_sum": 458
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "6e5d15398db645adbb469a5dd251791f",
+    "at": "2026-10-15T05:15:04.907293+00:00",
+    "generation": "e3795b55f73f460e85c5acdb84eb1592",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 448,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "4bbe9620a25d4efba13b05fd713c63fa",
+    "at": "2026-10-15T05:20:03.704924+00:00",
+    "generation": "e3795b55f73f460e85c5acdb84eb1592",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 448,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "9fe6bf4eabfa448f825af54b03529be1",
+    "at": "2026-10-15T05:25:03.542289+00:00",
+    "generation": "e3795b55f73f460e85c5acdb84eb1592",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 448,
+    "platforms": {
+      "Lazada": {
+        "reviews": 102,
+        "low": 54,
+        "rating_sum": 289
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "5bcaced49e2e46a9bfe4de4c6bbf0e4a",
+    "at": "2026-10-15T05:30:04.349904+00:00",
+    "generation": "1c602f8536ed4676a3ee6fa99731a0c9",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 449,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "609712a055cd476a8acb16079580f2d0",
+    "at": "2026-10-15T05:35:04.062198+00:00",
+    "generation": "1c602f8536ed4676a3ee6fa99731a0c9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 449,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "1d9107f39c484694a8fb1167d620d3a8",
+    "at": "2026-10-15T05:40:04.221230+00:00",
+    "generation": "1c602f8536ed4676a3ee6fa99731a0c9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 449,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "053d35677ce842bc8542642148d3cbce",
+    "at": "2026-10-15T05:45:04.499694+00:00",
+    "generation": "1c602f8536ed4676a3ee6fa99731a0c9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 449,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 145,
+        "low": 61,
+        "rating_sum": 463
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "262856532a364c89bb1392a7858e4957",
+    "at": "2026-10-15T05:50:04.268992+00:00",
+    "generation": "f730f73bb71546ed8813f82ba3321a19",
+    "new_reviews": 10,
+    "updated_reviews": 0,
+    "total_reviews": 459,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 155,
+        "low": 63,
+        "rating_sum": 505
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "3db3bc919b2a4d888cfdddc82379484e",
+    "at": "2026-10-15T05:55:04.114512+00:00",
+    "generation": "381ff2bfc1b24f4f9357e6e88acd6f37",
+    "new_reviews": 2,
+    "updated_reviews": 0,
+    "total_reviews": 461,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 157,
+        "low": 63,
+        "rating_sum": 515
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "96ce21bd2fa24ef6b4606b1c929204f9",
+    "at": "2026-10-15T06:00:05.083301+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "b5342d336d0d4062a34bc042d4800be3",
+    "at": "2026-10-15T06:05:04.085659+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "970ce2d80b19435ca5b3b0977599dca4",
+    "at": "2026-10-15T06:10:03.574096+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "85b70e64c6bd4bb4a5eb3fe0833636b0",
+    "at": "2026-10-15T06:15:03.936939+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "04bedff498b24c9096e713aa50d17134",
+    "at": "2026-10-15T06:20:02.870571+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "5e7af19855284197a1f0e9ffb2bd2b85",
+    "at": "2026-10-15T06:25:04.205702+00:00",
+    "generation": "d0d05f061d2f46c9ac0864990905bf3b",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 462,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 158,
+        "low": 63,
+        "rating_sum": 520
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "bcd96815e61540e2b1a719ec69b6ac39",
+    "at": "2026-10-15T06:30:05.251493+00:00",
+    "generation": "039c24c2013047f9940f9f9cb99a8037",
+    "new_reviews": 3,
+    "updated_reviews": 0,
+    "total_reviews": 465,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 161,
+        "low": 65,
+        "rating_sum": 527
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "1732789be9f9440c9e119fb52fe804d4",
+    "at": "2026-10-15T06:35:04.250120+00:00",
+    "generation": "039c24c2013047f9940f9f9cb99a8037",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 465,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 161,
+        "low": 65,
+        "rating_sum": 527
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "8997a38ac1a94de28f2eb25c683f7a74",
+    "at": "2026-10-15T06:40:05.417439+00:00",
+    "generation": "58e2c24dfc23429998dcae3a02b7d8b9",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 466,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 162,
+        "low": 66,
+        "rating_sum": 529
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "7363171bb8b8404fb6af052f4b736510",
+    "at": "2026-10-15T06:45:04.493071+00:00",
+    "generation": "58e2c24dfc23429998dcae3a02b7d8b9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 466,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 162,
+        "low": 66,
+        "rating_sum": 529
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "b1a2cbeb599e485884f13d989fe5ceb2",
+    "at": "2026-10-15T06:50:04.957009+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "8d780855aa004cf6aab11ca39ebc7246",
+    "at": "2026-10-15T06:55:03.695813+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "7a1f97402baa4a1a841d6f368d41b1c2",
+    "at": "2026-10-15T07:00:04.348462+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "078384e0f0244ccda4c32a88d0f16c8c",
+    "at": "2026-10-15T07:05:04.304060+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "712877d2564f4fa6866c58b0ede564b6",
+    "at": "2026-10-15T07:10:04.715851+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "c3b7d1e3a2154532b14fc26a3665bd0a",
+    "at": "2026-10-15T07:15:07.134673+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "327d20e2f1724e308c5f47795cd91504",
+    "at": "2026-10-15T07:20:04.385260+00:00",
+    "generation": "ed9fce112d1543aca2bbd2e6f97bde2c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 467,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 163,
+        "low": 66,
+        "rating_sum": 534
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "a9165df38bc3467d949811c79d34605f",
+    "at": "2026-10-15T07:25:03.729228+00:00",
+    "generation": "adb45296a92944bd96088df9161dac62",
+    "new_reviews": 6,
+    "updated_reviews": 0,
+    "total_reviews": 473,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 169,
+        "low": 69,
+        "rating_sum": 553
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "8fdec171af534369a0a8aa44f370d496",
+    "at": "2026-10-15T07:30:02.802708+00:00",
+    "generation": "adb45296a92944bd96088df9161dac62",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 473,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 169,
+        "low": 69,
+        "rating_sum": 553
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "1bc8f2b5b11146cbb3a88424fe2644c9",
+    "at": "2026-10-15T07:35:05.436405+00:00",
+    "generation": "89333a0db0bd471786a319b3c3aa828c",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 474,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 170,
+        "low": 70,
+        "rating_sum": 554
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "4ec78bc92f4e4163814748e40100fc66",
+    "at": "2026-10-15T07:40:03.975042+00:00",
+    "generation": "89333a0db0bd471786a319b3c3aa828c",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 474,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 170,
+        "low": 70,
+        "rating_sum": 554
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "4a8b71061378490c87c6c8ad6f6a5e8c",
+    "at": "2026-10-15T07:45:04.271318+00:00",
+    "generation": "fb2dcbb571fb4272b3f9fa6ffc45638d",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 475,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 171,
+        "low": 70,
+        "rating_sum": 559
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "162001c0da6146dd9f626860087a6b3e",
+    "at": "2026-10-15T07:50:05.080360+00:00",
+    "generation": "fb2dcbb571fb4272b3f9fa6ffc45638d",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 475,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 171,
+        "low": 70,
+        "rating_sum": 559
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "9c6ac14a9d1d4534911429c0a32296cc",
+    "at": "2026-10-15T07:55:08.874519+00:00",
+    "generation": "73960b45c5ab41068be71467348d6241",
+    "new_reviews": 3,
+    "updated_reviews": 0,
+    "total_reviews": 478,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 174,
+        "low": 71,
+        "rating_sum": 569
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "63f8568450b345d7b986a6722725b0b6",
+    "at": "2026-10-15T08:25:47.987555+00:00",
+    "generation": "969a44b85c5a46798ad066a879dbd4e9",
+    "new_reviews": 8,
+    "updated_reviews": 0,
+    "total_reviews": 486,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 182,
+        "low": 74,
+        "rating_sum": 597
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "f5b869ded3e1437182e1f96f8ea05f95",
+    "at": "2026-10-15T08:27:24.832993+00:00",
+    "generation": "969a44b85c5a46798ad066a879dbd4e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 486,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 182,
+        "low": 74,
+        "rating_sum": 597
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "e9e50e61ab124a1c8be1614053afbc5a",
+    "at": "2026-10-15T08:30:15.419641+00:00",
+    "generation": "969a44b85c5a46798ad066a879dbd4e9",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 486,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 182,
+        "low": 74,
+        "rating_sum": 597
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "6e9eaabbaab24f19abb05ca7ac42a16b",
+    "at": "2026-10-15T08:35:17.024876+00:00",
+    "generation": "8527dde561f343c493614091d3ae0cc7",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 487,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 183,
+        "low": 75,
+        "rating_sum": 598
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "b9eaabec936040bdaa4804e0757a1610",
+    "at": "2026-10-15T08:40:26.667805+00:00",
+    "generation": "8527dde561f343c493614091d3ae0cc7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 487,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 183,
+        "low": 75,
+        "rating_sum": 598
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "66a10ac15edf431abba5d69added06f4",
+    "at": "2026-10-15T08:45:20.825780+00:00",
+    "generation": "8527dde561f343c493614091d3ae0cc7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 487,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 183,
+        "low": 75,
+        "rating_sum": 598
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "4718d8e7324e4ad6bca28f5da69da970",
+    "at": "2026-10-15T08:50:17.961644+00:00",
+    "generation": "a50e978a6a5e43f7aadcb09ec8ea9b96",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 488,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 184,
+        "low": 76,
+        "rating_sum": 599
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "b902c968b63c4877beae9f7fb1ef8221",
+    "at": "2026-10-15T08:55:10.825507+00:00",
+    "generation": "a50e978a6a5e43f7aadcb09ec8ea9b96",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 488,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 184,
+        "low": 76,
+        "rating_sum": 599
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "4b8d0b29f73d484d9ceb82517a99c90c",
+    "at": "2026-10-15T09:00:11.874271+00:00",
+    "generation": "a50e978a6a5e43f7aadcb09ec8ea9b96",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 488,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 184,
+        "low": 76,
+        "rating_sum": 599
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "8a82de1a75db43d7839a098991e6cc12",
+    "at": "2026-10-15T09:05:07.361072+00:00",
+    "generation": "a50e978a6a5e43f7aadcb09ec8ea9b96",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 488,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 184,
+        "low": 76,
+        "rating_sum": 599
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "ebba366892dd461b8a45026e197fe7dd",
+    "at": "2026-10-15T09:10:08.720157+00:00",
+    "generation": "91e8811d9aff41b4b37caf4fcc3f727f",
+    "new_reviews": 4,
+    "updated_reviews": 0,
+    "total_reviews": 492,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 188,
+        "low": 78,
+        "rating_sum": 609
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "5a958dacd504492db1d3a3a060122e74",
+    "at": "2026-10-15T09:15:05.379231+00:00",
+    "generation": "91e8811d9aff41b4b37caf4fcc3f727f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 492,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 188,
+        "low": 78,
+        "rating_sum": 609
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "9c186375eca84ee29652f9ce8c214881",
+    "at": "2026-10-15T09:20:09.653352+00:00",
+    "generation": "91e8811d9aff41b4b37caf4fcc3f727f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 492,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 188,
+        "low": 78,
+        "rating_sum": 609
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "a54d02ec50e74fcfb60330a929c31894",
+    "at": "2026-10-15T09:25:08.169273+00:00",
+    "generation": "91e8811d9aff41b4b37caf4fcc3f727f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 492,
+    "platforms": {
+      "Lazada": {
+        "reviews": 103,
+        "low": 54,
+        "rating_sum": 294
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 188,
+        "low": 78,
+        "rating_sum": 609
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "5d581dc217244073b6049ab9b72d79c8",
+    "at": "2026-10-15T09:30:18.467731+00:00",
+    "generation": "a901aadd195c40f0883c9c48b69b1964",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 493,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 188,
+        "low": 78,
+        "rating_sum": 609
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "fc4c6b4b2aa64b24b43f7f0d3e03fd3e",
+    "at": "2026-10-15T09:35:09.903560+00:00",
+    "generation": "56dbdc8681494e1fba901317752c1a48",
+    "new_reviews": 1,
+    "updated_reviews": 0,
+    "total_reviews": 494,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 189,
+        "low": 78,
+        "rating_sum": 614
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "258c250f7f854051ba66ab4329d64ebe",
+    "at": "2026-10-15T09:40:08.641260+00:00",
+    "generation": "56dbdc8681494e1fba901317752c1a48",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 494,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 189,
+        "low": 78,
+        "rating_sum": 614
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "20b48499e1794fa4ad5ad361eadb09de",
+    "at": "2026-10-15T09:45:07.462761+00:00",
+    "generation": "73c9358d65944653ac5f12c023c0c98f",
+    "new_reviews": 2,
+    "updated_reviews": 0,
+    "total_reviews": 496,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 191,
+        "low": 80,
+        "rating_sum": 616
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "a047febc6d094610a91b5663ff70eae2",
+    "at": "2026-10-15T09:50:12.328646+00:00",
+    "generation": "73c9358d65944653ac5f12c023c0c98f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 496,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 191,
+        "low": 80,
+        "rating_sum": 616
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "047604914779449aa18595a79058668d",
+    "at": "2026-10-15T09:55:24.275885+00:00",
+    "generation": "73c9358d65944653ac5f12c023c0c98f",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 496,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 191,
+        "low": 80,
+        "rating_sum": 616
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "5768e1c84b544fd7acee75603f3e81af",
+    "at": "2026-10-15T10:00:06.352097+00:00",
+    "generation": "976b3d211c4f47d79417ed8881095ca7",
+    "new_reviews": 3,
+    "updated_reviews": 0,
+    "total_reviews": 499,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 194,
+        "low": 81,
+        "rating_sum": 626
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "1b08c9ff3ebd4a5c94c5053ea0b1a536",
+    "at": "2026-10-15T10:05:07.498864+00:00",
+    "generation": "976b3d211c4f47d79417ed8881095ca7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 499,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 194,
+        "low": 81,
+        "rating_sum": 626
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "235d2121123d473ca1cc02da3a0f960f",
+    "at": "2026-10-15T10:10:07.069069+00:00",
+    "generation": "976b3d211c4f47d79417ed8881095ca7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 499,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 194,
+        "low": 81,
+        "rating_sum": 626
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "21a0bcc84c954402a6bee72dbcec593e",
+    "at": "2026-10-15T10:15:22.878705+00:00",
+    "generation": "976b3d211c4f47d79417ed8881095ca7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 499,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 194,
+        "low": 81,
+        "rating_sum": 626
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  },
+  {
+    "poll_id": "3acccf514a3f4cc9b34d5f756f529be3",
+    "at": "2026-10-15T10:20:17.539148+00:00",
+    "generation": "976b3d211c4f47d79417ed8881095ca7",
+    "new_reviews": 0,
+    "updated_reviews": 0,
+    "total_reviews": 499,
+    "platforms": {
+      "Lazada": {
+        "reviews": 104,
+        "low": 55,
+        "rating_sum": 296
+      },
+      "Sendo": {
+        "reviews": 100,
+        "low": 64,
+        "rating_sum": 233
+      },
+      "Shopee": {
+        "reviews": 194,
+        "low": 81,
+        "rating_sum": 626
+      },
+      "Tiki": {
+        "reviews": 101,
+        "low": 36,
+        "rating_sum": 357
+      }
+    }
+  }
+]

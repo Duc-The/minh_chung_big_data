@@ -1,0 +1,14 @@
+{
+  "verification": "passed",
+  "checks": [
+    "Selecting platforms automatically recalculates actual counts; one platform minimum",
+    "Month change automatically recalculates counts without submitting",
+    "Search input and aspect filter automatically match real API results",
+    "Rating filter updates review list automatically",
+    "Automatic ten-second refresh preserves active filters and search",
+    "A delayed older API response cannot overwrite the newest filter selection",
+    "Initial transient snapshot failure retries automatically without refresh button"
+  ],
+  "browser_errors": [],
+  "source": "Actual historical HDFS-derived API; no new reviews fabricated"
+}

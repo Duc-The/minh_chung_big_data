@@ -1,0 +1,131 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.qa
+#1 transferring dockerfile: 164B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for mcr.microsoft.com/playwright/python:v1.56.0-noble
+#2 DONE 1.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 137B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM mcr.microsoft.com/playwright/python:v1.56.0-noble@sha256:a7f6cf3ae520c9d670ad956572c13747ed5abdbba5123a01526f873ed1662528
+#4 resolve mcr.microsoft.com/playwright/python:v1.56.0-noble@sha256:a7f6cf3ae520c9d670ad956572c13747ed5abdbba5123a01526f873ed1662528 0.0s done
+#4 DONE 0.1s
+
+#4 [1/3] FROM mcr.microsoft.com/playwright/python:v1.56.0-noble@sha256:a7f6cf3ae520c9d670ad956572c13747ed5abdbba5123a01526f873ed1662528
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 0B / 803.88MB 0.2s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 0B / 91.68MB 0.2s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 0B / 45.02MB 0.2s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 0B / 30.59MB 0.2s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 4.19MB / 45.02MB 1.2s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 8.39MB / 45.02MB 1.5s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 42.99MB / 803.88MB 1.8s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 11.53MB / 45.02MB 1.7s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 14.68MB / 45.02MB 2.0s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 5.24MB / 91.68MB 2.3s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 18.87MB / 45.02MB 2.3s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 23.07MB / 45.02MB 2.6s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 27.26MB / 45.02MB 2.9s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 2.10MB / 30.59MB 3.0s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 84.93MB / 803.88MB 3.3s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 10.49MB / 91.68MB 3.2s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 31.46MB / 45.02MB 3.2s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 35.65MB / 45.02MB 3.5s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 38.80MB / 45.02MB 3.8s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 4.19MB / 30.59MB 3.8s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 41.94MB / 45.02MB 3.9s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 15.73MB / 91.68MB 4.1s
+#4 sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 45.02MB / 45.02MB 4.2s done
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 6.29MB / 30.59MB 4.4s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 127.93MB / 803.88MB 4.8s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 20.97MB / 91.68MB 4.8s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 8.39MB / 30.59MB 4.8s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 10.49MB / 30.59MB 5.3s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 26.21MB / 91.68MB 5.4s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 12.58MB / 30.59MB 5.7s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 171.97MB / 803.88MB 6.2s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 31.46MB / 91.68MB 6.0s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 14.68MB / 30.59MB 6.0s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 16.78MB / 30.59MB 6.3s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 36.70MB / 91.68MB 6.6s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 18.87MB / 30.59MB 6.8s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 20.97MB / 30.59MB 7.1s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 42.99MB / 91.68MB 7.2s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 213.91MB / 803.88MB 7.5s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 23.07MB / 30.59MB 7.4s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 26.21MB / 30.59MB 7.7s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 49.28MB / 91.68MB 7.8s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 28.31MB / 30.59MB 8.0s
+#4 sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 30.59MB / 30.59MB 8.2s done
+#4 extracting sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 55.57MB / 91.68MB 8.4s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 254.80MB / 803.88MB 8.9s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 61.87MB / 91.68MB 9.0s
+#4 extracting sha256:02de03a7213b62b792ec66a7efb8c86c4117ca00fb8651facf8ecfe33044b485 1.0s done
+#4 extracting sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 67.11MB / 91.68MB 9.5s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 72.35MB / 91.68MB 9.9s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 296.75MB / 803.88MB 10.2s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 78.64MB / 91.68MB 10.4s
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 84.93MB / 91.68MB 10.8s
+#4 extracting sha256:74be3244b9268fd75efd3687bfc260f3e230bc6e2e84c560e50d014ff231c2ce 1.9s done
+#4 sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 91.68MB / 91.68MB 11.3s done
+#4 extracting sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 340.79MB / 803.88MB 11.6s
+#4 extracting sha256:d88d0de5497b96807927a6be23e849c1124d2588acc6167a2d84fc3fb65c8202 0.6s done
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 382.73MB / 803.88MB 12.8s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 424.67MB / 803.88MB 14.0s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 465.57MB / 803.88MB 15.0s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 511.71MB / 803.88MB 16.2s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 555.75MB / 803.88MB 17.4s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 599.79MB / 803.88MB 18.5s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 643.83MB / 803.88MB 19.5s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 684.72MB / 803.88MB 20.4s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 725.61MB / 803.88MB 21.2s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 770.70MB / 803.88MB 22.1s
+#4 sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 803.88MB / 803.88MB 22.9s done
+#4 extracting sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a
+#4 extracting sha256:42159dc8489d8144af8a394289e10b837b2ac608625059c41e7f9bae378e828a 20.2s done
+#4 DONE 43.3s
+
+#5 [2/3] RUN pip install --no-cache-dir playwright==1.56.0
+#5 1.392 Collecting playwright==1.56.0
+#5 1.892   Downloading playwright-1.56.0-py3-none-manylinux1_x86_64.whl.metadata (3.5 kB)
+#5 2.098 Collecting pyee<14,>=13 (from playwright==1.56.0)
+#5 2.295   Downloading pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+#5 2.870 Collecting greenlet<4.0.0,>=3.1.1 (from playwright==1.56.0)
+#5 3.025   Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#5 3.149 Collecting typing-extensions (from pyee<14,>=13->playwright==1.56.0)
+#5 3.261   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#5 3.381 Downloading playwright-1.56.0-py3-none-manylinux1_x86_64.whl (46.3 MB)
+#5 5.391    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 MB 26.8 MB/s  0:00:02
+#5 5.506 Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (621 kB)
+#5 5.524    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.4/621.4 kB 34.9 MB/s  0:00:00
+#5 5.638 Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
+#5 5.766 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#5 5.823 Installing collected packages: typing-extensions, greenlet, pyee, playwright
+#5 6.838 
+#5 6.841 Successfully installed greenlet-3.5.6 playwright-1.56.0 pyee-13.0.1 typing-extensions-4.16.0
+#5 6.841 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#5 7.417 
+#5 7.417 [notice] A new release of pip is available: 25.3 -> 26.2.1
+#5 7.417 [notice] To update, run: python -m pip install --upgrade pip
+#5 DONE 7.5s
+
+#6 [3/3] WORKDIR /workspace
+#6 DONE 0.0s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 5.7s done
+#7 exporting manifest sha256:ce723b076694093696ca8d41d26fd897411571a9902553bc5d42af8c5cde1f73 0.0s done
+#7 exporting config sha256:16c27c30747e39b8c31af0829d2f01b60907671517233d18a5e8fad742bbeb46 0.0s done
+#7 exporting attestation manifest sha256:0bbb5f87c99b55b619fc8e5047a38189032c307325cd6794bb723358a4ca5732 0.0s done
+#7 exporting manifest list sha256:d215765c1e298d8ec4ba502c79eb6e6a5589d5032b01927520bd1847866f6d0a 0.0s done
+#7 naming to docker.io/library/bigdata-review-qa:local done
+#7 unpacking to docker.io/library/bigdata-review-qa:local
+#7 unpacking to docker.io/library/bigdata-review-qa:local 1.3s done
+#7 DONE 7.1s

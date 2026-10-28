@@ -1,0 +1,70 @@
+[2026-10-14T17:39:46.349+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-14T17:39:46.381+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_dissatisfaction_pipeline.06b_train_sentiment_proxy validation_20261015 [queued]>
+[2026-10-14T17:39:46.394+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_dissatisfaction_pipeline.06b_train_sentiment_proxy validation_20261015 [queued]>
+[2026-10-14T17:39:46.394+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-10-14T17:39:46.411+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): 06b_train_sentiment_proxy> on 2026-10-14 17:30:14+00:00
+[2026-10-14T17:39:46.414+0000] {standard_task_runner.py:72} INFO - Started process 2434 to run task
+[2026-10-14T17:39:46.423+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ecommerce_dissatisfaction_pipeline', '06b_train_sentiment_proxy', 'validation_20261015', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_pipeline.py', '--cfg-path', '/tmp/tmpok0nhjb0']
+[2026-10-14T17:39:46.431+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask 06b_train_sentiment_proxy
+[2026-10-14T17:39:46.493+0000] {task_command.py:467} INFO - Running <TaskInstance: ecommerce_dissatisfaction_pipeline.06b_train_sentiment_proxy validation_20261015 [running]> on host airflow-scheduler
+[2026-10-14T17:39:46.619+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ecommerce_dissatisfaction_pipeline' AIRFLOW_CTX_TASK_ID='06b_train_sentiment_proxy' AIRFLOW_CTX_EXECUTION_DATE='2026-10-14T17:30:14+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='validation_20261015'
+[2026-10-14T17:39:46.621+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-14T17:39:46.650+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-14T17:39:46.652+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'spark-submit --master spark://spark-master:7077 --driver-memory 1g --executor-memory 1g /workspace/jobs/train_sentiment.py']
+[2026-10-14T17:39:46.663+0000] {subprocess.py:99} INFO - Output:
+[2026-10-14T17:39:51.572+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SparkContext: Running Spark version 3.5.7
+[2026-10-14T17:39:51.575+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SparkContext: OS info Linux, 6.18.54.1-microsoft-standard-WSL2, amd64
+[2026-10-14T17:39:51.575+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SparkContext: Java version 11.0.32.1
+[2026-10-14T17:39:51.665+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-10-14T17:39:51.819+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceUtils: ==============================================================
+[2026-10-14T17:39:51.819+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-10-14T17:39:51.820+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceUtils: ==============================================================
+[2026-10-14T17:39:51.820+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SparkContext: Submitted application: review-sentiment-proxy-comparison
+[2026-10-14T17:39:51.860+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-10-14T17:39:51.873+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+[2026-10-14T17:39:51.876+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-10-14T17:39:51.959+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SecurityManager: Changing view acls to: airflow
+[2026-10-14T17:39:51.960+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SecurityManager: Changing modify acls to: airflow
+[2026-10-14T17:39:51.962+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SecurityManager: Changing view acls groups to:
+[2026-10-14T17:39:51.963+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SecurityManager: Changing modify acls groups to:
+[2026-10-14T17:39:51.964+0000] {subprocess.py:106} INFO - 26/10/14 17:39:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: airflow; groups with view permissions: EMPTY; users with modify permissions: airflow; groups with modify permissions: EMPTY
+[2026-10-14T17:39:52.310+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO Utils: Successfully started service 'sparkDriver' on port 42593.
+[2026-10-14T17:39:52.353+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO SparkEnv: Registering MapOutputTracker
+[2026-10-14T17:39:52.399+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO SparkEnv: Registering BlockManagerMaster
+[2026-10-14T17:39:52.418+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-10-14T17:39:52.419+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-10-14T17:39:52.427+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-10-14T17:39:52.460+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-ff163c84-d289-4d0d-be2b-66ab59a4cc07
+[2026-10-14T17:39:52.485+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2026-10-14T17:39:52.505+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-10-14T17:39:52.679+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO JettyUtils: Start Jetty airflow-scheduler:4040 for SparkUI
+[2026-10-14T17:39:52.746+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-10-14T17:39:52.862+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2026-10-14T17:39:52.923+0000] {subprocess.py:106} INFO - 26/10/14 17:39:52 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.3:7077 after 32 ms (0 ms spent in bootstraps)
+[2026-10-14T17:39:53.032+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261014173953-0012
+[2026-10-14T17:39:53.037+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014173953-0012/0 on worker-20261014171757-172.18.0.5-38893 (172.18.0.5:38893) with 1 core(s)
+[2026-10-14T17:39:53.041+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014173953-0012/0 on hostPort 172.18.0.5:38893 with 1 core(s), 1024.0 MiB RAM
+[2026-10-14T17:39:53.042+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014173953-0012/1 on worker-20261014171757-172.18.0.4-32837 (172.18.0.4:32837) with 1 core(s)
+[2026-10-14T17:39:53.043+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014173953-0012/1 on hostPort 172.18.0.4:32837 with 1 core(s), 1024.0 MiB RAM
+[2026-10-14T17:39:53.053+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43617.
+[2026-10-14T17:39:53.054+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO NettyBlockTransferService: Server created on airflow-scheduler:43617
+[2026-10-14T17:39:53.057+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-10-14T17:39:53.067+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, airflow-scheduler, 43617, None)
+[2026-10-14T17:39:53.072+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO BlockManagerMasterEndpoint: Registering block manager airflow-scheduler:43617 with 434.4 MiB RAM, BlockManagerId(driver, airflow-scheduler, 43617, None)
+[2026-10-14T17:39:53.079+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, airflow-scheduler, 43617, None)
+[2026-10-14T17:39:53.082+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, airflow-scheduler, 43617, None)
+[2026-10-14T17:39:53.103+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014173953-0012/0 is now RUNNING
+[2026-10-14T17:39:53.116+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014173953-0012/1 is now RUNNING
+[2026-10-14T17:39:53.421+0000] {subprocess.py:106} INFO - 26/10/14 17:39:53 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-10-14T17:40:36.728+0000] {subprocess.py:106} INFO - 26/10/14 17:40:36 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+[2026-10-14T17:40:44.840+0000] {subprocess.py:106} INFO - {"key": "LogisticRegression_reg_0.01", "model": "LogisticRegression", "regParam": 0.01, "validation": {"rows": 3105, "accuracy": 0.8347826086956521, "precision_negative": 0.7496473906911142, "recall_negative": 0.8705978705978706, "f1_negative": 0.8056081849185298, "macro_f1": 0.8309754730249328, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1529, 355], [158, 1063]]}}}
+[2026-10-14T17:40:49.111+0000] {subprocess.py:106} INFO - {"key": "LogisticRegression_reg_0.1", "model": "LogisticRegression", "regParam": 0.1, "validation": {"rows": 3105, "accuracy": 0.8421900161030595, "precision_negative": 0.7454667562122229, "recall_negative": 0.9090909090909091, "f1_negative": 0.8191881918819188, "macro_f1": 0.8395940959409594, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1505, 379], [111, 1110]]}}}
+[2026-10-14T17:41:01.341+0000] {subprocess.py:106} INFO - {"key": "LinearSVC_reg_0.01", "model": "LinearSVC", "regParam": 0.01, "validation": {"rows": 3105, "accuracy": 0.837037037037037, "precision_negative": 0.7584960231381056, "recall_negative": 0.8591318591318591, "f1_negative": 0.8056835637480798, "macro_f1": 0.8326809388346611, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1550, 334], [172, 1049]]}}}
+[2026-10-14T17:41:11.804+0000] {subprocess.py:106} INFO - {"key": "LinearSVC_reg_0.1", "model": "LinearSVC", "regParam": 0.1, "validation": {"rows": 3105, "accuracy": 0.840901771336554, "precision_negative": 0.7540181691125087, "recall_negative": 0.8837018837018837, "f1_negative": 0.8137254901960785, "macro_f1": 0.8374417220513839, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1532, 352], [142, 1079]]}}}
+[2026-10-14T17:41:21.984+0000] {subprocess.py:106} INFO - {"selected": "LogisticRegression_reg_0.1", "test": {"rows": 12993, "accuracy": 0.8990225506041715, "precision_negative": 0.7550675675675675, "recall_negative": 0.9133099824868651, "f1_negative": 0.8266842800528402, "macro_f1": 0.8777209410689918, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[8552, 1015], [297, 3129]]}}, "leakage_checks": {"train_validation": 0, "train_test": 0, "validation_test": 0}}
+[2026-10-14T17:41:23.164+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-14T17:41:23.198+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-14T17:41:23.198+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=ecommerce_dissatisfaction_pipeline, task_id=06b_train_sentiment_proxy, run_id=validation_20261015, execution_date=20261014T173014, start_date=20261014T173946, end_date=20261014T174123
+[2026-10-14T17:41:23.259+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-14T17:41:23.285+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-14T17:41:23.287+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

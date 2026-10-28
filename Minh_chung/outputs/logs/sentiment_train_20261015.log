@@ -1,0 +1,50 @@
+26/10/14 17:27:43 INFO SparkContext: Running Spark version 3.5.7
+26/10/14 17:27:43 INFO SparkContext: OS info Linux, 6.18.54.1-microsoft-standard-WSL2, amd64
+26/10/14 17:27:43 INFO SparkContext: Java version 11.0.32.1
+26/10/14 17:27:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/14 17:27:43 INFO ResourceUtils: ==============================================================
+26/10/14 17:27:43 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/10/14 17:27:43 INFO ResourceUtils: ==============================================================
+26/10/14 17:27:43 INFO SparkContext: Submitted application: review-sentiment-proxy-comparison
+26/10/14 17:27:43 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/10/14 17:27:43 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+26/10/14 17:27:43 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/10/14 17:27:43 INFO SecurityManager: Changing view acls to: root
+26/10/14 17:27:43 INFO SecurityManager: Changing modify acls to: root
+26/10/14 17:27:43 INFO SecurityManager: Changing view acls groups to: 
+26/10/14 17:27:43 INFO SecurityManager: Changing modify acls groups to: 
+26/10/14 17:27:43 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/10/14 17:27:43 INFO Utils: Successfully started service 'sparkDriver' on port 45041.
+26/10/14 17:27:43 INFO SparkEnv: Registering MapOutputTracker
+26/10/14 17:27:43 INFO SparkEnv: Registering BlockManagerMaster
+26/10/14 17:27:43 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/10/14 17:27:43 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/10/14 17:27:43 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/10/14 17:27:43 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-cba491ef-dd1a-4806-8477-1ed661514eae
+26/10/14 17:27:43 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/10/14 17:27:43 INFO SparkEnv: Registering OutputCommitCoordinator
+26/10/14 17:27:43 INFO JettyUtils: Start Jetty spark-client:4040 for SparkUI
+26/10/14 17:27:44 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/10/14 17:27:44 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/10/14 17:27:44 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.3:7077 after 29 ms (0 ms spent in bootstraps)
+26/10/14 17:27:44 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261014172744-0003
+26/10/14 17:27:44 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172744-0003/0 on worker-20261014171757-172.18.0.5-38893 (172.18.0.5:38893) with 1 core(s)
+26/10/14 17:27:44 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172744-0003/0 on hostPort 172.18.0.5:38893 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:27:44 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172744-0003/1 on worker-20261014171757-172.18.0.4-32837 (172.18.0.4:32837) with 1 core(s)
+26/10/14 17:27:44 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172744-0003/1 on hostPort 172.18.0.4:32837 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:27:44 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44277.
+26/10/14 17:27:44 INFO NettyBlockTransferService: Server created on spark-client:44277
+26/10/14 17:27:44 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/10/14 17:27:44 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, spark-client, 44277, None)
+26/10/14 17:27:44 INFO BlockManagerMasterEndpoint: Registering block manager spark-client:44277 with 434.4 MiB RAM, BlockManagerId(driver, spark-client, 44277, None)
+26/10/14 17:27:44 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, spark-client, 44277, None)
+26/10/14 17:27:44 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, spark-client, 44277, None)
+26/10/14 17:27:44 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172744-0003/0 is now RUNNING
+26/10/14 17:27:44 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/10/14 17:27:44 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172744-0003/1 is now RUNNING
+26/10/14 17:28:19 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+{"key": "LogisticRegression_reg_0.01", "model": "LogisticRegression", "regParam": 0.01, "validation": {"rows": 3105, "accuracy": 0.8347826086956521, "precision_negative": 0.7496473906911142, "recall_negative": 0.8705978705978706, "f1_negative": 0.8056081849185298, "macro_f1": 0.8309754730249328, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1529, 355], [158, 1063]]}}}
+{"key": "LogisticRegression_reg_0.1", "model": "LogisticRegression", "regParam": 0.1, "validation": {"rows": 3105, "accuracy": 0.8421900161030595, "precision_negative": 0.7454667562122229, "recall_negative": 0.9090909090909091, "f1_negative": 0.8191881918819188, "macro_f1": 0.8395940959409594, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1505, 379], [111, 1110]]}}}
+{"key": "LinearSVC_reg_0.01", "model": "LinearSVC", "regParam": 0.01, "validation": {"rows": 3105, "accuracy": 0.837037037037037, "precision_negative": 0.7584960231381056, "recall_negative": 0.8591318591318591, "f1_negative": 0.8056835637480798, "macro_f1": 0.8326809388346611, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1550, 334], [172, 1049]]}}}
+{"key": "LinearSVC_reg_0.1", "model": "LinearSVC", "regParam": 0.1, "validation": {"rows": 3105, "accuracy": 0.840901771336554, "precision_negative": 0.7540181691125087, "recall_negative": 0.8837018837018837, "f1_negative": 0.8137254901960785, "macro_f1": 0.8374417220513839, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[1532, 352], [142, 1079]]}}}
+{"selected": "LogisticRegression_reg_0.1", "test": {"rows": 12993, "accuracy": 0.8990225506041715, "precision_negative": 0.7550675675675675, "recall_negative": 0.9133099824868651, "f1_negative": 0.8266842800528402, "macro_f1": 0.8777209410689918, "confusion_matrix": {"label_order": ["positive", "negative"], "values": [[8552, 1015], [297, 3129]]}}, "leakage_checks": {"train_validation": 0, "train_test": 0, "validation_test": 0}}

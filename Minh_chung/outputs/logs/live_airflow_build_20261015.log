@@ -1,0 +1,209 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 601B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.airflow
+#2 transferring dockerfile: 812B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/bigdata-review-runtime:local
+#3 DONE 0.1s
+
+#4 [internal] load metadata for docker.io/apache/airflow:2.10.5-python3.11
+#4 DONE 2.0s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 137B 0.0s done
+#5 DONE 0.0s
+
+#6 [runtime 1/1] FROM docker.io/library/bigdata-review-runtime:local@sha256:d4354c2cfa5a5893f36839f60df407858dc432ab268458597bee3698349dc8a0
+#6 resolve docker.io/library/bigdata-review-runtime:local@sha256:d4354c2cfa5a5893f36839f60df407858dc432ab268458597bee3698349dc8a0
+#6 resolve docker.io/library/bigdata-review-runtime:local@sha256:d4354c2cfa5a5893f36839f60df407858dc432ab268458597bee3698349dc8a0 0.1s done
+#6 DONE 0.1s
+
+#7 [stage-1 1/5] FROM docker.io/apache/airflow:2.10.5-python3.11@sha256:b16e19f925ae0dcabaa2271b37212891ed68bf74e26c2db61f46dddd7d502937
+#7 resolve docker.io/apache/airflow:2.10.5-python3.11@sha256:b16e19f925ae0dcabaa2271b37212891ed68bf74e26c2db61f46dddd7d502937
+#7 resolve docker.io/apache/airflow:2.10.5-python3.11@sha256:b16e19f925ae0dcabaa2271b37212891ed68bf74e26c2db61f46dddd7d502937 0.1s done
+#7 DONE 0.2s
+
+#6 [runtime 1/1] FROM docker.io/library/bigdata-review-runtime:local@sha256:d4354c2cfa5a5893f36839f60df407858dc432ab268458597bee3698349dc8a0
+#6 DONE 0.8s
+
+#8 [stage-1 2/5] COPY --from=runtime /opt/java/openjdk /opt/java/openjdk
+#8 CACHED
+
+#9 [stage-1 3/5] COPY --from=runtime /opt/hadoop /opt/hadoop
+#9 CACHED
+
+#10 [stage-1 4/5] COPY --from=runtime /opt/spark /opt/spark
+#10 CACHED
+
+#11 [stage-1 5/5] RUN pip install --no-cache-dir "apache-airflow==2.10.5" "numpy==1.26.4" "kafka-python==2.2.15" "google-play-scraper==1.2.7"
+#11 14.74 Requirement already satisfied: apache-airflow==2.10.5 in /home/airflow/.local/lib/python3.11/site-packages (2.10.5)
+#11 14.74 Requirement already satisfied: numpy==1.26.4 in /home/airflow/.local/lib/python3.11/site-packages (1.26.4)
+#11 15.51 Collecting kafka-python==2.2.15
+#11 16.28   Downloading kafka_python-2.2.15-py2.py3-none-any.whl.metadata (10.0 kB)
+#11 16.50 Collecting google-play-scraper==1.2.7
+#11 16.85   Downloading google_play_scraper-1.2.7-py3-none-any.whl.metadata (50 kB)
+#11 17.12 Requirement already satisfied: alembic<2.0,>=1.13.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.14.1)
+#11 17.12 Requirement already satisfied: argcomplete>=1.10 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.5.3)
+#11 17.12 Requirement already satisfied: asgiref>=2.3.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.8.1)
+#11 17.13 Requirement already satisfied: attrs>=22.1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (25.1.0)
+#11 17.13 Requirement already satisfied: blinker>=1.6.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.9.0)
+#11 17.13 Requirement already satisfied: colorlog>=6.8.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (6.9.0)
+#11 17.13 Requirement already satisfied: configupdater>=3.1.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.2)
+#11 17.14 Requirement already satisfied: connexion<3.0,>=2.14.2 in /home/airflow/.local/lib/python3.11/site-packages (from connexion[flask]<3.0,>=2.14.2->apache-airflow==2.10.5) (2.14.2)
+#11 17.14 Requirement already satisfied: cron-descriptor>=1.2.24 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.4.5)
+#11 17.14 Requirement already satisfied: croniter>=2.0.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (6.0.0)
+#11 17.14 Requirement already satisfied: cryptography>=41.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (42.0.8)
+#11 17.14 Requirement already satisfied: deprecated>=1.2.13 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.2.18)
+#11 17.15 Requirement already satisfied: dill>=0.2.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.3.1.1)
+#11 17.15 Requirement already satisfied: flask-caching>=2.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.3.0)
+#11 17.15 Requirement already satisfied: flask-session<0.6,>=0.4.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.5.0)
+#11 17.15 Requirement already satisfied: flask-wtf>=1.1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.2.2)
+#11 17.16 Requirement already satisfied: flask<2.3,>=2.2.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.2.5)
+#11 17.16 Requirement already satisfied: fsspec>=2023.10.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2025.2.0)
+#11 17.16 Requirement already satisfied: google-re2>=1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.1.20240702)
+#11 17.16 Requirement already satisfied: gunicorn>=20.1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (23.0.0)
+#11 17.16 Requirement already satisfied: httpx>=0.25.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.27.0)
+#11 17.17 Requirement already satisfied: importlib_metadata>=6.5 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (6.11.0)
+#11 17.17 Requirement already satisfied: itsdangerous>=2.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.2.0)
+#11 17.17 Requirement already satisfied: jinja2>=3.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.1.5)
+#11 17.17 Requirement already satisfied: jsonschema>=4.18.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (4.23.0)
+#11 17.17 Requirement already satisfied: lazy-object-proxy>=1.2.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.10.0)
+#11 17.18 Requirement already satisfied: linkify-it-py>=2.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.0.3)
+#11 17.18 Requirement already satisfied: lockfile>=0.12.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.12.2)
+#11 17.18 Requirement already satisfied: markdown-it-py>=2.1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.0.0)
+#11 17.18 Requirement already satisfied: markupsafe>=1.1.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.0.2)
+#11 17.18 Requirement already satisfied: marshmallow-oneofschema>=2.0.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.1.1)
+#11 17.18 Requirement already satisfied: mdit-py-plugins>=0.3.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.4.2)
+#11 17.19 Requirement already satisfied: methodtools>=0.4.7 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.4.7)
+#11 17.19 Requirement already satisfied: opentelemetry-api>=1.24.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.27.0)
+#11 17.20 Requirement already satisfied: opentelemetry-exporter-otlp>=1.24.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.27.0)
+#11 17.20 Requirement already satisfied: packaging>=23.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (24.2)
+#11 17.20 Requirement already satisfied: pathspec>=0.9.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.12.1)
+#11 17.20 Requirement already satisfied: pendulum<4.0,>=2.1.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.0.0)
+#11 17.21 Requirement already satisfied: pluggy>=1.5.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.5.0)
+#11 17.21 Requirement already satisfied: psutil>=5.8.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (6.1.1)
+#11 17.22 Requirement already satisfied: pygments>=2.0.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.19.1)
+#11 17.23 Requirement already satisfied: pyjwt>=2.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.10.1)
+#11 17.23 Requirement already satisfied: python-daemon>=3.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.1.2)
+#11 17.23 Requirement already satisfied: python-dateutil>=2.7.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.9.0.post0)
+#11 17.24 Requirement already satisfied: python-nvd3>=0.15.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.16.0)
+#11 17.25 Requirement already satisfied: python-slugify>=5.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (8.0.4)
+#11 17.25 Requirement already satisfied: requests<3,>=2.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.32.3)
+#11 17.26 Requirement already satisfied: requests-toolbelt>=0.4.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.0.0)
+#11 17.26 Requirement already satisfied: rfc3339-validator>=0.1.4 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.1.4)
+#11 17.27 Requirement already satisfied: rich-argparse>=1.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.6.0)
+#11 17.27 Requirement already satisfied: rich>=12.4.4 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (13.9.4)
+#11 17.28 Requirement already satisfied: setproctitle>=1.3.3 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.3.4)
+#11 17.28 Requirement already satisfied: sqlalchemy<2.0,>=1.4.36 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.4.54)
+#11 17.29 Requirement already satisfied: sqlalchemy-jsonfield>=1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.0.2)
+#11 17.29 Requirement already satisfied: tabulate>=0.7.5 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.9.0)
+#11 17.29 Requirement already satisfied: tenacity!=8.2.0,>=8.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (9.0.0)
+#11 17.30 Requirement already satisfied: termcolor>=1.1.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.5.0)
+#11 17.30 Requirement already satisfied: universal-pathlib!=0.2.4,>=0.2.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (0.2.6)
+#11 17.30 Requirement already satisfied: werkzeug<3,>=2.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (2.2.3)
+#11 17.31 Requirement already satisfied: apache-airflow-providers-common-compat in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.3.0)
+#11 17.31 Requirement already satisfied: apache-airflow-providers-common-io in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.5.0)
+#11 17.31 Requirement already satisfied: apache-airflow-providers-common-sql in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.21.0)
+#11 17.32 Requirement already satisfied: apache-airflow-providers-fab>=1.0.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.5.2)
+#11 17.32 Requirement already satisfied: apache-airflow-providers-ftp in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.12.0)
+#11 17.32 Requirement already satisfied: apache-airflow-providers-http in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (5.0.0)
+#11 17.33 Requirement already satisfied: apache-airflow-providers-imap in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (3.8.0)
+#11 17.34 Requirement already satisfied: apache-airflow-providers-smtp in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (1.9.0)
+#11 17.34 Requirement already satisfied: apache-airflow-providers-sqlite in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow==2.10.5) (4.0.0)
+#11 17.41 Requirement already satisfied: Mako in /home/airflow/.local/lib/python3.11/site-packages (from alembic<2.0,>=1.13.1->apache-airflow==2.10.5) (1.3.8)
+#11 17.42 Requirement already satisfied: typing-extensions>=4 in /home/airflow/.local/lib/python3.11/site-packages (from alembic<2.0,>=1.13.1->apache-airflow==2.10.5) (4.12.2)
+#11 17.43 Requirement already satisfied: flask-appbuilder==4.5.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (4.5.2)
+#11 17.43 Requirement already satisfied: flask-login>=0.6.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.6.3)
+#11 17.43 Requirement already satisfied: jmespath>=0.7.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.10.0)
+#11 17.52 Requirement already satisfied: apispec<7,>=6.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apispec[yaml]<7,>=6.0.0->flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (6.8.1)
+#11 17.52 Requirement already satisfied: colorama<1,>=0.3.9 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.4.6)
+#11 17.52 Requirement already satisfied: click<9,>=8 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (8.1.8)
+#11 17.53 Requirement already satisfied: email-validator>=1.0.5 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (2.2.0)
+#11 17.53 Requirement already satisfied: Flask-Babel<3,>=1 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (2.0.0)
+#11 17.53 Requirement already satisfied: Flask-Limiter<4,>3 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (3.10.1)
+#11 17.53 Requirement already satisfied: Flask-SQLAlchemy<3,>=2.4 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (2.5.1)
+#11 17.53 Requirement already satisfied: Flask-JWT-Extended<5.0.0,>=4.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (4.7.1)
+#11 17.54 Requirement already satisfied: marshmallow<4,>=3.18.0 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (3.26.0)
+#11 17.54 Requirement already satisfied: marshmallow-sqlalchemy<0.29.0,>=0.22.0 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.28.2)
+#11 17.54 Requirement already satisfied: prison<1.0.0,>=0.2.1 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.2.1)
+#11 17.54 Requirement already satisfied: sqlalchemy-utils<1,>=0.32.21 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (0.41.2)
+#11 17.55 Requirement already satisfied: WTForms<4 in /home/airflow/.local/lib/python3.11/site-packages (from flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (3.2.1)
+#11 17.86 Requirement already satisfied: clickclick<21,>=1.2 in /home/airflow/.local/lib/python3.11/site-packages (from connexion<3.0,>=2.14.2->connexion[flask]<3.0,>=2.14.2->apache-airflow==2.10.5) (20.10.2)
+#11 17.87 Requirement already satisfied: PyYAML<7,>=5.1 in /home/airflow/.local/lib/python3.11/site-packages (from connexion<3.0,>=2.14.2->connexion[flask]<3.0,>=2.14.2->apache-airflow==2.10.5) (6.0.2)
+#11 17.87 Requirement already satisfied: inflection<0.6,>=0.3.1 in /home/airflow/.local/lib/python3.11/site-packages (from connexion<3.0,>=2.14.2->connexion[flask]<3.0,>=2.14.2->apache-airflow==2.10.5) (0.5.1)
+#11 17.94 Requirement already satisfied: pytz>2021.1 in /home/airflow/.local/lib/python3.11/site-packages (from croniter>=2.0.2->apache-airflow==2.10.5) (2025.1)
+#11 18.00 Requirement already satisfied: cffi>=1.12 in /home/airflow/.local/lib/python3.11/site-packages (from cryptography>=41.0.0->apache-airflow==2.10.5) (1.17.1)
+#11 18.06 Requirement already satisfied: wrapt<2,>=1.10 in /home/airflow/.local/lib/python3.11/site-packages (from deprecated>=1.2.13->apache-airflow==2.10.5) (1.17.2)
+#11 18.16 Requirement already satisfied: cachelib<0.10.0,>=0.9.0 in /home/airflow/.local/lib/python3.11/site-packages (from flask-caching>=2.0.0->apache-airflow==2.10.5) (0.9.0)
+#11 18.48 Requirement already satisfied: anyio in /home/airflow/.local/lib/python3.11/site-packages (from httpx>=0.25.0->apache-airflow==2.10.5) (4.8.0)
+#11 18.49 Requirement already satisfied: certifi in /home/airflow/.local/lib/python3.11/site-packages (from httpx>=0.25.0->apache-airflow==2.10.5) (2025.1.31)
+#11 18.49 Requirement already satisfied: httpcore==1.* in /home/airflow/.local/lib/python3.11/site-packages (from httpx>=0.25.0->apache-airflow==2.10.5) (1.0.7)
+#11 18.49 Requirement already satisfied: idna in /home/airflow/.local/lib/python3.11/site-packages (from httpx>=0.25.0->apache-airflow==2.10.5) (3.10)
+#11 18.49 Requirement already satisfied: sniffio in /home/airflow/.local/lib/python3.11/site-packages (from httpx>=0.25.0->apache-airflow==2.10.5) (1.3.1)
+#11 18.53 Requirement already satisfied: h11<0.15,>=0.13 in /home/airflow/.local/lib/python3.11/site-packages (from httpcore==1.*->httpx>=0.25.0->apache-airflow==2.10.5) (0.14.0)
+#11 18.60 Requirement already satisfied: zipp>=0.5 in /home/airflow/.local/lib/python3.11/site-packages (from importlib_metadata>=6.5->apache-airflow==2.10.5) (3.21.0)
+#11 18.76 Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/airflow/.local/lib/python3.11/site-packages (from jsonschema>=4.18.0->apache-airflow==2.10.5) (2024.10.1)
+#11 18.78 Requirement already satisfied: referencing>=0.28.4 in /home/airflow/.local/lib/python3.11/site-packages (from jsonschema>=4.18.0->apache-airflow==2.10.5) (0.36.2)
+#11 18.80 Requirement already satisfied: rpds-py>=0.7.1 in /home/airflow/.local/lib/python3.11/site-packages (from jsonschema>=4.18.0->apache-airflow==2.10.5) (0.22.3)
+#11 18.90 Requirement already satisfied: uc-micro-py in /home/airflow/.local/lib/python3.11/site-packages (from linkify-it-py>=2.0.0->apache-airflow==2.10.5) (1.0.3)
+#11 19.04 Requirement already satisfied: mdurl~=0.1 in /home/airflow/.local/lib/python3.11/site-packages (from markdown-it-py>=2.1.0->apache-airflow==2.10.5) (0.1.2)
+#11 19.60 Requirement already satisfied: wirerope>=0.4.7 in /home/airflow/.local/lib/python3.11/site-packages (from methodtools>=0.4.7->apache-airflow==2.10.5) (1.0.0)
+#11 19.67 Requirement already satisfied: opentelemetry-exporter-otlp-proto-grpc==1.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.27.0)
+#11 19.69 Requirement already satisfied: opentelemetry-exporter-otlp-proto-http==1.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.27.0)
+#11 19.73 Requirement already satisfied: googleapis-common-protos~=1.52 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.66.0)
+#11 19.74 Requirement already satisfied: grpcio<2.0.0,>=1.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.70.0)
+#11 19.74 Requirement already satisfied: opentelemetry-exporter-otlp-proto-common==1.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.27.0)
+#11 19.74 Requirement already satisfied: opentelemetry-proto==1.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.27.0)
+#11 19.74 Requirement already satisfied: opentelemetry-sdk~=1.27.0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (1.27.0)
+#11 19.80 Requirement already satisfied: protobuf<5.0,>=3.19 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-proto==1.27.0->opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (4.25.6)
+#11 19.87 Requirement already satisfied: tzdata>=2020.1 in /home/airflow/.local/lib/python3.11/site-packages (from pendulum<4.0,>=2.1.2->apache-airflow==2.10.5) (2025.1)
+#11 19.87 Requirement already satisfied: time-machine>=2.6.0 in /home/airflow/.local/lib/python3.11/site-packages (from pendulum<4.0,>=2.1.2->apache-airflow==2.10.5) (2.16.0)
+#11 20.03 Requirement already satisfied: six>=1.5 in /home/airflow/.local/lib/python3.11/site-packages (from python-dateutil>=2.7.0->apache-airflow==2.10.5) (1.17.0)
+#11 20.12 Requirement already satisfied: text-unidecode>=1.3 in /home/airflow/.local/lib/python3.11/site-packages (from python-slugify>=5.0->apache-airflow==2.10.5) (1.3)
+#11 20.21 Requirement already satisfied: charset-normalizer<4,>=2 in /home/airflow/.local/lib/python3.11/site-packages (from requests<3,>=2.27.0->apache-airflow==2.10.5) (3.4.1)
+#11 20.22 Requirement already satisfied: urllib3<3,>=1.21.1 in /home/airflow/.local/lib/python3.11/site-packages (from requests<3,>=2.27.0->apache-airflow==2.10.5) (2.3.0)
+#11 20.91 Requirement already satisfied: greenlet!=0.4.17 in /home/airflow/.local/lib/python3.11/site-packages (from sqlalchemy<2.0,>=1.4.36->apache-airflow==2.10.5) (3.1.1)
+#11 21.16 Requirement already satisfied: more-itertools>=9.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-common-sql->apache-airflow==2.10.5) (10.6.0)
+#11 21.16 Requirement already satisfied: sqlparse>=0.5.1 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-common-sql->apache-airflow==2.10.5) (0.5.3)
+#11 21.24 Requirement already satisfied: aiohttp!=3.11.0,>=3.9.2 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-http->apache-airflow==2.10.5) (3.11.11)
+#11 21.41 Requirement already satisfied: aiosqlite>=0.20.0 in /home/airflow/.local/lib/python3.11/site-packages (from apache-airflow-providers-sqlite->apache-airflow==2.10.5) (0.20.0)
+#11 21.49 Requirement already satisfied: aiohappyeyeballs>=2.3.0 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (2.4.4)
+#11 21.49 Requirement already satisfied: aiosignal>=1.1.2 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (1.3.2)
+#11 21.49 Requirement already satisfied: frozenlist>=1.1.1 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (1.5.0)
+#11 21.50 Requirement already satisfied: multidict<7.0,>=4.5 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (6.1.0)
+#11 21.50 Requirement already satisfied: propcache>=0.2.0 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (0.2.1)
+#11 21.51 Requirement already satisfied: yarl<2.0,>=1.17.0 in /home/airflow/.local/lib/python3.11/site-packages (from aiohttp!=3.11.0,>=3.9.2->apache-airflow-providers-http->apache-airflow==2.10.5) (1.18.3)
+#11 22.65 Requirement already satisfied: pycparser in /home/airflow/.local/lib/python3.11/site-packages (from cffi>=1.12->cryptography>=41.0.0->apache-airflow==2.10.5) (2.22)
+#11 24.89 Requirement already satisfied: dnspython>=2.0.0 in /home/airflow/.local/lib/python3.11/site-packages (from email-validator>=1.0.5->flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (2.7.0)
+#11 24.91 Requirement already satisfied: Babel>=2.3 in /home/airflow/.local/lib/python3.11/site-packages (from Flask-Babel<3,>=1->flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (2.17.0)
+#11 24.96 Requirement already satisfied: limits>=3.13 in /home/airflow/.local/lib/python3.11/site-packages (from Flask-Limiter<4,>3->flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (4.0.1)
+#11 24.96 Requirement already satisfied: ordered-set<5,>4 in /home/airflow/.local/lib/python3.11/site-packages (from Flask-Limiter<4,>3->flask-appbuilder==4.5.2->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.10.5) (4.1.0)
+#11 25.18 Requirement already satisfied: opentelemetry-semantic-conventions==0.48b0 in /home/airflow/.local/lib/python3.11/site-packages (from opentelemetry-sdk~=1.27.0->opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp>=1.24.0->apache-airflow==2.10.5) (0.48b0)
+#11 26.78 Downloading kafka_python-2.2.15-py2.py3-none-any.whl (309 kB)
+#11 27.46 Downloading google_play_scraper-1.2.7-py3-none-any.whl (28 kB)
+#11 30.83 Installing collected packages: kafka-python, google-play-scraper
+#11 32.76 Successfully installed google-play-scraper-1.2.7 kafka-python-2.2.15
+#11 33.48 
+#11 33.48 [notice] A new release of pip is available: 25.0 -> 26.2.1
+#11 33.48 [notice] To update, run: pip install --upgrade pip
+#11 DONE 34.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 1.6s done
+#12 exporting manifest sha256:9ae22b398448335410ecaae74ee2f97e17cd3f5d7de1a3dad7257c974de5e233 0.1s done
+#12 exporting config sha256:0e32826630049522f30997898481cfc0912638a9c500f8df68c1ada2a741f9d7 0.0s done
+#12 exporting attestation manifest sha256:568478ddb426428a230dcef30e1c613d89e74b75a2a637d6db3a4e2fccb44d2f 0.1s done
+#12 exporting manifest list sha256:d90b3ad5129d207845c0efce2270ebef29b9926afa27d09495aee579abce1839
+#12 exporting manifest list sha256:d90b3ad5129d207845c0efce2270ebef29b9926afa27d09495aee579abce1839 0.0s done
+#12 naming to docker.io/library/bigdata-review-airflow:local done
+#12 unpacking to docker.io/library/bigdata-review-airflow:local
+#12 unpacking to docker.io/library/bigdata-review-airflow:local 1.0s done
+#12 DONE 3.2s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.1s
+ bigdata-review-airflow:local  Built

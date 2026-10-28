@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-14T22:47:40.659728+00:00",
+  "base": "http://127.0.0.1:8090",
+  "browser": "Chromium headless",
+  "generation": "e30bc0ca30184d7d8bf4a10e5ff12bf5",
+  "overview_rows": 1299873,
+  "prediction": {
+    "sentiment": "negative",
+    "margin": 1.7101539949545796,
+    "label_source": "star_rating_proxy",
+    "sentiment_scope": "whole_review",
+    "model": "LogisticRegression",
+    "negative_probability": 0.8468562570208514,
+    "aspects_mentioned": [
+      "delivery",
+      "product",
+      "app"
+    ],
+    "limitations": "Cảm xúc mức review học từ sao; khía cạnh là luật đề cập, chưa có polarity theo từng khía cạnh hay nhãn người kiểm chứng."
+  },
+  "unaccented_search_matches": 6492,
+  "invalid_input_status": 400,
+  "browser_errors": [],
+  "verification": "passed"
+}

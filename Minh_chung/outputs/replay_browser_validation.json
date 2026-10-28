@@ -1,0 +1,19 @@
+{
+  "verification": "passed",
+  "run_id": "f50b494537f249b995e2f62361bb364b",
+  "source_mode": "historical_replay",
+  "observed_months": 16,
+  "window_months": 12,
+  "default_platforms": 4,
+  "production_reviews_unchanged": 1300267,
+  "real_reviews_unchanged": 400,
+  "points_move_left": true,
+  "checks": [
+    "All four platforms selected; replay controls separate from global filters",
+    "Reset starts an isolated HDFS run at June 2013; cumulative count equals copied batches",
+    "Actual newly copied batch moves existing points left; window retains at most twelve months per platform",
+    "Pause holds the batch cursor; platform and metric selections redraw automatically",
+    "Second graph uses verified real-review observation checkpoints; reset controls hidden"
+  ],
+  "browser_errors": []
+}

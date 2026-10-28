@@ -1,0 +1,89 @@
+26/10/14 17:29:06 INFO SparkContext: Running Spark version 3.5.7
+26/10/14 17:29:06 INFO SparkContext: OS info Linux, 6.18.54.1-microsoft-standard-WSL2, amd64
+26/10/14 17:29:06 INFO SparkContext: Java version 11.0.32.1
+26/10/14 17:29:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/14 17:29:06 INFO ResourceUtils: ==============================================================
+26/10/14 17:29:06 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/10/14 17:29:06 INFO ResourceUtils: ==============================================================
+26/10/14 17:29:06 INFO SparkContext: Submitted application: ecommerce-analyze
+26/10/14 17:29:06 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/10/14 17:29:06 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+26/10/14 17:29:06 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/10/14 17:29:06 INFO SecurityManager: Changing view acls to: root
+26/10/14 17:29:06 INFO SecurityManager: Changing modify acls to: root
+26/10/14 17:29:06 INFO SecurityManager: Changing view acls groups to: 
+26/10/14 17:29:06 INFO SecurityManager: Changing modify acls groups to: 
+26/10/14 17:29:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/10/14 17:29:07 INFO Utils: Successfully started service 'sparkDriver' on port 33145.
+26/10/14 17:29:07 INFO SparkEnv: Registering MapOutputTracker
+26/10/14 17:29:07 INFO SparkEnv: Registering BlockManagerMaster
+26/10/14 17:29:07 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/10/14 17:29:07 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/10/14 17:29:07 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/10/14 17:29:07 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-f3fc5415-bd83-4379-bce7-7812df59b6d6
+26/10/14 17:29:07 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/10/14 17:29:07 INFO SparkEnv: Registering OutputCommitCoordinator
+26/10/14 17:29:07 INFO JettyUtils: Start Jetty spark-client:4040 for SparkUI
+26/10/14 17:29:07 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/10/14 17:29:07 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/10/14 17:29:07 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.3:7077 after 29 ms (0 ms spent in bootstraps)
+26/10/14 17:29:07 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261014172907-0004
+26/10/14 17:29:07 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172907-0004/0 on worker-20261014171757-172.18.0.5-38893 (172.18.0.5:38893) with 1 core(s)
+26/10/14 17:29:07 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172907-0004/0 on hostPort 172.18.0.5:38893 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:29:07 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172907-0004/1 on worker-20261014171757-172.18.0.4-32837 (172.18.0.4:32837) with 1 core(s)
+26/10/14 17:29:07 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172907-0004/1 on hostPort 172.18.0.4:32837 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:29:07 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33845.
+26/10/14 17:29:07 INFO NettyBlockTransferService: Server created on spark-client:33845
+26/10/14 17:29:07 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/10/14 17:29:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, spark-client, 33845, None)
+26/10/14 17:29:07 INFO BlockManagerMasterEndpoint: Registering block manager spark-client:33845 with 434.4 MiB RAM, BlockManagerId(driver, spark-client, 33845, None)
+26/10/14 17:29:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, spark-client, 33845, None)
+26/10/14 17:29:07 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, spark-client, 33845, None)
+26/10/14 17:29:07 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172907-0004/0 is now RUNNING
+26/10/14 17:29:07 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172907-0004/1 is now RUNNING
+26/10/14 17:29:08 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Spark SQL tables saved to HDFS
+26/10/14 17:29:46 INFO SparkContext: Running Spark version 3.5.7
+26/10/14 17:29:46 INFO SparkContext: OS info Linux, 6.18.54.1-microsoft-standard-WSL2, amd64
+26/10/14 17:29:46 INFO SparkContext: Java version 11.0.32.1
+26/10/14 17:29:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/14 17:29:46 INFO ResourceUtils: ==============================================================
+26/10/14 17:29:46 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/10/14 17:29:46 INFO ResourceUtils: ==============================================================
+26/10/14 17:29:46 INFO SparkContext: Submitted application: ecommerce-export
+26/10/14 17:29:46 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/10/14 17:29:46 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+26/10/14 17:29:46 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/10/14 17:29:46 INFO SecurityManager: Changing view acls to: root
+26/10/14 17:29:46 INFO SecurityManager: Changing modify acls to: root
+26/10/14 17:29:46 INFO SecurityManager: Changing view acls groups to: 
+26/10/14 17:29:46 INFO SecurityManager: Changing modify acls groups to: 
+26/10/14 17:29:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/10/14 17:29:46 INFO Utils: Successfully started service 'sparkDriver' on port 45687.
+26/10/14 17:29:46 INFO SparkEnv: Registering MapOutputTracker
+26/10/14 17:29:46 INFO SparkEnv: Registering BlockManagerMaster
+26/10/14 17:29:46 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/10/14 17:29:46 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/10/14 17:29:46 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/10/14 17:29:46 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-32282931-64d8-465d-be72-6db9f22c09cf
+26/10/14 17:29:46 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/10/14 17:29:46 INFO SparkEnv: Registering OutputCommitCoordinator
+26/10/14 17:29:47 INFO JettyUtils: Start Jetty spark-client:4040 for SparkUI
+26/10/14 17:29:47 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/10/14 17:29:47 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/10/14 17:29:47 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.3:7077 after 28 ms (0 ms spent in bootstraps)
+26/10/14 17:29:47 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261014172947-0005
+26/10/14 17:29:47 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172947-0005/0 on worker-20261014171757-172.18.0.5-38893 (172.18.0.5:38893) with 1 core(s)
+26/10/14 17:29:47 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172947-0005/0 on hostPort 172.18.0.5:38893 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:29:47 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014172947-0005/1 on worker-20261014171757-172.18.0.4-32837 (172.18.0.4:32837) with 1 core(s)
+26/10/14 17:29:47 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014172947-0005/1 on hostPort 172.18.0.4:32837 with 1 core(s), 1024.0 MiB RAM
+26/10/14 17:29:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35067.
+26/10/14 17:29:47 INFO NettyBlockTransferService: Server created on spark-client:35067
+26/10/14 17:29:47 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/10/14 17:29:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, spark-client, 35067, None)
+26/10/14 17:29:47 INFO BlockManagerMasterEndpoint: Registering block manager spark-client:35067 with 434.4 MiB RAM, BlockManagerId(driver, spark-client, 35067, None)
+26/10/14 17:29:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, spark-client, 35067, None)
+26/10/14 17:29:47 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, spark-client, 35067, None)
+26/10/14 17:29:47 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172947-0005/0 is now RUNNING
+26/10/14 17:29:47 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014172947-0005/1 is now RUNNING
+26/10/14 17:29:47 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0

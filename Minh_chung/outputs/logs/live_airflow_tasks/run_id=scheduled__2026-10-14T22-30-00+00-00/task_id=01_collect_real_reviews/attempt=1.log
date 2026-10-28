@@ -1,0 +1,20 @@
+[2026-10-14T22:38:20.845+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-14T22:38:20.865+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_google_play_reviews.01_collect_real_reviews scheduled__2026-10-14T22:30:00+00:00 [queued]>
+[2026-10-14T22:38:20.874+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_google_play_reviews.01_collect_real_reviews scheduled__2026-10-14T22:30:00+00:00 [queued]>
+[2026-10-14T22:38:20.875+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-10-14T22:38:20.888+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): 01_collect_real_reviews> on 2026-10-14 22:30:00+00:00
+[2026-10-14T22:38:20.893+0000] {standard_task_runner.py:72} INFO - Started process 1498 to run task
+[2026-10-14T22:38:20.896+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'live_google_play_reviews', '01_collect_real_reviews', 'scheduled__2026-10-14T22:30:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/live_reviews_pipeline.py', '--cfg-path', '/tmp/tmpmqpkyqlk']
+[2026-10-14T22:38:20.898+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask 01_collect_real_reviews
+[2026-10-14T22:38:20.959+0000] {task_command.py:467} INFO - Running <TaskInstance: live_google_play_reviews.01_collect_real_reviews scheduled__2026-10-14T22:30:00+00:00 [running]> on host airflow-scheduler
+[2026-10-14T22:38:21.087+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='live_google_play_reviews' AIRFLOW_CTX_TASK_ID='01_collect_real_reviews' AIRFLOW_CTX_EXECUTION_DATE='2026-10-14T22:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-14T22:30:00+00:00'
+[2026-10-14T22:38:21.088+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-14T22:38:21.111+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-14T22:38:21.112+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /workspace/jobs/collect_live_reviews.py']
+[2026-10-14T22:38:21.124+0000] {subprocess.py:99} INFO - Output:
+[2026-10-14T22:38:24.889+0000] {subprocess.py:106} INFO - {"poll_id": "dbd48fcc7d86489a815f8ac7ec7cb135", "started_utc": "2026-10-14T22:38:22.544403+00:00", "source_mode": "google_play_live", "topic": "ecommerce-live-reviews", "sort": "NEWEST", "language": "vi", "country": "vn", "max_per_app": 100, "new_reviews": 0, "updated_reviews": 0, "unchanged_reviews": 400, "apps": [{"appid": "com.shopee.vn", "platform": "Shopee", "fetched": 100, "new": 0, "updated": 0, "unchanged": 100}, {"appid": "com.lazada.android", "platform": "Lazada", "fetched": 100, "new": 0, "updated": 0, "unchanged": 100}, {"appid": "com.sendo", "platform": "Sendo", "fetched": 100, "new": 0, "updated": 0, "unchanged": 100}, {"appid": "vn.tiki.app.tikiandroid", "platform": "Tiki", "fetched": 100, "new": 0, "updated": 0, "unchanged": 100}], "errors": [], "completed_utc": "2026-10-14T22:38:24.884166+00:00"}
+[2026-10-14T22:38:25.164+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-14T22:38:25.293+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-14T22:38:25.295+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=live_google_play_reviews, task_id=01_collect_real_reviews, run_id=scheduled__2026-10-14T22:30:00+00:00, execution_date=20261014T223000, start_date=20261014T223820, end_date=20261014T223825
+[2026-10-14T22:38:25.462+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-14T22:38:25.525+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

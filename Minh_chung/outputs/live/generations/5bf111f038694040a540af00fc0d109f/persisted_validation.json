@@ -1,0 +1,7 @@
+{
+  "verification": "passed",
+  "processed_rows": 407,
+  "processed_unique_keys": 407,
+  "source": "actual real-review HDFS Parquet",
+  "stream_version_rows": 407
+}

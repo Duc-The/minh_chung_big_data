@@ -1,0 +1,40 @@
+{
+  "airflow": {
+    "run_id": "scheduled__2026-10-15T10:15:00+00:00",
+    "state": "success",
+    "tasks": [
+      {
+        "task_id": "01_collect_real_reviews",
+        "state": "success",
+        "start_utc": "2026-10-15T10:20:00.740373+00:00",
+        "end_utc": "2026-10-15T10:20:17.813127+00:00"
+      },
+      {
+        "task_id": "02_kafka_to_hdfs",
+        "state": "success",
+        "start_utc": "2026-10-15T10:20:18.893796+00:00",
+        "end_utc": "2026-10-15T10:20:36.370968+00:00"
+      },
+      {
+        "task_id": "03_publish_verified_snapshot",
+        "state": "success",
+        "start_utc": "2026-10-15T10:20:37.504621+00:00",
+        "end_utc": "2026-10-15T10:20:42.080028+00:00"
+      },
+      {
+        "task_id": "04_verify_live_results",
+        "state": "success",
+        "start_utc": "2026-10-15T10:20:43.105407+00:00",
+        "end_utc": "2026-10-15T10:20:43.503498+00:00"
+      }
+    ]
+  },
+  "spark_alive_workers": 2,
+  "spark_total_cores": 2,
+  "kafka_total_offsets": 499,
+  "kafka_topic_end_offsets": {
+    "0": 159,
+    "1": 163,
+    "2": 177
+  }
+}

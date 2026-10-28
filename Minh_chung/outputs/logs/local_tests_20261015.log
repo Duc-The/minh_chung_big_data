@@ -1,0 +1,32 @@
+test_failed_rebuild_keeps_the_previous_index (test_dashboard.DashboardDataTests.test_failed_rebuild_keeps_the_previous_index) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp2r9soxdy/review_search.sqlite", "verification": "passed"}
+ok
+test_filters_recalculate_denominators_and_match_lookup (test_dashboard.DashboardDataTests.test_filters_recalculate_denominators_and_match_lookup) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpz6ex3h7z/review_search.sqlite", "verification": "passed"}
+ok
+test_invalid_filter_and_formula_export (test_dashboard.DashboardDataTests.test_invalid_filter_and_formula_export) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpj1lxi3_0/review_search.sqlite", "verification": "passed"}
+ok
+test_mixed_generations_are_rejected (test_dashboard.DashboardDataTests.test_mixed_generations_are_rejected) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp7125os1c/review_search.sqlite", "verification": "passed"}
+ok
+test_serving_cache_refreshes_only_after_coherent_generation (test_dashboard.DashboardDataTests.test_serving_cache_refreshes_only_after_coherent_generation) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpbvdzvweo/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpbvdzvweo/review_search.sqlite", "verification": "passed"}
+ok
+test_unaccented_search_and_aspect_drilldown (test_dashboard.DashboardDataTests.test_unaccented_search_and_aspect_drilldown) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpwu7mut40/review_search.sqlite", "verification": "passed"}
+ok
+test_failed_write_keeps_previous_artifact_and_cleans_temporary_file (test_io.ArtifactIOTests.test_failed_write_keeps_previous_artifact_and_cleans_temporary_file) ... ok
+test_replaces_existing_unicode_artifact (test_io.ArtifactIOTests.test_replaces_existing_unicode_artifact) ... ok
+test_csv_quoted_newline_quotes_and_comma (test_spark_logic.SparkLogicTests.test_csv_quoted_newline_quotes_and_comma) ... skipped 'Run Spark tests inside the project container'
+test_quarantine_dedup_and_keep_distinct_identical_text (test_spark_logic.SparkLogicTests.test_quarantine_dedup_and_keep_distinct_identical_text) ... skipped 'Run Spark tests inside the project container'
+test_canonicalizes_combining_marks_and_styled_characters (test_text.TextTests.test_canonicalizes_combining_marks_and_styled_characters) ... ok
+test_preserves_negation_and_accents (test_text.TextTests.test_preserves_negation_and_accents) ... ok
+test_removes_invisible_separators (test_text.TextTests.test_removes_invisible_separators) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.032s
+
+OK (skipped=2)

@@ -1,0 +1,7 @@
+28.0 K   28.0 K   /ecommerce/live/checkpoints
+5.1 K    5.1 K    /ecommerce/live/output
+218.9 K  218.9 K  /ecommerce/live/processed
+759      759      /ecommerce/live/quarantine
+111.5 K  111.5 K  /ecommerce/live/raw
+28.4 K   28.4 K   /ecommerce/live/serving
+145.8 K  145.8 K  /ecommerce/live/streaming

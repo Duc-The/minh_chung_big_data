@@ -1,0 +1,23 @@
+[2026-10-14T22:41:11.585+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-14T22:41:11.694+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_google_play_reviews.03_publish_verified_snapshot scheduled__2026-10-14T22:35:00+00:00 [queued]>
+[2026-10-14T22:41:11.756+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_google_play_reviews.03_publish_verified_snapshot scheduled__2026-10-14T22:35:00+00:00 [queued]>
+[2026-10-14T22:41:11.758+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-10-14T22:41:11.838+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): 03_publish_verified_snapshot> on 2026-10-14 22:35:00+00:00
+[2026-10-14T22:41:11.869+0000] {standard_task_runner.py:72} INFO - Started process 2110 to run task
+[2026-10-14T22:41:11.890+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'live_google_play_reviews', '03_publish_verified_snapshot', 'scheduled__2026-10-14T22:35:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/live_reviews_pipeline.py', '--cfg-path', '/tmp/tmp4y9bb9ew']
+[2026-10-14T22:41:11.898+0000] {standard_task_runner.py:105} INFO - Job 31: Subtask 03_publish_verified_snapshot
+[2026-10-14T22:41:12.394+0000] {task_command.py:467} INFO - Running <TaskInstance: live_google_play_reviews.03_publish_verified_snapshot scheduled__2026-10-14T22:35:00+00:00 [running]> on host airflow-scheduler
+[2026-10-14T22:41:13.044+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='live_google_play_reviews' AIRFLOW_CTX_TASK_ID='03_publish_verified_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2026-10-14T22:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-14T22:35:00+00:00'
+[2026-10-14T22:41:13.048+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-14T22:41:13.099+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-14T22:41:13.101+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'spark-submit --master spark://spark-master:7077 --driver-memory 1g --executor-memory 1g /workspace/jobs/publish_live_dashboard.py']
+[2026-10-14T22:41:13.131+0000] {subprocess.py:99} INFO - Output:
+[2026-10-14T22:41:21.775+0000] {subprocess.py:106} INFO - {"publication": "unchanged", "reason": "No new or edited valid review versions", "generation": "eed4f0bce85444f79a245cc05facfdf2"}
+[2026-10-14T22:41:21.899+0000] {subprocess.py:106} INFO - 26/10/14 22:41:21 INFO ShutdownHookManager: Shutdown hook called
+[2026-10-14T22:41:21.904+0000] {subprocess.py:106} INFO - 26/10/14 22:41:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-da4fb52d-1059-4dc7-9daa-e51fb9e61295
+[2026-10-14T22:41:21.961+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-14T22:41:22.015+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-14T22:41:22.016+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=live_google_play_reviews, task_id=03_publish_verified_snapshot, run_id=scheduled__2026-10-14T22:35:00+00:00, execution_date=20261014T223500, start_date=20261014T224111, end_date=20261014T224122
+[2026-10-14T22:41:22.111+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-14T22:41:22.153+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-14T22:41:22.156+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

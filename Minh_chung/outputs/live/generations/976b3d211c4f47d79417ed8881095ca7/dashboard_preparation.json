@@ -1,0 +1,52 @@
+{
+  "generation": "976b3d211c4f47d79417ed8881095ca7",
+  "prepared_utc": "2026-10-15T10:01:59.727086+00:00",
+  "processed_rows": 499,
+  "cube_rows": 62,
+  "stream_version_rows": 499,
+  "source_mode": "google_play_live",
+  "event_time_timezone": "UTC",
+  "source_description": "Public Google Play reviews fetched directly; original review time preserved; no Kaggle replay",
+  "month_min": "2025-05",
+  "month_max": "2026-10",
+  "aspects": [
+    {
+      "code": "app",
+      "label": "Ứng dụng",
+      "bit": 1
+    },
+    {
+      "code": "delivery",
+      "label": "Vận chuyển",
+      "bit": 2
+    },
+    {
+      "code": "payment",
+      "label": "Thanh toán",
+      "bit": 4
+    },
+    {
+      "code": "product",
+      "label": "Sản phẩm",
+      "bit": 8
+    },
+    {
+      "code": "promotion",
+      "label": "Giá và khuyến mãi",
+      "bit": 16
+    },
+    {
+      "code": "returns",
+      "label": "Đổi trả và hoàn tiền",
+      "bit": 32
+    },
+    {
+      "code": "support",
+      "label": "Chăm sóc khách hàng",
+      "bit": 64
+    }
+  ],
+  "hdfs_serving_source": "hdfs://namenode:9000/ecommerce/live/serving/976b3d211c4f47d79417ed8881095ca7/review_index",
+  "hdfs_processed_source": "hdfs://namenode:9000/ecommerce/live/processed/reviews",
+  "aspect_config_sha256": "246ae3ad10c0b9724624b147ee95c9d5100dfa6ecb33d03df639dadce750ab02"
+}

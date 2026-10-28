@@ -1,0 +1,14 @@
+Indexed 100,000 reviews
+Indexed 200,000 reviews
+Indexed 300,000 reviews
+Indexed 400,000 reviews
+Indexed 500,000 reviews
+Indexed 600,000 reviews
+Indexed 700,000 reviews
+Indexed 800,000 reviews
+Indexed 900,000 reviews
+Indexed 1,000,000 reviews
+Indexed 1,100,000 reviews
+Indexed 1,200,000 reviews
+Building search and filter indexes
+{"indexed_rows": 1299873, "database": "/exports/review_search.sqlite", "verification": "passed"}

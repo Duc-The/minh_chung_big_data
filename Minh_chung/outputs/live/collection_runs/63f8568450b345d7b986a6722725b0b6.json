@@ -1,0 +1,49 @@
+{
+  "poll_id": "63f8568450b345d7b986a6722725b0b6",
+  "started_utc": "2026-10-15T08:25:16.421536+00:00",
+  "source_mode": "google_play_live",
+  "topic": "ecommerce-live-reviews",
+  "sort": "NEWEST",
+  "language": "vi",
+  "country": "vn",
+  "max_per_app": 100,
+  "new_reviews": 8,
+  "updated_reviews": 0,
+  "unchanged_reviews": 392,
+  "apps": [
+    {
+      "appid": "com.shopee.vn",
+      "platform": "Shopee",
+      "fetched": 100,
+      "new": 8,
+      "updated": 0,
+      "unchanged": 92
+    },
+    {
+      "appid": "com.lazada.android",
+      "platform": "Lazada",
+      "fetched": 100,
+      "new": 0,
+      "updated": 0,
+      "unchanged": 100
+    },
+    {
+      "appid": "com.sendo",
+      "platform": "Sendo",
+      "fetched": 100,
+      "new": 0,
+      "updated": 0,
+      "unchanged": 100
+    },
+    {
+      "appid": "vn.tiki.app.tikiandroid",
+      "platform": "Tiki",
+      "fetched": 100,
+      "new": 0,
+      "updated": 0,
+      "unchanged": 100
+    }
+  ],
+  "errors": [],
+  "completed_utc": "2026-10-15T08:25:47.987555+00:00"
+}

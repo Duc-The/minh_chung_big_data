@@ -1,0 +1,9 @@
+bigdata-ecommerce-namenode-1
+bigdata-ecommerce-datanode-1
+bigdata-ecommerce-spark-master-1
+bigdata-ecommerce-spark-worker-1-1
+bigdata-ecommerce-spark-worker-2-1
+bigdata-ecommerce-spark-client-1
+bigdata-ecommerce-airflow-scheduler-1
+bigdata-ecommerce-kafka-1
+bigdata-ecommerce-dashboard-1

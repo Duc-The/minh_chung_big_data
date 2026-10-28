@@ -1,0 +1,35 @@
+test_combined_source_supersedes_old_review_and_matches_cube (tests.test_dashboard.DashboardDataTests.test_combined_source_supersedes_old_review_and_matches_cube) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp3ygcpyna/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 3, "database": "/tmp/tmp3ygcpyna/live-fixture/review_search.sqlite", "verification": "passed"}
+ok
+test_combined_source_works_before_first_live_snapshot (tests.test_dashboard.DashboardDataTests.test_combined_source_works_before_first_live_snapshot) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp_i1ymbal/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 3, "database": "/tmp/tmp_i1ymbal/live-fixture/review_search.sqlite", "verification": "passed"}
+ok
+test_failed_rebuild_keeps_the_previous_index (tests.test_dashboard.DashboardDataTests.test_failed_rebuild_keeps_the_previous_index) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp8d2xcj1n/review_search.sqlite", "verification": "passed"}
+ok
+test_filters_recalculate_denominators_and_match_lookup (tests.test_dashboard.DashboardDataTests.test_filters_recalculate_denominators_and_match_lookup) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmp5c3fqlv4/review_search.sqlite", "verification": "passed"}
+ok
+test_invalid_filter_and_formula_export (tests.test_dashboard.DashboardDataTests.test_invalid_filter_and_formula_export) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmps3ihihyc/review_search.sqlite", "verification": "passed"}
+ok
+test_mixed_generations_are_rejected (tests.test_dashboard.DashboardDataTests.test_mixed_generations_are_rejected) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmphpp1f_a8/review_search.sqlite", "verification": "passed"}
+ok
+test_serving_cache_refreshes_only_after_coherent_generation (tests.test_dashboard.DashboardDataTests.test_serving_cache_refreshes_only_after_coherent_generation) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpq34d8l52/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpq34d8l52/review_search.sqlite", "verification": "passed"}
+ok
+test_unaccented_search_and_aspect_drilldown (tests.test_dashboard.DashboardDataTests.test_unaccented_search_and_aspect_drilldown) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpni_2oxwl/review_search.sqlite", "verification": "passed"}
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.033s
+
+OK

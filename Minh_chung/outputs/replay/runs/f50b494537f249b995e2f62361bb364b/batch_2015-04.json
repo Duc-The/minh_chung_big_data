@@ -1,0 +1,22 @@
+{
+  "month": "2015-04",
+  "platforms": {
+    "Lazada": {
+      "reviews": 380,
+      "low": 54,
+      "rating_sum": 1591
+    },
+    "Tiki": {
+      "reviews": 10,
+      "low": 0,
+      "rating_sum": 46
+    }
+  },
+  "reviews": 390,
+  "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-04",
+  "files": 1,
+  "bytes": 36996,
+  "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-04",
+  "loaded_utc": "2026-10-15T00:21:12.821950+00:00",
+  "cumulative_reviews": 2373
+}

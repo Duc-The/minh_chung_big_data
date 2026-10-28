@@ -1,0 +1,39 @@
+test_frames_advance_only_after_successful_hdfs_copy (tests.test_replay.ReplayProgressTests.test_frames_advance_only_after_successful_hdfs_copy) ... ok
+test_resume_counts_each_month_once_and_reset_is_isolated (tests.test_replay.ReplayProgressTests.test_resume_counts_each_month_once_and_reset_is_isolated) ... {"run_id": "7c48c7ff718747789d3a1df7cd4d804a", "batch": "2013-06", "loaded_reviews": 2, "hdfs": "hdfs://namenode:9000/ecommerce/replay/runs/7c48c7ff718747789d3a1df7cd4d804a/loaded/month=2013-06"}
+{"run_id": "7c48c7ff718747789d3a1df7cd4d804a", "batch": "2013-07", "loaded_reviews": 5, "hdfs": "hdfs://namenode:9000/ecommerce/replay/runs/7c48c7ff718747789d3a1df7cd4d804a/loaded/month=2013-07"}
+ok
+test_combined_source_supersedes_old_review_and_matches_cube (tests.test_dashboard.DashboardDataTests.test_combined_source_supersedes_old_review_and_matches_cube) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpzg68qrvp/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 3, "database": "/tmp/tmpzg68qrvp/live-fixture/review_search.sqlite", "verification": "passed"}
+ok
+test_combined_source_works_before_first_live_snapshot (tests.test_dashboard.DashboardDataTests.test_combined_source_works_before_first_live_snapshot) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpzihtjxtn/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 3, "database": "/tmp/tmpzihtjxtn/live-fixture/review_search.sqlite", "verification": "passed"}
+ok
+test_failed_rebuild_keeps_the_previous_index (tests.test_dashboard.DashboardDataTests.test_failed_rebuild_keeps_the_previous_index) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpv60v7nzf/review_search.sqlite", "verification": "passed"}
+ok
+test_filters_recalculate_denominators_and_match_lookup (tests.test_dashboard.DashboardDataTests.test_filters_recalculate_denominators_and_match_lookup) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpq21v9nm3/review_search.sqlite", "verification": "passed"}
+ok
+test_invalid_filter_and_formula_export (tests.test_dashboard.DashboardDataTests.test_invalid_filter_and_formula_export) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpeuyviwzo/review_search.sqlite", "verification": "passed"}
+ok
+test_mixed_generations_are_rejected (tests.test_dashboard.DashboardDataTests.test_mixed_generations_are_rejected) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpttkza4vo/review_search.sqlite", "verification": "passed"}
+ok
+test_serving_cache_refreshes_only_after_coherent_generation (tests.test_dashboard.DashboardDataTests.test_serving_cache_refreshes_only_after_coherent_generation) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpmw_e9su9/review_search.sqlite", "verification": "passed"}
+Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpmw_e9su9/review_search.sqlite", "verification": "passed"}
+ok
+test_unaccented_search_and_aspect_drilldown (tests.test_dashboard.DashboardDataTests.test_unaccented_search_and_aspect_drilldown) ... Building search and filter indexes
+{"indexed_rows": 5, "database": "/tmp/tmpymc0y2d6/review_search.sqlite", "verification": "passed"}
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.040s
+
+OK

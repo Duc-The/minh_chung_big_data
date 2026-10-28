@@ -1,0 +1,21 @@
+[2026-10-14T22:56:04.824+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-14T22:56:04.849+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_google_play_reviews.04_verify_live_results scheduled__2026-10-14T22:50:00+00:00 [queued]>
+[2026-10-14T22:56:04.858+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_google_play_reviews.04_verify_live_results scheduled__2026-10-14T22:50:00+00:00 [queued]>
+[2026-10-14T22:56:04.859+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-10-14T22:56:04.871+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): 04_verify_live_results> on 2026-10-14 22:50:00+00:00
+[2026-10-14T22:56:04.875+0000] {standard_task_runner.py:72} INFO - Started process 3383 to run task
+[2026-10-14T22:56:04.879+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'live_google_play_reviews', '04_verify_live_results', 'scheduled__2026-10-14T22:50:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/live_reviews_pipeline.py', '--cfg-path', '/tmp/tmp4sv5x98l']
+[2026-10-14T22:56:04.881+0000] {standard_task_runner.py:105} INFO - Job 44: Subtask 04_verify_live_results
+[2026-10-14T22:56:04.944+0000] {task_command.py:467} INFO - Running <TaskInstance: live_google_play_reviews.04_verify_live_results scheduled__2026-10-14T22:50:00+00:00 [running]> on host airflow-scheduler
+[2026-10-14T22:56:05.068+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='live_google_play_reviews' AIRFLOW_CTX_TASK_ID='04_verify_live_results' AIRFLOW_CTX_EXECUTION_DATE='2026-10-14T22:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-14T22:50:00+00:00'
+[2026-10-14T22:56:05.069+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-14T22:56:05.093+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-14T22:56:05.094+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /workspace/scripts/verify_live_outputs.py']
+[2026-10-14T22:56:05.103+0000] {subprocess.py:99} INFO - Output:
+[2026-10-14T22:56:05.246+0000] {subprocess.py:106} INFO - {"verification": "passed", "source_mode": "google_play_live", "real_reviews": 400, "generation": "eed4f0bce85444f79a245cc05facfdf2"}
+[2026-10-14T22:56:05.252+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-14T22:56:05.286+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-14T22:56:05.286+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=live_google_play_reviews, task_id=04_verify_live_results, run_id=scheduled__2026-10-14T22:50:00+00:00, execution_date=20261014T225000, start_date=20261014T225604, end_date=20261014T225605
+[2026-10-14T22:56:05.338+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-14T22:56:05.356+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-14T22:56:05.358+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

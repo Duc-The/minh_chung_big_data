@@ -1,0 +1,120 @@
+{
+  "airflow": {
+    "run_id": "validation_20261015",
+    "state": "success",
+    "tasks": [
+      {
+        "task_id": "01_prepare_hdfs",
+        "state": "success",
+        "start_utc": "2026-10-14T17:30:15.075701+00:00",
+        "end_utc": "2026-10-14T17:30:17.726430+00:00"
+      },
+      {
+        "task_id": "02_upload_csv",
+        "state": "success",
+        "start_utc": "2026-10-14T17:30:18.666030+00:00",
+        "end_utc": "2026-10-14T17:30:23.837083+00:00"
+      },
+      {
+        "task_id": "03_read_with_spark",
+        "state": "success",
+        "start_utc": "2026-10-14T17:35:26.657163+00:00",
+        "end_utc": "2026-10-14T17:35:52.302249+00:00"
+      },
+      {
+        "task_id": "04_clean_to_parquet",
+        "state": "success",
+        "start_utc": "2026-10-14T17:35:53.061181+00:00",
+        "end_utc": "2026-10-14T17:37:31.307643+00:00"
+      },
+      {
+        "task_id": "05_spark_sql",
+        "state": "success",
+        "start_utc": "2026-10-14T17:37:32.028687+00:00",
+        "end_utc": "2026-10-14T17:38:11.710725+00:00"
+      },
+      {
+        "task_id": "06_review_aspects_and_kmeans",
+        "state": "success",
+        "start_utc": "2026-10-14T17:38:12.443445+00:00",
+        "end_utc": "2026-10-14T17:39:44.962596+00:00"
+      },
+      {
+        "task_id": "06b_train_sentiment_proxy",
+        "state": "success",
+        "start_utc": "2026-10-14T17:39:46.381768+00:00",
+        "end_utc": "2026-10-14T17:41:23.198668+00:00"
+      },
+      {
+        "task_id": "07_save_results",
+        "state": "success",
+        "start_utc": "2026-10-14T17:41:24.095503+00:00",
+        "end_utc": "2026-10-14T17:43:25.641593+00:00"
+      },
+      {
+        "task_id": "08_kafka_replay_and_stream",
+        "state": "success",
+        "start_utc": "2026-10-14T17:43:26.104622+00:00",
+        "end_utc": "2026-10-14T17:44:39.052099+00:00"
+      },
+      {
+        "task_id": "09_verify_completion",
+        "state": "success",
+        "start_utc": "2026-10-14T17:49:29.352218+00:00",
+        "end_utc": "2026-10-14T17:49:57.818666+00:00"
+      }
+    ]
+  },
+  "spark_alive_workers": 2,
+  "spark_total_cores": 2,
+  "kafka_topic_end_offsets": {
+    "0": 662,
+    "1": 698,
+    "2": 640
+  },
+  "kafka_total_offsets": 2000,
+  "repeated_batch_counts_unchanged": {
+    "raw_rows": true,
+    "clean_rows": true,
+    "quarantined_rows": true,
+    "duplicate_valid_id_rows_removed": true
+  },
+  "sentiment_evaluation": {
+    "test": {
+      "rows": 12993,
+      "accuracy": 0.8990225506041715,
+      "precision_negative": 0.7550675675675675,
+      "recall_negative": 0.9133099824868651,
+      "f1_negative": 0.8266842800528402,
+      "macro_f1": 0.8777209410689918,
+      "confusion_matrix": {
+        "label_order": [
+          "positive",
+          "negative"
+        ],
+        "values": [
+          [
+            8552,
+            1015
+          ],
+          [
+            297,
+            3129
+          ]
+        ]
+      }
+    },
+    "label_source": "star_rating_proxy"
+  },
+  "persisted_validation": {
+    "verification": "passed",
+    "processed_rows": 1299873,
+    "processed_unique_keys": 1299873,
+    "platform_summary_total": 1299873,
+    "streaming_rows": 1000,
+    "streaming_unique_keys": 1000,
+    "streaming_batches": 6,
+    "batches_without_new_unique_events": 3,
+    "source": "actual HDFS Parquet and streaming metrics"
+  }
+}

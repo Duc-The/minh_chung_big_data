@@ -1,0 +1,8 @@
+{
+  "raw_rows": 407,
+  "clean_rows": 407,
+  "quarantined_rows": 0,
+  "duplicate_valid_id_rows_removed": 0,
+  "row_balance_ok": true,
+  "source_mode": "google_play_live"
+}

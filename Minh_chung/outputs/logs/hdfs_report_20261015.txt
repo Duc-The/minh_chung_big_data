@@ -1,0 +1,42 @@
+Configured Capacity: 1081101176832 (1006.85 GB)
+Present Capacity: 1007801400560 (938.59 GB)
+DFS Remaining: 1007027970048 (937.87 GB)
+DFS Used: 773430512 (737.60 MB)
+DFS Used%: 0.08%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 172.18.0.6:9866 (bigdata-ecommerce-datanode-1.bigdata-ecommerce_default)
+Hostname: datanode
+Decommission Status : Normal
+Configured Capacity: 1081101176832 (1006.85 GB)
+DFS Used: 773430512 (737.60 MB)
+Non DFS Used: 18307420944 (17.05 GB)
+DFS Remaining: 1007027970048 (937.87 GB)
+DFS Used%: 0.07%
+DFS Remaining%: 93.15%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Wed Oct 14 17:22:38 UTC 2026
+Last Block Report: Wed Oct 14 17:18:14 UTC 2026
+Num of Blocks: 68
+
+

@@ -1,0 +1,65 @@
+[2026-10-14T17:37:31.988+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-14T17:37:32.028+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_dissatisfaction_pipeline.05_spark_sql validation_20261015 [queued]>
+[2026-10-14T17:37:32.036+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_dissatisfaction_pipeline.05_spark_sql validation_20261015 [queued]>
+[2026-10-14T17:37:32.036+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-10-14T17:37:32.050+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): 05_spark_sql> on 2026-10-14 17:30:14+00:00
+[2026-10-14T17:37:32.054+0000] {standard_task_runner.py:72} INFO - Started process 1513 to run task
+[2026-10-14T17:37:32.060+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ecommerce_dissatisfaction_pipeline', '05_spark_sql', 'validation_20261015', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_pipeline.py', '--cfg-path', '/tmp/tmpbnawm4r3']
+[2026-10-14T17:37:32.063+0000] {standard_task_runner.py:105} INFO - Job 8: Subtask 05_spark_sql
+[2026-10-14T17:37:32.135+0000] {task_command.py:467} INFO - Running <TaskInstance: ecommerce_dissatisfaction_pipeline.05_spark_sql validation_20261015 [running]> on host airflow-scheduler
+[2026-10-14T17:37:32.228+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ecommerce_dissatisfaction_pipeline' AIRFLOW_CTX_TASK_ID='05_spark_sql' AIRFLOW_CTX_EXECUTION_DATE='2026-10-14T17:30:14+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='validation_20261015'
+[2026-10-14T17:37:32.229+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-14T17:37:32.250+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-14T17:37:32.251+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'spark-submit --master spark://spark-master:7077 --driver-memory 1g --executor-memory 1g /workspace/jobs/batch_pipeline.py --stage analyze']
+[2026-10-14T17:37:32.260+0000] {subprocess.py:99} INFO - Output:
+[2026-10-14T17:37:36.338+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SparkContext: Running Spark version 3.5.7
+[2026-10-14T17:37:36.341+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SparkContext: OS info Linux, 6.18.54.1-microsoft-standard-WSL2, amd64
+[2026-10-14T17:37:36.341+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SparkContext: Java version 11.0.32.1
+[2026-10-14T17:37:36.422+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-10-14T17:37:36.535+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceUtils: ==============================================================
+[2026-10-14T17:37:36.535+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-10-14T17:37:36.535+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceUtils: ==============================================================
+[2026-10-14T17:37:36.536+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SparkContext: Submitted application: ecommerce-analyze
+[2026-10-14T17:37:36.568+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-10-14T17:37:36.583+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceProfile: Limiting resource is cpus at 1 tasks per executor
+[2026-10-14T17:37:36.587+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-10-14T17:37:36.655+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SecurityManager: Changing view acls to: airflow
+[2026-10-14T17:37:36.655+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SecurityManager: Changing modify acls to: airflow
+[2026-10-14T17:37:36.656+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SecurityManager: Changing view acls groups to:
+[2026-10-14T17:37:36.656+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SecurityManager: Changing modify acls groups to:
+[2026-10-14T17:37:36.656+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: airflow; groups with view permissions: EMPTY; users with modify permissions: airflow; groups with modify permissions: EMPTY
+[2026-10-14T17:37:36.941+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO Utils: Successfully started service 'sparkDriver' on port 32953.
+[2026-10-14T17:37:36.968+0000] {subprocess.py:106} INFO - 26/10/14 17:37:36 INFO SparkEnv: Registering MapOutputTracker
+[2026-10-14T17:37:37.009+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO SparkEnv: Registering BlockManagerMaster
+[2026-10-14T17:37:37.034+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-10-14T17:37:37.035+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-10-14T17:37:37.039+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-10-14T17:37:37.060+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-9540ae08-917b-4950-bc62-1b2b950ba3ac
+[2026-10-14T17:37:37.080+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2026-10-14T17:37:37.098+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-10-14T17:37:37.268+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO JettyUtils: Start Jetty airflow-scheduler:4040 for SparkUI
+[2026-10-14T17:37:37.342+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-10-14T17:37:37.502+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2026-10-14T17:37:37.591+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.3:7077 after 53 ms (0 ms spent in bootstraps)
+[2026-10-14T17:37:37.715+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261014173737-0010
+[2026-10-14T17:37:37.717+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014173737-0010/0 on worker-20261014171757-172.18.0.5-38893 (172.18.0.5:38893) with 1 core(s)
+[2026-10-14T17:37:37.722+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014173737-0010/0 on hostPort 172.18.0.5:38893 with 1 core(s), 1024.0 MiB RAM
+[2026-10-14T17:37:37.722+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261014173737-0010/1 on worker-20261014171757-172.18.0.4-32837 (172.18.0.4:32837) with 1 core(s)
+[2026-10-14T17:37:37.723+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneSchedulerBackend: Granted executor ID app-20261014173737-0010/1 on hostPort 172.18.0.4:32837 with 1 core(s), 1024.0 MiB RAM
+[2026-10-14T17:37:37.740+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 38955.
+[2026-10-14T17:37:37.740+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO NettyBlockTransferService: Server created on airflow-scheduler:38955
+[2026-10-14T17:37:37.745+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-10-14T17:37:37.762+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, airflow-scheduler, 38955, None)
+[2026-10-14T17:37:37.774+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManagerMasterEndpoint: Registering block manager airflow-scheduler:38955 with 434.4 MiB RAM, BlockManagerId(driver, airflow-scheduler, 38955, None)
+[2026-10-14T17:37:37.781+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, airflow-scheduler, 38955, None)
+[2026-10-14T17:37:37.785+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, airflow-scheduler, 38955, None)
+[2026-10-14T17:37:37.842+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014173737-0010/0 is now RUNNING
+[2026-10-14T17:37:37.852+0000] {subprocess.py:106} INFO - 26/10/14 17:37:37 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261014173737-0010/1 is now RUNNING
+[2026-10-14T17:37:38.353+0000] {subprocess.py:106} INFO - 26/10/14 17:37:38 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-10-14T17:38:11.072+0000] {subprocess.py:106} INFO - Spark SQL tables saved to HDFS
+[2026-10-14T17:38:11.678+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-14T17:38:11.710+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-14T17:38:11.710+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=ecommerce_dissatisfaction_pipeline, task_id=05_spark_sql, run_id=validation_20261015, execution_date=20261014T173014, start_date=20261014T173732, end_date=20261014T173811
+[2026-10-14T17:38:11.761+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-14T17:38:11.789+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-14T17:38:11.791+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

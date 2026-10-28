@@ -1,0 +1,6 @@
+  File "/workspace/jobs/train_sentiment.py", line 45
+    eligible=(source.filter('score != 3 AND NOT spam_candidate')
+             ^
+SyntaxError: '(' was never closed
+26/10/14 17:23:10 INFO ShutdownHookManager: Shutdown hook called
+26/10/14 17:23:10 INFO ShutdownHookManager: Deleting directory /tmp/spark-39e6098f-1622-4cb0-808d-7eac5b667d32

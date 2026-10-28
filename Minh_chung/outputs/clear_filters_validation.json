@@ -1,0 +1,16 @@
+{
+  "verification": "passed",
+  "generation": "e30bc0ca30184d7d8bf4a10e5ff12bf5:5bf111f038694040a540af00fc0d109f",
+  "historical_reviews": 1299873,
+  "live_reviews": 407,
+  "overlapping_review_ids": 6,
+  "total_reviews": 1300274,
+  "month_min": "2013-06",
+  "month_max": "2026-10",
+  "checks": [
+    "Default source covers historical and live; API cube and review counts agree",
+    "Clear button resets source, dates, platforms, spam, text, score and aspect; both views show total",
+    "Native Clear on either month restores the full dataset automatically"
+  ],
+  "browser_errors": []
+}

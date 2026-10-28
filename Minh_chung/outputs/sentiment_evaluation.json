@@ -1,0 +1,406 @@
+{
+  "completed_utc": "2026-10-14T17:41:20.409617+00:00",
+  "input": "hdfs://namenode:9000/ecommerce/processed/reviews",
+  "label_source": "star_rating_proxy",
+  "excluded": "3-star, spam candidates, empty token reviews",
+  "sample_percent": 5,
+  "split_method": "70/10/20 hash normalized text groups; vocabulary and IDF fit on train only",
+  "split_counts": [
+    {
+      "split": "test",
+      "label": 0.0,
+      "count": 9567
+    },
+    {
+      "split": "validation",
+      "label": 0.0,
+      "count": 1884
+    },
+    {
+      "split": "test",
+      "label": 1.0,
+      "count": 3426
+    },
+    {
+      "split": "validation",
+      "label": 1.0,
+      "count": 1221
+    },
+    {
+      "split": "train",
+      "label": 0.0,
+      "count": 44754
+    },
+    {
+      "split": "train",
+      "label": 1.0,
+      "count": 10064
+    }
+  ],
+  "leakage_checks": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "features": "Vietnamese syllable unigrams+bigrams, TF-IDF L2, 6000 vocabulary",
+  "validation_candidates": [
+    {
+      "key": "LogisticRegression_reg_0.01",
+      "model": "LogisticRegression",
+      "regParam": 0.01,
+      "validation": {
+        "rows": 3105,
+        "accuracy": 0.8347826086956521,
+        "precision_negative": 0.7496473906911142,
+        "recall_negative": 0.8705978705978706,
+        "f1_negative": 0.8056081849185298,
+        "macro_f1": 0.8309754730249328,
+        "confusion_matrix": {
+          "label_order": [
+            "positive",
+            "negative"
+          ],
+          "values": [
+            [
+              1529,
+              355
+            ],
+            [
+              158,
+              1063
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "key": "LogisticRegression_reg_0.1",
+      "model": "LogisticRegression",
+      "regParam": 0.1,
+      "validation": {
+        "rows": 3105,
+        "accuracy": 0.8421900161030595,
+        "precision_negative": 0.7454667562122229,
+        "recall_negative": 0.9090909090909091,
+        "f1_negative": 0.8191881918819188,
+        "macro_f1": 0.8395940959409594,
+        "confusion_matrix": {
+          "label_order": [
+            "positive",
+            "negative"
+          ],
+          "values": [
+            [
+              1505,
+              379
+            ],
+            [
+              111,
+              1110
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "key": "LinearSVC_reg_0.01",
+      "model": "LinearSVC",
+      "regParam": 0.01,
+      "validation": {
+        "rows": 3105,
+        "accuracy": 0.837037037037037,
+        "precision_negative": 0.7584960231381056,
+        "recall_negative": 0.8591318591318591,
+        "f1_negative": 0.8056835637480798,
+        "macro_f1": 0.8326809388346611,
+        "confusion_matrix": {
+          "label_order": [
+            "positive",
+            "negative"
+          ],
+          "values": [
+            [
+              1550,
+              334
+            ],
+            [
+              172,
+              1049
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "key": "LinearSVC_reg_0.1",
+      "model": "LinearSVC",
+      "regParam": 0.1,
+      "validation": {
+        "rows": 3105,
+        "accuracy": 0.840901771336554,
+        "precision_negative": 0.7540181691125087,
+        "recall_negative": 0.8837018837018837,
+        "f1_negative": 0.8137254901960785,
+        "macro_f1": 0.8374417220513839,
+        "confusion_matrix": {
+          "label_order": [
+            "positive",
+            "negative"
+          ],
+          "values": [
+            [
+              1532,
+              352
+            ],
+            [
+              142,
+              1079
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "selected": {
+    "key": "LogisticRegression_reg_0.1",
+    "model": "LogisticRegression",
+    "regParam": 0.1,
+    "validation": {
+      "rows": 3105,
+      "accuracy": 0.8421900161030595,
+      "precision_negative": 0.7454667562122229,
+      "recall_negative": 0.9090909090909091,
+      "f1_negative": 0.8191881918819188,
+      "macro_f1": 0.8395940959409594,
+      "confusion_matrix": {
+        "label_order": [
+          "positive",
+          "negative"
+        ],
+        "values": [
+          [
+            1505,
+            379
+          ],
+          [
+            111,
+            1110
+          ]
+        ]
+      }
+    }
+  },
+  "test": {
+    "rows": 12993,
+    "accuracy": 0.8990225506041715,
+    "precision_negative": 0.7550675675675675,
+    "recall_negative": 0.9133099824868651,
+    "f1_negative": 0.8266842800528402,
+    "macro_f1": 0.8777209410689918,
+    "confusion_matrix": {
+      "label_order": [
+        "positive",
+        "negative"
+      ],
+      "values": [
+        [
+          8552,
+          1015
+        ],
+        [
+          297,
+          3129
+        ]
+      ]
+    }
+  },
+  "majority_baseline_test": {
+    "rows": 12993,
+    "accuracy": 0.7363195566843685,
+    "precision_negative": 0,
+    "recall_negative": 0.0,
+    "f1_negative": 0,
+    "macro_f1": 0.4240691489361702,
+    "confusion_matrix": {
+      "label_order": [
+        "positive",
+        "negative"
+      ],
+      "values": [
+        [
+          9567,
+          0
+        ],
+        [
+          3426,
+          0
+        ]
+      ]
+    }
+  },
+  "portable_predictions_checked": 98,
+  "model_sha256": "f36231c725ccfde7c2a37839a2b90bd47199afcbda578f76421b279921dfb2c2",
+  "errors": [
+    {
+      "review_key": "11df70f10bb4574f6eb94d0f",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Cho mk hỏi tại sao tiền ship đắt vậy .ở lazada đắt nhất cũg chỉ 20k thôi . rẻ thì 8k và12k là chủ yếu ..còn lại .mua đơn hàng từ 50k trở lên hầu như là free ship ... . Mỗi khi shop mở dell mua được với giá rẻ nhưng ship tận 45-52k .thì thàh đắt rồi .đã thế lại còn ko mua được vì shop nào cũg bắt mua từ 20k trở lên mới ship .ko tính phí ship . đề nghị shop chỉnh sửa  lại việc phí ship đắt và phải mua từ 20k trở lên"
+    },
+    {
+      "review_key": "61bd292d850ce7e5a15b25d7",
+      "platform": "Sendo",
+      "score": 4,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Tại sao đang nhập f k cho lập tk moi cũng k chịu nan"
+    },
+    {
+      "review_key": "48598c870aa956c629da36a3",
+      "platform": "Shopee",
+      "score": 4,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Shopee thì ok nhưng thái độ nv giao hàng của J&T thì chán kinh khủng. Ném đồ xuống đất cho khách nhặt xong còn lườm khách vì khách đi từ trên nhà xuống để bạn ấy đợi 3p??? :)"
+    },
+    {
+      "review_key": "0bcd37e8effd70def4c028fb",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Mua hàng giảm giá 50-60%. Lúc nhận hàng. Chất luọng K bằng tiền giảm giá. Đề nghị shoppe bảo vệ quyền lợi lợi ng mua. Kiểm soát hàng giảm giá chất lượng phải 100%.   hàng gốc. Chứ K phải treo đầu dê, bán thịt chó."
+    },
+    {
+      "review_key": "1388b11c0d2542d06e3d9c90",
+      "platform": "Lazada",
+      "score": 1,
+      "label": 1.0,
+      "prediction": 0.0,
+      "content": "Jenkekk"
+    },
+    {
+      "review_key": "42b528b0d1916b19272d4bad",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "duoc cua no"
+    },
+    {
+      "review_key": "7fb05e3972dd92a587c4d6f6",
+      "platform": "Lazada",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Tốt lắm a.. có cái nhân viên giao hàng ko đc nhiệt tình vì mấy"
+    },
+    {
+      "review_key": "3cb2d40a7b16f13432d28b77",
+      "platform": "Lazada",
+      "score": 2,
+      "label": 1.0,
+      "prediction": 0.0,
+      "content": "Dao hàng nhanh chóng như sai sản phẩm"
+    },
+    {
+      "review_key": "95d2678c8872a0f27278f6ca",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Có gì không Ê ê m"
+    },
+    {
+      "review_key": "80884393b7ae7b5017f8755c",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Ko bjt sao nua cho daj"
+    },
+    {
+      "review_key": "9c79861d809bd0a52fb6c8f7",
+      "platform": "Lazada",
+      "score": 1,
+      "label": 1.0,
+      "prediction": 0.0,
+      "content": "Tui thấy nó cũnghay"
+    },
+    {
+      "review_key": "5d40132097e4ac4c41d8b43d",
+      "platform": "Lazada",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "A ă đồng êôu đỪ"
+    },
+    {
+      "review_key": "df5fabe1794c13c122ff9610",
+      "platform": "Lazada",
+      "score": 4,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "rất thích mua hàng trên lazada, nhưng cần sử lý những shop lừa đảo đi. \"thi thi shop\" quản cáo 1 đằng bán 1 nẻo , bán tôm khô mà mk tưởng là tôm thối phơi sương k á"
+    },
+    {
+      "review_key": "afcca68529d751e4caa08b16",
+      "platform": "Shopee",
+      "score": 1,
+      "label": 1.0,
+      "prediction": 0.0,
+      "content": "Vô ơn"
+    },
+    {
+      "review_key": "cc01d94fc39f2e34d3779944",
+      "platform": "Shopee",
+      "score": 4,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Shopee ngày càng ổn."
+    },
+    {
+      "review_key": "62881d026a5a84739c701b38",
+      "platform": "Sendo",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "good lắc xu mỏi tay quá"
+    },
+    {
+      "review_key": "611a99263309373b2e515b12",
+      "platform": "Lazada",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Mua hàng ko cái nào bị j hết"
+    },
+    {
+      "review_key": "3f258322f6b25f286b8400e2",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Tuyệt quá à"
+    },
+    {
+      "review_key": "33785501ce141f8ae8576ef8",
+      "platform": "Lazada",
+      "score": 1,
+      "label": 1.0,
+      "prediction": 0.0,
+      "content": "Phế"
+    },
+    {
+      "review_key": "9d56691e02a6ea3b022f3a01",
+      "platform": "Shopee",
+      "score": 5,
+      "label": 0.0,
+      "prediction": 1.0,
+      "content": "Rr"
+    }
+  ],
+  "interpretation": "Metric measures prediction of stars, not verified human sentiment or aspect polarity. Sample groups have unequal row weights."
+}

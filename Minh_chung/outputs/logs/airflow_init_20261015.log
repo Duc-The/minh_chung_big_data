@@ -1,0 +1,17 @@
+ Volume bigdata-ecommerce_airflow_logs  Creating
+ Volume bigdata-ecommerce_airflow_logs  Created
+ Container bigdata-ecommerce-postgres-1  Running
+DB: postgresql+psycopg2://airflow:***@postgres/airflow
+Performing upgrade to the metadata database postgresql+psycopg2://airflow:***@postgres/airflow
+[2026-10-14T17:24:20.377+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+[2026-10-14T17:24:20.379+0000] {migration.py:210} INFO - Will assume transactional DDL.
+[2026-10-14T17:24:20.381+0000] {migration.py:207} INFO - Context impl PostgresqlImpl.
+[2026-10-14T17:24:20.381+0000] {migration.py:210} INFO - Will assume transactional DDL.
+INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
+INFO  [alembic.runtime.migration] Will assume transactional DDL.
+INFO  [alembic.runtime.migration] Running stamp_revision  -> 5f2621c13b39
+Database migrating done!
+/home/airflow/.local/lib/python3.11/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+[2026-10-14T17:24:28.181+0000] {override.py:965} WARNING - No user yet created, use flask fab command to do it.
+[2026-10-14T17:24:28.753+0000] {override.py:1597} INFO - Added user airflow
+User "airflow" created with role "Admin"

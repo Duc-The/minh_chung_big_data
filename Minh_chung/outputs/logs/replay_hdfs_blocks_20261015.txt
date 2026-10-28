@@ -1,0 +1,1764 @@
+Connecting to namenode via http://namenode:9870/fsck?ugi=root&files=1&blocks=1&path=%2Fecommerce%2Freplay
+FSCK started by root (auth:SIMPLE) from /172.18.0.7 for path /ecommerce/replay at Thu Oct 15 00:30:32 UTC 2026
+
+/ecommerce/replay <dir>
+/ecommerce/replay/prepared <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 10520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742168_1344 len=10520 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5119 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742169_1345 len=5119 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3142 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742170_1346 len=3142 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3831 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742247_1423 len=3831 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3685 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742171_1347 len=3685 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3588 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742248_1424 len=3588 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2013-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4270 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742173_1349 len=4270 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7261 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742249_1425 len=7261 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4943 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742172_1348 len=4943 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5824 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742175_1351 len=5824 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6814 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742250_1426 len=6814 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7310 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742251_1427 len=7310 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7587 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742174_1350 len=7587 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6955 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742176_1352 len=6955 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 11662 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742252_1428 len=11662 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 15040 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742178_1354 len=15040 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 14090 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742180_1356 len=14090 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 16127 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742182_1358 len=16127 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2014-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 22313 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742183_1359 len=22313 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 28421 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742185_1361 len=28421 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 21263 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742177_1353 len=21263 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 35970 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742189_1365 len=35970 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 36996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742193_1369 len=36996 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 69356 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742253_1429 len=69356 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 97467 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742194_1370 len=97467 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 182417 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742196_1372 len=182417 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 153336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742198_1374 len=153336 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 129307 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742179_1355 len=129307 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 163791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742181_1357 len=163791 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 186884 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742184_1360 len=186884 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 144537 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742200_1376 len=144537 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 148386 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742254_1430 len=148386 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 95145 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742255_1431 len=95145 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-03/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 128338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742256_1432 len=128338 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 146154 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742201_1377 len=146154 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 176986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742203_1379 len=176986 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 195692 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742204_1380 len=195692 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 240728 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742206_1382 len=240728 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 400715 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742186_1362 len=400715 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 314791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742207_1383 len=314791 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 264790 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742208_1384 len=264790 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 304411 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742257_1433 len=304411 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2016-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 296099 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742258_1434 len=296099 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 254362 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742187_1363 len=254362 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 220739 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742259_1435 len=220739 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 228963 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742188_1364 len=228963 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 209095 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742190_1366 len=209095 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 251852 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742210_1386 len=251852 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 290540 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742212_1388 len=290540 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 593361 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742260_1436 len=593361 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 603749 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742213_1389 len=603749 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 581818 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742261_1437 len=581818 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 546922 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742214_1390 len=546922 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 637664 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742262_1438 len=637664 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2017-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 696347 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742216_1392 len=696347 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 578886 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742217_1393 len=578886 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 466567 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742191_1367 len=466567 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 596480 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742219_1395 len=596480 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 608992 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742192_1368 len=608992 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 788763 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742263_1439 len=788763 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 871191 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742220_1396 len=871191 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1135561 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742221_1397 len=1135561 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 968038 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742195_1371 len=968038 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1005308 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742197_1373 len=1005308 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1541966 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742222_1398 len=1541966 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1734849 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742224_1400 len=1734849 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2018-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1623226 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742199_1375 len=1623226 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2024863 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742226_1402 len=2024863 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1497520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742227_1403 len=1497520 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2303986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742230_1406 len=2303986 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1856131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742231_1407 len=1856131 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2147097 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742264_1440 len=2147097 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2282366 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742202_1378 len=2282366 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2305829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742265_1441 len=2305829 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2485678 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742266_1442 len=2485678 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2035996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742267_1443 len=2035996 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2852352 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742205_1381 len=2852352 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2934845 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742209_1385 len=2934845 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2019-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2708822 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742268_1444 len=2708822 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2318265 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742233_1409 len=2318265 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2387181 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742269_1445 len=2387181 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2264201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742211_1387 len=2264201 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2174128 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742270_1446 len=2174128 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1824733 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742271_1447 len=1824733 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1561207 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742235_1411 len=1561207 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1872871 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742237_1413 len=1872871 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1836479 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742215_1391 len=1836479 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1596900 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742238_1414 len=1596900 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1625617 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742272_1448 len=1625617 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2065829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742218_1394 len=2065829 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2020-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2210534 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742223_1399 len=2210534 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2292630 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742240_1416 len=2292630 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1851651 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742225_1401 len=1851651 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2044217 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742228_1404 len=2044217 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2092695 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742241_1417 len=2092695 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-05/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2425302 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742229_1405 len=2425302 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2898198 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742232_1408 len=2898198 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3092240 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742273_1449 len=3092240 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2843338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742243_1419 len=2843338 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-09 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3011378 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742274_1450 len=3011378 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-10 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2632977 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742275_1451 len=2632977 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-11 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2422583 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742276_1452 len=2422583 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-12 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2021-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3016888 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742277_1453 len=3016888 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-01 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3028671 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742234_1410 len=3028671 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-02 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2176656 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742236_1412 len=2176656 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-03 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2349199 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742239_1415 len=2349199 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-04 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1980304 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742278_1454 len=1980304 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-05 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1861131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742244_1420 len=1861131 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-06 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1942628 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742245_1421 len=1942628 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-07 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-07/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2142106 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742242_1418 len=2142106 Live_repl=1
+
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-08 <dir>
+/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2022-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1787981 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742246_1422 len=1787981 Live_repl=1
+
+/ecommerce/replay/runs <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 10520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742279_1455 len=10520 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5119 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742280_1456 len=5119 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3142 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742281_1457 len=3142 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3831 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742282_1458 len=3831 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3685 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742283_1459 len=3685 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3588 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742284_1460 len=3588 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2013-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4270 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742285_1461 len=4270 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7261 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742286_1462 len=7261 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4943 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742287_1463 len=4943 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5824 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742288_1464 len=5824 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6814 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742289_1465 len=6814 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7310 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742290_1466 len=7310 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7587 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742291_1467 len=7587 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6955 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742292_1468 len=6955 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 11662 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742293_1469 len=11662 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 15040 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742294_1470 len=15040 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 14090 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742295_1471 len=14090 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 16127 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742296_1472 len=16127 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2014-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 22313 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742297_1473 len=22313 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 28421 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742298_1474 len=28421 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 21263 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742299_1475 len=21263 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 35970 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742300_1476 len=35970 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 36996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742301_1477 len=36996 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 69356 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742302_1478 len=69356 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 97467 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742303_1479 len=97467 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 182417 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742304_1480 len=182417 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 153336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742305_1481 len=153336 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 129307 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742306_1482 len=129307 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 163791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742307_1483 len=163791 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 186884 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742308_1484 len=186884 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 144537 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742309_1485 len=144537 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 148386 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742310_1486 len=148386 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 95145 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742311_1487 len=95145 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-03/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 128338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742312_1488 len=128338 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 146154 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742313_1489 len=146154 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 176986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742314_1490 len=176986 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 195692 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742315_1491 len=195692 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 240728 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742316_1492 len=240728 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 400715 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742317_1493 len=400715 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 314791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742318_1494 len=314791 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 264790 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742319_1495 len=264790 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 304411 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742320_1496 len=304411 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2016-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 296099 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742321_1497 len=296099 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 254362 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742322_1498 len=254362 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 220739 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742323_1499 len=220739 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 228963 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742324_1500 len=228963 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 209095 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742325_1501 len=209095 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 251852 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742326_1502 len=251852 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 290540 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742327_1503 len=290540 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 593361 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742328_1504 len=593361 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 603749 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742329_1505 len=603749 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 581818 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742330_1506 len=581818 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 546922 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742331_1507 len=546922 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 637664 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742332_1508 len=637664 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2017-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 696347 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742333_1509 len=696347 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 578886 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742334_1510 len=578886 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 466567 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742335_1511 len=466567 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 596480 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742336_1512 len=596480 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 608992 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742337_1513 len=608992 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 788763 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742338_1514 len=788763 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 871191 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742339_1515 len=871191 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1135561 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742340_1516 len=1135561 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 968038 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742341_1517 len=968038 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1005308 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742342_1518 len=1005308 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1541966 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742343_1519 len=1541966 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1734849 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742344_1520 len=1734849 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2018-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1623226 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742345_1521 len=1623226 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2024863 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742346_1522 len=2024863 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1497520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742347_1523 len=1497520 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2303986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742348_1524 len=2303986 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1856131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742349_1525 len=1856131 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2147097 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742350_1526 len=2147097 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2282366 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742351_1527 len=2282366 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2305829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742352_1528 len=2305829 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2485678 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742353_1529 len=2485678 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2035996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742354_1530 len=2035996 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2852352 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742355_1531 len=2852352 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2934845 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742356_1532 len=2934845 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2019-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2708822 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742357_1533 len=2708822 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2318265 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742358_1534 len=2318265 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2387181 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742359_1535 len=2387181 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2264201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742360_1536 len=2264201 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2174128 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742361_1537 len=2174128 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1824733 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742362_1538 len=1824733 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1561207 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742363_1539 len=1561207 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1872871 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742364_1540 len=1872871 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1836479 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742365_1541 len=1836479 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1596900 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742366_1542 len=1596900 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1625617 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742367_1543 len=1625617 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2065829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742368_1544 len=2065829 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2020-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2210534 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742369_1545 len=2210534 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2292630 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742370_1546 len=2292630 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1851651 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742371_1547 len=1851651 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2044217 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742372_1548 len=2044217 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2092695 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742373_1549 len=2092695 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-05/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2425302 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742374_1550 len=2425302 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2898198 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742375_1551 len=2898198 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3092240 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742376_1552 len=3092240 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2843338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742377_1553 len=2843338 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-09 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3011378 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742378_1554 len=3011378 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-10 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2632977 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742379_1555 len=2632977 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-11 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2422583 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742380_1556 len=2422583 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-12 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2021-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3016888 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742381_1557 len=3016888 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-01 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3028671 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742382_1558 len=3028671 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-02 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2176656 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742383_1559 len=2176656 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-03 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2349199 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742384_1560 len=2349199 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-04 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1980304 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742385_1561 len=1980304 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-05 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1861131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742386_1562 len=1861131 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-06 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1942628 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742387_1563 len=1942628 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-07 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-07/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2142106 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742388_1564 len=2142106 Live_repl=1
+
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-08 <dir>
+/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2022-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1787981 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742389_1565 len=1787981 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 10520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742390_1566 len=10520 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5119 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742391_1567 len=5119 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3142 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742392_1568 len=3142 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3831 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742393_1569 len=3831 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3685 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742394_1570 len=3685 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3588 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742395_1571 len=3588 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2013-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4270 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742396_1572 len=4270 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7261 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742397_1573 len=7261 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4943 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742398_1574 len=4943 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5824 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742399_1575 len=5824 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6814 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742400_1576 len=6814 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7310 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742401_1577 len=7310 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7587 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742402_1578 len=7587 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6955 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742403_1579 len=6955 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 11662 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742404_1580 len=11662 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 15040 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742405_1581 len=15040 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 14090 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742406_1582 len=14090 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 16127 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742407_1583 len=16127 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2014-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 22313 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742408_1584 len=22313 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 28421 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742409_1585 len=28421 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 21263 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742410_1586 len=21263 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 35970 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742411_1587 len=35970 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 36996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742412_1588 len=36996 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 69356 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742413_1589 len=69356 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 97467 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742414_1590 len=97467 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 182417 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742415_1591 len=182417 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 153336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742416_1592 len=153336 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 129307 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742417_1593 len=129307 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 163791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742418_1594 len=163791 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 186884 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742419_1595 len=186884 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2015-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 144537 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742420_1596 len=144537 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 148386 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742421_1597 len=148386 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 95145 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742422_1598 len=95145 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-03/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 128338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742423_1599 len=128338 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 146154 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742424_1600 len=146154 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 176986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742425_1601 len=176986 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 195692 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742426_1602 len=195692 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 240728 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742427_1603 len=240728 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 400715 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742428_1604 len=400715 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 314791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742429_1605 len=314791 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 264790 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742430_1606 len=264790 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 304411 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742431_1607 len=304411 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2016-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 296099 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742432_1608 len=296099 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 254362 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742433_1609 len=254362 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 220739 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742434_1610 len=220739 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 228963 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742435_1611 len=228963 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 209095 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742436_1612 len=209095 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 251852 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742437_1613 len=251852 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 290540 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742438_1614 len=290540 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 593361 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742439_1615 len=593361 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 603749 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742440_1616 len=603749 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 581818 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742441_1617 len=581818 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 546922 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742442_1618 len=546922 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 637664 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742443_1619 len=637664 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2017-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 696347 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742444_1620 len=696347 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 578886 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742445_1621 len=578886 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 466567 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742446_1622 len=466567 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 596480 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742447_1623 len=596480 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 608992 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742448_1624 len=608992 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 788763 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742449_1625 len=788763 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 871191 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742450_1626 len=871191 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1135561 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742451_1627 len=1135561 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 968038 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742452_1628 len=968038 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1005308 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742453_1629 len=1005308 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1541966 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742454_1630 len=1541966 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1734849 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742455_1631 len=1734849 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2018-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1623226 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742456_1632 len=1623226 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2024863 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742457_1633 len=2024863 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1497520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742458_1634 len=1497520 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2303986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742459_1635 len=2303986 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1856131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742460_1636 len=1856131 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2147097 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742461_1637 len=2147097 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2282366 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742462_1638 len=2282366 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2305829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742463_1639 len=2305829 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2485678 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742464_1640 len=2485678 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2035996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742465_1641 len=2035996 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2852352 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742466_1642 len=2852352 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-11 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2934845 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742467_1643 len=2934845 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-12 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2019-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2708822 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742468_1644 len=2708822 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-01 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2318265 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742469_1645 len=2318265 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-02 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2387181 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742470_1646 len=2387181 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-03 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2264201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742471_1647 len=2264201 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-04 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2174128 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742472_1648 len=2174128 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-05 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1824733 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742473_1649 len=1824733 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-06 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1561207 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742474_1650 len=1561207 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-07 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1872871 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742475_1651 len=1872871 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-08 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1836479 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742476_1652 len=1836479 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-09 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1596900 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742477_1653 len=1596900 Live_repl=1
+
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-10 <dir>
+/ecommerce/replay/runs/246aab4d49894543abc7002427119bb5/loaded/month=2020-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1625617 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742478_1654 len=1625617 Live_repl=1
+
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-06 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 10520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742590_1766 len=10520 Live_repl=1
+
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-07 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5119 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742591_1767 len=5119 Live_repl=1
+
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-08 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3142 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742592_1768 len=3142 Live_repl=1
+
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-09 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3831 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742593_1769 len=3831 Live_repl=1
+
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-10 <dir>
+/ecommerce/replay/runs/2477e878170d49ef99225d7093a5d430/loaded/month=2013-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3685 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742594_1770 len=3685 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 10520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742479_1655 len=10520 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5119 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742480_1656 len=5119 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3142 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742481_1657 len=3142 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3831 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742482_1658 len=3831 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3685 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742483_1659 len=3685 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3588 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742484_1660 len=3588 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2013-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4270 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742485_1661 len=4270 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7261 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742486_1662 len=7261 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 4943 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742487_1663 len=4943 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 5824 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742488_1664 len=5824 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6814 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742489_1665 len=6814 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7310 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742490_1666 len=7310 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 7587 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742491_1667 len=7587 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 6955 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742492_1668 len=6955 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 11662 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742493_1669 len=11662 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 15040 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742494_1670 len=15040 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 14090 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742495_1671 len=14090 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 16127 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742496_1672 len=16127 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2014-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 22313 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742497_1673 len=22313 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 28421 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742498_1674 len=28421 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 21263 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742499_1675 len=21263 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 35970 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742500_1676 len=35970 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 36996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742501_1677 len=36996 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 69356 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742502_1678 len=69356 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 97467 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742503_1679 len=97467 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 182417 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742504_1680 len=182417 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 153336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742505_1681 len=153336 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 129307 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742506_1682 len=129307 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 163791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742507_1683 len=163791 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 186884 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742508_1684 len=186884 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2015-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 144537 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742509_1685 len=144537 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-01/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 148386 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742510_1686 len=148386 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 95145 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742511_1687 len=95145 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-03/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 128338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742512_1688 len=128338 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 146154 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742513_1689 len=146154 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 176986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742514_1690 len=176986 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 195692 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742515_1691 len=195692 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 240728 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742516_1692 len=240728 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 400715 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742517_1693 len=400715 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 314791 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742518_1694 len=314791 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 264790 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742519_1695 len=264790 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 304411 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742520_1696 len=304411 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2016-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 296099 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742521_1697 len=296099 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 254362 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742522_1698 len=254362 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 220739 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742523_1699 len=220739 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 228963 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742524_1700 len=228963 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 209095 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742525_1701 len=209095 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 251852 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742526_1702 len=251852 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 290540 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742527_1703 len=290540 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 593361 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742528_1704 len=593361 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 603749 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742529_1705 len=603749 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 581818 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742530_1706 len=581818 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 546922 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742531_1707 len=546922 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 637664 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742532_1708 len=637664 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2017-12/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 696347 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742533_1709 len=696347 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 578886 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742534_1710 len=578886 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 466567 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742535_1711 len=466567 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 596480 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742536_1712 len=596480 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-04/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 608992 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742537_1713 len=608992 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 788763 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742538_1714 len=788763 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 871191 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742539_1715 len=871191 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1135561 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742540_1716 len=1135561 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 968038 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742541_1717 len=968038 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-09/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1005308 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742542_1718 len=1005308 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-10/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1541966 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742543_1719 len=1541966 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-11/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1734849 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742544_1720 len=1734849 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2018-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1623226 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742545_1721 len=1623226 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2024863 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742546_1722 len=2024863 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-02/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1497520 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742547_1723 len=1497520 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-03/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2303986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742548_1724 len=2303986 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1856131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742549_1725 len=1856131 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2147097 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742550_1726 len=2147097 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2282366 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742551_1727 len=2282366 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2305829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742552_1728 len=2305829 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-08/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2485678 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742553_1729 len=2485678 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2035996 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742554_1730 len=2035996 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-10/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2852352 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742555_1731 len=2852352 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2934845 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742556_1732 len=2934845 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2019-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2708822 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742557_1733 len=2708822 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2318265 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742558_1734 len=2318265 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-02/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2387181 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742559_1735 len=2387181 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2264201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742560_1736 len=2264201 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2174128 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742561_1737 len=2174128 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-05/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1824733 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742562_1738 len=1824733 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1561207 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742563_1739 len=1561207 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-07/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1872871 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742564_1740 len=1872871 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-08/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1836479 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742565_1741 len=1836479 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-09/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1596900 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742566_1742 len=1596900 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1625617 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742567_1743 len=1625617 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-11/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2065829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742568_1744 len=2065829 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2020-12/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2210534 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742569_1745 len=2210534 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-01/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2292630 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742570_1746 len=2292630 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1851651 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742571_1747 len=1851651 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2044217 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742572_1748 len=2044217 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-04/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2092695 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742573_1749 len=2092695 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-05/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2425302 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742574_1750 len=2425302 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-06/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2898198 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742575_1751 len=2898198 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-07/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3092240 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742576_1752 len=3092240 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2843338 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742577_1753 len=2843338 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-09 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-09/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3011378 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742578_1754 len=3011378 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-10 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-10/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2632977 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742579_1755 len=2632977 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-11 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-11/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2422583 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742580_1756 len=2422583 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-12 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2021-12/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3016888 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742581_1757 len=3016888 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-01 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-01/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 3028671 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742582_1758 len=3028671 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-02 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-02/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2176656 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742583_1759 len=2176656 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-03 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-03/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2349199 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742584_1760 len=2349199 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-04 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-04/part-00002-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1980304 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742585_1761 len=1980304 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-05 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-05/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1861131 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742586_1762 len=1861131 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-06 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-06/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1942628 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742587_1763 len=1942628 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-07 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-07/part-00001-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 2142106 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742588_1764 len=2142106 Live_repl=1
+
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-08 <dir>
+/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded/month=2022-08/part-00000-156d0246-3e7d-426f-85c1-fc032ac81293.c000.snappy.parquet 1787981 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742589_1765 len=1787981 Live_repl=1
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			439
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	428751173 B
+ Total files:	428
+ Total blocks (validated):	427 (avg. block size 1004101 B)
+ Minimally replicated blocks:	427 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Thu Oct 15 00:30:32 UTC 2026 in 62 milliseconds
+
+
+The filesystem under path '/ecommerce/replay' is HEALTHY

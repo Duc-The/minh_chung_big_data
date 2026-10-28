@@ -1,0 +1,8 @@
+{
+  "batch_id": 28,
+  "new_unique_events": 1,
+  "valid": 1,
+  "invalid": 0,
+  "source_mode": "google_play_live",
+  "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+}

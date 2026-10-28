@@ -1,0 +1,264 @@
+Connecting to namenode via http://namenode:9870/fsck?ugi=root&files=1&blocks=1&locations=1&path=%2Fecommerce%2Flive
+FSCK started by root (auth:SIMPLE) from /172.18.0.7 for path /ecommerce/live at Wed Oct 14 23:03:47 UTC 2026
+
+/ecommerce/live <dir>
+/ecommerce/live/checkpoints <dir>
+/ecommerce/live/checkpoints/google-play-live-v1 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/commits <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/commits/0 29 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742144_1320 len=29 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/metadata 45 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742106_1282 len=45 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/offsets <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/offsets/0 758 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742108_1284 len=758 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/sources <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/sources/0 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/sources/0/0 50 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742107_1283 len=50 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/0 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/0/1.delta 3566 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742127_1303 len=3566 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/0/_metadata <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/0/_metadata/schema 205 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742109_1285 len=205 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/1 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/1/1.delta 3433 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742126_1302 len=3433 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/2 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/2/1.delta 2850 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742128_1304 len=2850 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/3 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/3/1.delta 3650 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742129_1305 len=3650 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/4 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/4/1.delta 3246 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742130_1306 len=3246 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/5 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/5/1.delta 3380 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742132_1308 len=3380 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/6 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/6/1.delta 3973 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742133_1309 len=3973 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/7 <dir>
+/ecommerce/live/checkpoints/google-play-live-v1/state/0/7/1.delta 3451 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742131_1307 len=3451 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/output <dir>
+/ecommerce/live/output/dashboard_cube <dir>
+/ecommerce/live/output/dashboard_cube/eed4f0bce85444f79a245cc05facfdf2 <dir>
+/ecommerce/live/output/dashboard_cube/eed4f0bce85444f79a245cc05facfdf2/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/output/dashboard_cube/eed4f0bce85444f79a245cc05facfdf2/part-00000-280eb58e-8802-48ac-ae4a-e21feeba5f86-c000.snappy.parquet 5239 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742145_1321 len=5239 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed <dir>
+/ecommerce/live/processed/reviews <dir>
+/ecommerce/live/processed/reviews/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/processed/reviews/platform=Lazada <dir>
+/ecommerce/live/processed/reviews/platform=Lazada/year=2026 <dir>
+/ecommerce/live/processed/reviews/platform=Lazada/year=2026/part-00000-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 13266 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742153_1329 len=13266 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Lazada/year=2026/part-00001-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 10401 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742148_1324 len=10401 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Lazada/year=2026/part-00002-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 12772 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742161_1337 len=12772 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Lazada/year=2026/part-00003-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 11150 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742156_1332 len=11150 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo <dir>
+/ecommerce/live/processed/reviews/platform=Sendo/year=2025 <dir>
+/ecommerce/live/processed/reviews/platform=Sendo/year=2025/part-00000-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 14778 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742154_1330 len=14778 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2025/part-00001-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 11628 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742149_1325 len=11628 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2025/part-00002-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 13100 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742162_1338 len=13100 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2025/part-00003-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 9430 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742158_1334 len=9430 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2026 <dir>
+/ecommerce/live/processed/reviews/platform=Sendo/year=2026/part-00000-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 8519 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742155_1331 len=8519 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2026/part-00001-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 9431 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742150_1326 len=9431 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2026/part-00002-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 8986 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742164_1340 len=8986 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Sendo/year=2026/part-00003-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 9619 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742160_1336 len=9619 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Shopee <dir>
+/ecommerce/live/processed/reviews/platform=Shopee/year=2026 <dir>
+/ecommerce/live/processed/reviews/platform=Shopee/year=2026/part-00000-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 11348 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742157_1333 len=11348 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Shopee/year=2026/part-00001-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 10837 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742151_1327 len=10837 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Shopee/year=2026/part-00002-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 10932 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742166_1342 len=10932 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Shopee/year=2026/part-00003-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 11870 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742163_1339 len=11870 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Tiki <dir>
+/ecommerce/live/processed/reviews/platform=Tiki/year=2026 <dir>
+/ecommerce/live/processed/reviews/platform=Tiki/year=2026/part-00000-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 10004 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742159_1335 len=10004 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Tiki/year=2026/part-00001-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 11324 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742152_1328 len=11324 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Tiki/year=2026/part-00002-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 12688 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742167_1343 len=12688 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/processed/reviews/platform=Tiki/year=2026/part-00003-9b03efb4-2062-47ed-88b1-e26b0c09ff8b.c000.snappy.parquet 12099 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742165_1341 len=12099 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/quarantine <dir>
+/ecommerce/live/quarantine/streaming <dir>
+/ecommerce/live/quarantine/streaming/batch_id=0 <dir>
+/ecommerce/live/quarantine/streaming/batch_id=0/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/quarantine/streaming/batch_id=0/part-00000-089c0ac6-8ad8-4b28-90d3-703427bc099a-c000.snappy.parquet 759 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742142_1318 len=759 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw <dir>
+/ecommerce/live/raw/kafka <dir>
+/ecommerce/live/raw/kafka/batch_id=0 <dir>
+/ecommerce/live/raw/kafka/batch_id=0/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00000-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 13745 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742112_1288 len=13745 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00001-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 14565 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742113_1289 len=14565 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00002-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 12295 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742116_1292 len=12295 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00003-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 15087 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742117_1293 len=15087 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00004-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 13515 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742121_1297 len=13515 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00005-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 15423 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742120_1296 len=15423 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00006-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 15594 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742124_1300 len=15594 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/raw/kafka/batch_id=0/part-00007-acc4daf6-0aab-427f-86fa-5d39e88e5ffc-c000.snappy.parquet 14003 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742125_1301 len=14003 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/serving <dir>
+/ecommerce/live/serving/eed4f0bce85444f79a245cc05facfdf2 <dir>
+/ecommerce/live/serving/eed4f0bce85444f79a245cc05facfdf2/review_index <dir>
+/ecommerce/live/serving/eed4f0bce85444f79a245cc05facfdf2/review_index/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/serving/eed4f0bce85444f79a245cc05facfdf2/review_index/part-00000-bb075a6a-5d1f-446b-8b35-4f0f8a907888-c000.json.gz 15725 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742146_1322 len=15725 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/serving/eed4f0bce85444f79a245cc05facfdf2/review_index/part-00001-bb075a6a-5d1f-446b-8b35-4f0f8a907888-c000.json.gz 13336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742147_1323 len=13336 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming <dir>
+/ecommerce/live/streaming/metrics <dir>
+/ecommerce/live/streaming/metrics/batch_id=0 <dir>
+/ecommerce/live/streaming/metrics/batch_id=0/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/streaming/metrics/batch_id=0/part-00000-4960a9f4-f028-4442-a7b4-8074095da940-c000.json 179 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742143_1319 len=179 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews <dir>
+/ecommerce/live/streaming/reviews/batch_id=0 <dir>
+/ecommerce/live/streaming/reviews/batch_id=0/_SUCCESS 0 bytes, replicated: replication=1, 0 block(s):  OK
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00000-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 17647 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742135_1311 len=17647 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00001-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 18895 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742134_1310 len=18895 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00002-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 17183 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742137_1313 len=17183 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00003-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 19280 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742136_1312 len=19280 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00004-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 17558 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742138_1314 len=17558 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00005-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 21217 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742139_1315 len=21217 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00006-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 19418 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742141_1317 len=19418 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+/ecommerce/live/streaming/reviews/batch_id=0/part-00007-5276472d-7cfb-4597-b490-b639908281cb-c000.snappy.parquet 17882 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-779317263-172.18.0.2-1791998276079:blk_1073742140_1316 len=17882 Live_repl=1  [DatanodeInfoWithStorage[172.18.0.6:9866,DS-e6bd7c88-7251-4a62-a014-72cbcf40d729,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			46
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	551363 B
+ Total files:	61
+ Total blocks (validated):	54 (avg. block size 10210 B)
+ Minimally replicated blocks:	54 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Wed Oct 14 23:03:47 UTC 2026 in 92 milliseconds
+
+
+The filesystem under path '/ecommerce/live' is HEALTHY

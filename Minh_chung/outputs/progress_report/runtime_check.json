@@ -1,0 +1,638 @@
+{
+  "checked_local": "2026-10-15T19:22:07.965341+07:00",
+  "commands": {
+    "services": {
+      "command": "docker compose -f compose.yaml -f compose.low-memory.yaml --profile orchestration --profile dashboard --profile streaming ps --format json",
+      "exit_code": 0,
+      "log": "outputs/progress_report/services.txt"
+    },
+    "hdfs_fsck": {
+      "command": "docker compose -f compose.yaml -f compose.low-memory.yaml --profile orchestration --profile dashboard --profile streaming exec -T spark-client hdfs fsck /ecommerce/raw/reviews.csv -files -blocks -locations",
+      "exit_code": 0,
+      "log": "outputs/progress_report/hdfs_fsck.txt"
+    },
+    "hdfs_report": {
+      "command": "docker compose -f compose.yaml -f compose.low-memory.yaml --profile orchestration --profile dashboard --profile streaming exec -T spark-client hdfs dfsadmin -report",
+      "exit_code": 0,
+      "log": "outputs/progress_report/hdfs_report.txt"
+    },
+    "kafka_topic": {
+      "command": "docker compose -f compose.yaml -f compose.low-memory.yaml --profile orchestration --profile dashboard --profile streaming exec -T kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka:29092 --describe --topic ecommerce-live-reviews",
+      "exit_code": 0,
+      "log": "outputs/progress_report/kafka_topic.txt"
+    }
+  },
+  "apis": {
+    "health": {
+      "status": 200,
+      "body": {
+        "status": "ready"
+      }
+    },
+    "bootstrap": {
+      "status": 200,
+      "body": {
+        "metadata": {
+          "generation": "e30bc0ca30184d7d8bf4a10e5ff12bf5:eef21585032d4aafb41b2a009574261a",
+          "prepared_utc": "2026-10-15T12:19:28.596522+00:00",
+          "processed_rows": 1300391,
+          "cube_rows": 1972,
+          "source_sha256": "9d333c550cb141aa0f3e9f12af43e8e407809031b073b046b61607f84b39bdf9",
+          "aspect_config_sha256": "246ae3ad10c0b9724624b147ee95c9d5100dfa6ecb33d03df639dadce750ab02",
+          "month_min": "2013-06",
+          "month_max": "2026-10",
+          "aspects": [
+            {
+              "code": "app",
+              "label": "Ứng dụng",
+              "bit": 1
+            },
+            {
+              "code": "delivery",
+              "label": "Vận chuyển",
+              "bit": 2
+            },
+            {
+              "code": "payment",
+              "label": "Thanh toán",
+              "bit": 4
+            },
+            {
+              "code": "product",
+              "label": "Sản phẩm",
+              "bit": 8
+            },
+            {
+              "code": "promotion",
+              "label": "Giá và khuyến mãi",
+              "bit": 16
+            },
+            {
+              "code": "returns",
+              "label": "Đổi trả và hoàn tiền",
+              "bit": 32
+            },
+            {
+              "code": "support",
+              "label": "Chăm sóc khách hàng",
+              "bit": 64
+            }
+          ],
+          "hdfs_serving_source": "hdfs://namenode:9000/ecommerce/serving/review_index",
+          "indexed_rows": 1300391,
+          "source_mode": "historical_and_live",
+          "historical_rows": 1299873,
+          "live_rows": 525,
+          "overlapping_review_ids": 7,
+          "component_generations": {
+            "historical": "e30bc0ca30184d7d8bf4a10e5ff12bf5",
+            "live": "eef21585032d4aafb41b2a009574261a"
+          },
+          "hdfs_serving_sources": [
+            "hdfs://namenode:9000/ecommerce/serving/review_index",
+            "hdfs://namenode:9000/ecommerce/live/serving/eef21585032d4aafb41b2a009574261a/review_index"
+          ]
+        },
+        "platforms": [
+          "Shopee",
+          "Lazada",
+          "Sendo",
+          "Tiki"
+        ],
+        "quality": {
+          "raw_rows": 1300611,
+          "quarantined_rows": 74,
+          "duplicate_valid_id_rows_removed": 146,
+          "clean_rows": 1300391
+        },
+        "evidence": {
+          "airflow": {
+            "run_id": "scheduled__2026-10-15T12:15:00+00:00",
+            "state": "success",
+            "tasks": [
+              {
+                "task_id": "01_collect_real_reviews",
+                "state": "success",
+                "start_utc": "2026-10-15T12:20:01.253322+00:00",
+                "end_utc": "2026-10-15T12:20:04.989029+00:00"
+              },
+              {
+                "task_id": "02_kafka_to_hdfs",
+                "state": "success",
+                "start_utc": "2026-10-15T12:20:05.270884+00:00",
+                "end_utc": "2026-10-15T12:20:15.463020+00:00"
+              },
+              {
+                "task_id": "03_publish_verified_snapshot",
+                "state": "success",
+                "start_utc": "2026-10-15T12:20:16.145362+00:00",
+                "end_utc": "2026-10-15T12:20:18.962989+00:00"
+              },
+              {
+                "task_id": "04_verify_live_results",
+                "state": "success",
+                "start_utc": "2026-10-15T12:20:19.436233+00:00",
+                "end_utc": "2026-10-15T12:20:19.834245+00:00"
+              }
+            ]
+          },
+          "spark_alive_workers": 2,
+          "spark_total_cores": 2,
+          "kafka_total_offsets": 525,
+          "kafka_topic_end_offsets": {
+            "0": 168,
+            "1": 171,
+            "2": 186
+          }
+        },
+        "validation": {
+          "verification": "passed",
+          "processed_rows": 1299873,
+          "processed_unique_keys": 1299873,
+          "platform_summary_total": 1299873,
+          "streaming_rows": 1000,
+          "streaming_unique_keys": 1000,
+          "streaming_batches": 6,
+          "batches_without_new_unique_events": 3,
+          "source": "actual HDFS Parquet and streaming metrics"
+        },
+        "clusters": {},
+        "stream_batches": [
+          {
+            "batch_id": 0,
+            "new_unique_events": 400,
+            "valid": 400,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 1,
+            "new_unique_events": 4,
+            "valid": 4,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 10,
+            "new_unique_events": 2,
+            "valid": 2,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 11,
+            "new_unique_events": 16,
+            "valid": 16,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 12,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 13,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 14,
+            "new_unique_events": 10,
+            "valid": 10,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 15,
+            "new_unique_events": 2,
+            "valid": 2,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 16,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 17,
+            "new_unique_events": 3,
+            "valid": 3,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 18,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 19,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 2,
+            "new_unique_events": 3,
+            "valid": 3,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 20,
+            "new_unique_events": 6,
+            "valid": 6,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 21,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 22,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 23,
+            "new_unique_events": 3,
+            "valid": 3,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 24,
+            "new_unique_events": 8,
+            "valid": 8,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 25,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 26,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 27,
+            "new_unique_events": 4,
+            "valid": 4,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 28,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 29,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 3,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 30,
+            "new_unique_events": 2,
+            "valid": 2,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 31,
+            "new_unique_events": 3,
+            "valid": 3,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 32,
+            "new_unique_events": 5,
+            "valid": 5,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 33,
+            "new_unique_events": 8,
+            "valid": 8,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 34,
+            "new_unique_events": 13,
+            "valid": 13,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 4,
+            "new_unique_events": 2,
+            "valid": 2,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 5,
+            "new_unique_events": 10,
+            "valid": 10,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 6,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 7,
+            "new_unique_events": 5,
+            "valid": 5,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 8,
+            "new_unique_events": 1,
+            "valid": 1,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          },
+          {
+            "batch_id": 9,
+            "new_unique_events": 2,
+            "valid": 2,
+            "invalid": 0,
+            "source_mode": "google_play_live",
+            "checkpoint": "hdfs://namenode:9000/ecommerce/live/checkpoints/google-play-live-v1"
+          }
+        ],
+        "query_plan": "== Parsed Logical Plan ==\n'Aggregate ['platform, 'month], ['platform, 'month, unresolvedalias('count(1), None)]\n+- 'Filter (('platform = Shopee) AND ('year = 2022))\n   +- 'UnresolvedRelation [reviews], [], false\n\n== Analyzed Logical Plan ==\nplatform: string, month: string, count(1): bigint\nAggregate [platform#9, month#5], [platform#9, month#5, count(1) AS count(1)#323L]\n+- Filter ((platform#9 = Shopee) AND (year#10 = 2022))\n   +- SubqueryAlias reviews\n      +- View (`reviews`, [review_key#0,content#1,normalized_content#2,score#3,at#4,month#5,low_rating_proxy#6,spam_candidate#7,aspects_mentioned#8,platform#9,year#10])\n         +- Relation [review_key#0,content#1,normalized_content#2,score#3,at#4,month#5,low_rating_proxy#6,spam_candidate#7,aspects_mentioned#8,platform#9,year#10] parquet\n\n== Optimized Logical Plan ==\nAggregate [platform#9, month#5], [platform#9, month#5, count(1) AS count(1)#323L]\n+- Project [month#5, platform#9]\n   +- Filter ((isnotnull(platform#9) AND isnotnull(year#10)) AND ((platform#9 = Shopee) AND (year#10 = 2022)))\n      +- Relation [review_key#0,content#1,normalized_content#2,score#3,at#4,month#5,low_rating_proxy#6,spam_candidate#7,aspects_mentioned#8,platform#9,year#10] parquet\n\n== Physical Plan ==\nAdaptiveSparkPlan isFinalPlan=false\n+- HashAggregate(keys=[platform#9, month#5], functions=[count(1)], output=[platform#9, month#5, count(1)#323L])\n   +- Exchange hashpartitioning(platform#9, month#5, 8), ENSURE_REQUIREMENTS, [plan_id=1139]\n      +- HashAggregate(keys=[platform#9, month#5], functions=[partial_count(1)], output=[platform#9, month#5, count#328L])\n         +- Project [month#5, platform#9]\n            +- FileScan parquet [month#5,platform#9,year#10] Batched: true, DataFilters: [], Format: Parquet, Location: InMemoryFileIndex(1 paths)[hdfs://namenode:9000/ecommerce/processed/reviews], PartitionFilters: [isnotnull(platform#9), isnotnull(year#10), (platform#9 = Shopee), (year#10 = 2022)], PushedFilters: [], ReadSchema: struct<month:string>\n",
+        "source": "all",
+        "sources": {
+          "all": {
+            "ready": true
+          },
+          "historical": {
+            "ready": true
+          },
+          "live": {
+            "ready": true
+          }
+        },
+        "collection": {
+          "poll_id": "1c5b45091b2e4f08ad563128268ae7e3",
+          "started_utc": "2026-10-15T12:20:02.169873+00:00",
+          "source_mode": "google_play_live",
+          "topic": "ecommerce-live-reviews",
+          "sort": "NEWEST",
+          "language": "vi",
+          "country": "vn",
+          "max_per_app": 100,
+          "new_reviews": 0,
+          "updated_reviews": 0,
+          "unchanged_reviews": 400,
+          "apps": [
+            {
+              "appid": "com.shopee.vn",
+              "platform": "Shopee",
+              "fetched": 100,
+              "new": 0,
+              "updated": 0,
+              "unchanged": 100
+            },
+            {
+              "appid": "com.lazada.android",
+              "platform": "Lazada",
+              "fetched": 100,
+              "new": 0,
+              "updated": 0,
+              "unchanged": 100
+            },
+            {
+              "appid": "com.sendo",
+              "platform": "Sendo",
+              "fetched": 100,
+              "new": 0,
+              "updated": 0,
+              "unchanged": 100
+            },
+            {
+              "appid": "vn.tiki.app.tikiandroid",
+              "platform": "Tiki",
+              "fetched": 100,
+              "new": 0,
+              "updated": 0,
+              "unchanged": 100
+            }
+          ],
+          "errors": [],
+          "completed_utc": "2026-10-15T12:20:04.876244+00:00"
+        }
+      }
+    },
+    "spark": {
+      "status": 200,
+      "body": {
+        "url": "spark://spark-master:7077",
+        "workers": [
+          {
+            "id": "worker-20261015121714-172.18.0.10-39845",
+            "host": "172.18.0.10",
+            "port": 39845,
+            "webuiaddress": "http://172.18.0.10:8081",
+            "cores": 1,
+            "coresused": 0,
+            "coresfree": 1,
+            "memory": 1024,
+            "memoryused": 0,
+            "memoryfree": 1024,
+            "resources": {},
+            "resourcesused": {},
+            "resourcesfree": {},
+            "state": "ALIVE",
+            "lastheartbeat": 1792066921488
+          },
+          {
+            "id": "worker-20261015121714-172.18.0.12-40565",
+            "host": "172.18.0.12",
+            "port": 40565,
+            "webuiaddress": "http://172.18.0.12:8081",
+            "cores": 1,
+            "coresused": 0,
+            "coresfree": 1,
+            "memory": 1024,
+            "memoryused": 0,
+            "memoryfree": 1024,
+            "resources": {},
+            "resourcesused": {},
+            "resourcesfree": {},
+            "state": "ALIVE",
+            "lastheartbeat": 1792066921460
+          }
+        ],
+        "aliveworkers": 2,
+        "cores": 2,
+        "coresused": 0,
+        "memory": 2048,
+        "memoryused": 0,
+        "resources": [
+          {},
+          {}
+        ],
+        "resourcesused": [
+          {},
+          {}
+        ],
+        "activeapps": [],
+        "completedapps": [
+          {
+            "id": "app-20261015121738-0000",
+            "starttime": 1792066658045,
+            "name": "ecommerce-streaming",
+            "cores": 2,
+            "user": "airflow",
+            "memoryperexecutor": 1024,
+            "memoryperslave": 1024,
+            "resourcesperexecutor": [],
+            "resourcesperslave": [],
+            "submitdate": "Thu Oct 15 12:17:38 UTC 2026",
+            "state": "FINISHED",
+            "duration": 6108
+          },
+          {
+            "id": "app-20261015121820-0001",
+            "starttime": 1792066700348,
+            "name": "ecommerce-streaming",
+            "cores": 2,
+            "user": "airflow",
+            "memoryperexecutor": 1024,
+            "memoryperslave": 1024,
+            "resourcesperexecutor": [],
+            "resourcesperslave": [],
+            "submitdate": "Thu Oct 15 12:18:20 UTC 2026",
+            "state": "FINISHED",
+            "duration": 30914
+          },
+          {
+            "id": "app-20261015121859-0002",
+            "starttime": 1792066739616,
+            "name": "publish-real-review-dashboard",
+            "cores": 2,
+            "user": "airflow",
+            "memoryperexecutor": 1024,
+            "memoryperslave": 1024,
+            "resourcesperexecutor": [],
+            "resourcesperslave": [],
+            "submitdate": "Thu Oct 15 12:18:59 UTC 2026",
+            "state": "FINISHED",
+            "duration": 31848
+          },
+          {
+            "id": "app-20261015121944-0003",
+            "starttime": 1792066784992,
+            "name": "ecommerce-streaming",
+            "cores": 2,
+            "user": "airflow",
+            "memoryperexecutor": 1024,
+            "memoryperslave": 1024,
+            "resourcesperexecutor": [],
+            "resourcesperslave": [],
+            "submitdate": "Thu Oct 15 12:19:44 UTC 2026",
+            "state": "FINISHED",
+            "duration": 5114
+          },
+          {
+            "id": "app-20261015122009-0004",
+            "starttime": 1792066809451,
+            "name": "ecommerce-streaming",
+            "cores": 2,
+            "user": "airflow",
+            "memoryperexecutor": 1024,
+            "memoryperslave": 1024,
+            "resourcesperexecutor": [],
+            "resourcesperslave": [],
+            "submitdate": "Thu Oct 15 12:20:09 UTC 2026",
+            "state": "FINISHED",
+            "duration": 5326
+          }
+        ],
+        "activedrivers": [],
+        "completeddrivers": [],
+        "status": "ALIVE"
+      }
+    }
+  }
+}

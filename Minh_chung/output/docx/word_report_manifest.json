@@ -1,0 +1,302 @@
+{
+  "docx": "\\\\wsl.localhost\\Ubuntu\\home\\VIDO\\projects\\bigdata_pro\\Bigdata_Review\\output\\docx\\Bao_cao_do_an_Big_Data_ReviewLens.docx",
+  "source_commit": "0fbabf67fa1a3a5526a75090a76d3484088a2190",
+  "compiled_date_local": "2026-10-21",
+  "evidence_date": "2026-10-15",
+  "reference_sha256": "6a3501f0fb1aa8be410ecacea08e95fbf572bb6f35d59c9bd92f0e9655636b69",
+  "source_hashes": {
+    "config/aspects.json": "b93b52ca6cc469d4c9a680697049566081d2b577c8b27c9b710d581a65134dad",
+    "scripts/build_final_report.py": "e570778e801c453174cdf17da41e608e21375fec2c8bdb4d0370278b6279bfa7",
+    "src/review_analytics/spark_ops.py": "9b144baeb7b7c3686d37de074bbba63a619cbead4f02a5c7bef6799adde0a466",
+    "src/review_analytics/text.py": "dc27b32b642ca62c5774036f9b5d72632be83364d5cedb9b66772647f39467bd",
+    "jobs/batch_pipeline.py": "4f3ec1428f519127118fcb1a7c8b14bb184698eb7030c81392875c0ef1daffe6",
+    "jobs/train_sentiment.py": "593755abffb91edf89f100287fee92863538ed448289d1793b7e68afd4ab131a",
+    "jobs/collect_live_reviews.py": "80ddbd7a441182cd8b2559ccad26b437ad77c0b823253c97671c9525b415f978",
+    "jobs/stream_reviews.py": "cb57f6d3c40eff4e6ea956600b6212c930d2c8d4843d31f9c3f45cf28eb2b3ca",
+    "jobs/publish_live_dashboard.py": "762ebcb8868c0adff9ebff4af12449eed0806ab1afd4f2e781c34f402a824247",
+    "dags/ecommerce_pipeline.py": "560c3f1897ce24d8a967f2f534c417a168e432dd5e2c6fdcaeb37f9eeccad597",
+    "dags/live_reviews_pipeline.py": "ecd4147570857a6f6ff22c1fde0bc0026631a3035d8f9db28bae6632ab014135",
+    "jobs/prepare_dashboard.py": "aa2fdefdb05a21939b24f3362f1dee39b16a915fa70c98de1f58bfbbda0d9ed2",
+    "jobs/prepare_replay.py": "a3b21cfd5b050feb1e492720e2d7199bd2eb78cd2d93b5721624f06e97ef4f69"
+  },
+  "artifact_hashes": {
+    "artifacts/audit/dataset_profile.json": "0d03759eea4032577ae2580cfd1e216b3ba86833a1b84b02936a6429e941cef9",
+    "outputs/data_quality.json": "549c83c84a4d2cc6e1396801ac26550f7bf469c936472f000ae2e9969c3163d9",
+    "outputs/sentiment_evaluation.json": "eefaab24e517de5fddda8299ad7446e9c2562b9400bd14becdaaeb95c68bc030",
+    "outputs/cluster_metadata.json": "0806cc8d9fe9d93e38255260dcf146680102284ed24a224289ccf0155d19a099",
+    "outputs/demo_evidence.json": "e3f2e1364780b2185bae74500889384c4760e91749f26f5843669f57d359542b",
+    "outputs/persisted_validation.json": "deff7847226e8545b5883835b3d88bbad95b72f4e425726104b2e279cbebcce0",
+    "outputs/dashboard_validation.json": "037a86fc9f5ae40f915ea6cdbffb07f297ee4357ad9ce8b780dd73ed1615643e",
+    "outputs/dashboard_preparation.json": "56608486a5508e83373f5ada5276a2791cf300780436a61e3fceb7dca8fc8226",
+    "outputs/live_dashboard_validation.json": "11c9e41a500be944a767bc9602a0e691612048fb2b8aa53a420deb3d71cc0158",
+    "outputs/live/generations/5bf111f038694040a540af00fc0d109f/dashboard_preparation.json": "50b47037853d138c0766eaa0601f155085f761d5a7b73e819dd776076090faf7",
+    "outputs/live/generations/5bf111f038694040a540af00fc0d109f/data_quality.json": "d1745f13a4f7bdc436ba3282f233b68d057db2363dc05ee3e4582acaf946aaed",
+    "outputs/combined_source_validation.json": "454a2403b65a217a57f5ebf790f049752bd28fe74d3f760fc34c0d2ed0ff2e19",
+    "outputs/clear_filters_validation.json": "5196e849fcdb3765ba44d2e45353bc8b75fb12ceb5e797cdd18428b75d956ba2",
+    "outputs/replay/validation_054f7512feb1480c9d389ae11f4071e1.json": "6c852eb9feb0973fe1978708aefda6271184115128c0e0a0f1c344e1f0bfb752",
+    "outputs/replay_browser_validation.json": "5f0d99914878d8eb10d63c3666f6bd5c4a83ee2f1111424a73c72eec26fd23a6",
+    "outputs/replay_restart_validation.json": "900b9c29dd8eee9fe232286377aef5e5808b06ff5db4376c28b103584686a53e",
+    "outputs/platform_summary.csv": "00bc813ae21e9d0e1f3a22a474c5fe8dd74f460b379999e7f881412241bd5c64",
+    "outputs/aspect_mentions.csv": "582ab517407016112b647bf57c48afa710cf3257f5dbfe938bf688bf12f0960d",
+    "outputs/unmatched_low_ratings.csv": "0d7ed84e1c96a4dcb052d56c7701b97c1f37cbe405c67e2f74c85a61630fc163",
+    "outputs/report_charts/01_platform_low_rating.png": "4c5906e73573ce6f2a1418e0dbb54e456d3180c148ce8f0c5e7b68e8a37d9b97",
+    "outputs/report_charts/03_aspect_platform_heatmap.png": "6507bbbdc040724dc3875144aee07882f020821dbfd4634a0ce41a65c76ba268",
+    "outputs/report_charts/02_annual_trend_and_volume.png": "652a66aa6c3ce5589a1d34c045eace52ad1945679eb24e6eedf52411625d2621",
+    "outputs/screenshots/11-clear-all-data-20261015.png": "b5b57b7e18f728faf90bfa47fb649b52e237cbfee1a636ff5103236e3b9999a9",
+    "outputs/screenshots/14-four-platform-replay-20261015.png": "d177604c9cdcca083df8592ae2c0139bf13ad1ae9dff9c4b41c6feacae43d1af",
+    "outputs/screenshots/15-live-source-growth-20261015.png": "b6650dded907c8b52eaddb893862570b0f6b8350c7ebd2f33fb07305ce53717f",
+    "outputs/progress_report/runtime_check.json": "91d3577ca7b913975a1273038f5c6ea3f34806c758105813f7fa74e66c5d9d79"
+  },
+  "snippets": [
+    {
+      "file": "src/review_analytics/spark_ops.py",
+      "start": 21,
+      "end": 25,
+      "sha256": "9b144baeb7b7c3686d37de074bbba63a619cbead4f02a5c7bef6799adde0a466"
+    },
+    {
+      "file": "src/review_analytics/text.py",
+      "start": 6,
+      "end": 11,
+      "sha256": "dc27b32b642ca62c5774036f9b5d72632be83364d5cedb9b66772647f39467bd"
+    },
+    {
+      "file": "src/review_analytics/spark_ops.py",
+      "start": 28,
+      "end": 43,
+      "sha256": "9b144baeb7b7c3686d37de074bbba63a619cbead4f02a5c7bef6799adde0a466"
+    },
+    {
+      "file": "src/review_analytics/spark_ops.py",
+      "start": 46,
+      "end": 62,
+      "sha256": "9b144baeb7b7c3686d37de074bbba63a619cbead4f02a5c7bef6799adde0a466"
+    },
+    {
+      "file": "src/review_analytics/spark_ops.py",
+      "start": 65,
+      "end": 69,
+      "sha256": "9b144baeb7b7c3686d37de074bbba63a619cbead4f02a5c7bef6799adde0a466"
+    },
+    {
+      "file": "jobs/batch_pipeline.py",
+      "start": 45,
+      "end": 58,
+      "sha256": "4f3ec1428f519127118fcb1a7c8b14bb184698eb7030c81392875c0ef1daffe6"
+    },
+    {
+      "file": "jobs/batch_pipeline.py",
+      "start": 82,
+      "end": 94,
+      "sha256": "4f3ec1428f519127118fcb1a7c8b14bb184698eb7030c81392875c0ef1daffe6"
+    },
+    {
+      "file": "jobs/train_sentiment.py",
+      "start": 42,
+      "end": 61,
+      "sha256": "593755abffb91edf89f100287fee92863538ed448289d1793b7e68afd4ab131a"
+    },
+    {
+      "file": "jobs/train_sentiment.py",
+      "start": 62,
+      "end": 80,
+      "sha256": "593755abffb91edf89f100287fee92863538ed448289d1793b7e68afd4ab131a"
+    },
+    {
+      "file": "jobs/train_sentiment.py",
+      "start": 18,
+      "end": 28,
+      "sha256": "593755abffb91edf89f100287fee92863538ed448289d1793b7e68afd4ab131a"
+    },
+    {
+      "file": "jobs/batch_pipeline.py",
+      "start": 129,
+      "end": 154,
+      "sha256": "4f3ec1428f519127118fcb1a7c8b14bb184698eb7030c81392875c0ef1daffe6"
+    },
+    {
+      "file": "jobs/collect_live_reviews.py",
+      "start": 21,
+      "end": 29,
+      "sha256": "80ddbd7a441182cd8b2559ccad26b437ad77c0b823253c97671c9525b415f978"
+    },
+    {
+      "file": "jobs/collect_live_reviews.py",
+      "start": 60,
+      "end": 66,
+      "sha256": "80ddbd7a441182cd8b2559ccad26b437ad77c0b823253c97671c9525b415f978"
+    },
+    {
+      "file": "jobs/stream_reviews.py",
+      "start": 34,
+      "end": 42,
+      "sha256": "cb57f6d3c40eff4e6ea956600b6212c930d2c8d4843d31f9c3f45cf28eb2b3ca"
+    },
+    {
+      "file": "jobs/stream_reviews.py",
+      "start": 44,
+      "end": 65,
+      "sha256": "cb57f6d3c40eff4e6ea956600b6212c930d2c8d4843d31f9c3f45cf28eb2b3ca"
+    },
+    {
+      "file": "jobs/stream_reviews.py",
+      "start": 67,
+      "end": 74,
+      "sha256": "cb57f6d3c40eff4e6ea956600b6212c930d2c8d4843d31f9c3f45cf28eb2b3ca"
+    },
+    {
+      "file": "jobs/publish_live_dashboard.py",
+      "start": 11,
+      "end": 13,
+      "sha256": "762ebcb8868c0adff9ebff4af12449eed0806ab1afd4f2e781c34f402a824247"
+    },
+    {
+      "file": "dags/ecommerce_pipeline.py",
+      "start": 8,
+      "end": 37,
+      "sha256": "560c3f1897ce24d8a967f2f534c417a168e432dd5e2c6fdcaeb37f9eeccad597"
+    },
+    {
+      "file": "dags/live_reviews_pipeline.py",
+      "start": 29,
+      "end": 37,
+      "sha256": "ecd4147570857a6f6ff22c1fde0bc0026631a3035d8f9db28bae6632ab014135"
+    },
+    {
+      "file": "jobs/prepare_dashboard.py",
+      "start": 23,
+      "end": 38,
+      "sha256": "aa2fdefdb05a21939b24f3362f1dee39b16a915fa70c98de1f58bfbbda0d9ed2"
+    },
+    {
+      "file": "jobs/prepare_replay.py",
+      "start": 10,
+      "end": 11,
+      "sha256": "a3b21cfd5b050feb1e492720e2d7199bd2eb78cd2d93b5721624f06e97ef4f69"
+    }
+  ],
+  "table_captions": [
+    "Bảng 0.1 Đối chiếu yêu cầu và phần thực hiện",
+    "Bảng 1.1 Quy mô và nguồn dữ liệu lịch sử",
+    "Bảng 1.2 Schema và cách sử dụng dữ liệu",
+    "Bảng 1.3 Schema sự kiện thu thập thật",
+    "Bảng 2.1 Cấu hình các thành phần hệ thống",
+    "Bảng 2.2 Tổ chức các vùng dữ liệu HDFS",
+    "Bảng 2.3 Ánh xạ khái niệm Kafka vào dự án",
+    "Bảng 2.4 Các workflow và lịch điều phối",
+    "Bảng 2.5 Kết quả task của lượt chạy batch",
+    "Bảng 2.6 Kết quả task của lượt chạy nguồn thật",
+    "Bảng 3.1 Thống kê review theo nền tảng",
+    "Bảng 3.2 Độ bao phủ đề cập khía cạnh theo nền tảng",
+    "Bảng 3.3 Phân bố các tập huấn luyện và đánh giá",
+    "Bảng 3.4 So sánh mô hình trên validation",
+    "Bảng 3.5 Metric trên tập test và baseline",
+    "Bảng 3.6 Ma trận nhầm lẫn trên tập test",
+    "Bảng 4.1 Địa chỉ truy cập và kiểm tra hệ thống",
+    "Bảng 5.1 Ma trận mã lệnh log và kết quả",
+    "Bảng 5.2 Fingerprint và snapshot đối chiếu",
+    "Bảng 5.3 Nhật ký sự cố và cách xử lý",
+    "Bảng 5.4 Trích lịch sử Git thực tế",
+    "Bảng 5.5 Đối chiếu vai trò trong kế hoạch gốc",
+    "Bảng 5.6 Trách nhiệm dự kiến và đầu ra cần xác nhận",
+    "Bảng B.1 Bản đồ thành phần và minh chứng"
+  ],
+  "figure_captions": [
+    "Hình 2.1 Kiến trúc luồng dữ liệu và lớp phục vụ",
+    "Hình 3.1 Số lượng và tỷ lệ sao thấp từ platform_summary.csv, dataset lịch sử sau làm sạch.",
+    "Hình 3.2 Đề cập khía cạnh trong nhóm 1-2 sao. Đa nhãn nên các tỷ lệ không cộng thành 100%.",
+    "Hình 3.3 Xu hướng và khối lượng lịch sử, nguồn monthly_summary.csv; chỉ diễn giải các khoảng có dữ liệu.",
+    "Hình 4.1 Nguồn gộp và Clear toàn bộ dữ liệu. Ảnh đọc cùng clear_filters_validation.json và combined_source_validation.json; số liệu là snapshot có generation trong hai file này.",
+    "Hình 4.2 Lượt replay hoàn tất 111 lô / 1.299.873 review; bốn đường, cửa sổ 12 tháng. Đối chiếu validation theo run_id và Spark verification log.",
+    "Hình 4.3 Timeline thu thập thật; snapshot minh chứng có 407 review. Tăng/giảm tỷ lệ khác với tăng tổng review; lượt không thay đổi có đường phẳng."
+  ],
+  "sections": 3,
+  "preserve_only_parts_unchanged": true,
+  "render_verified": true,
+  "final_docx_sha256": "cd5070a225707ca3fbb1f89a8cc3b2135c30588a1c2340621bc7d3fbba4b74b1",
+  "final_docx_bytes": 9445841,
+  "cached_fields_refreshed_in_word": true,
+  "local_secret_values_absent": true,
+  "template_page_geometry": [
+    {
+      "pgSz": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}w": "11907",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}h": "16840",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}code": "9"
+      },
+      "pgMar": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}top": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}right": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}bottom": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left": "1985",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}header": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}footer": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}gutter": "0"
+      },
+      "pgNumType": null
+    },
+    {
+      "pgSz": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}w": "11907",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}h": "16840",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}code": "9"
+      },
+      "pgMar": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}top": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}right": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}bottom": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left": "1985",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}header": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}footer": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}gutter": "0"
+      },
+      "pgNumType": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fmt": "lowerRoman",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}start": "1"
+      }
+    },
+    {
+      "pgSz": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}w": "11907",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}h": "16840",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}code": "9"
+      },
+      "pgMar": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}top": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}right": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}bottom": "1418",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}left": "1985",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}header": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}footer": "720",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}gutter": "0"
+      },
+      "pgNumType": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}start": "1"
+      }
+    }
+  ],
+  "image_relationships_rebound": 25,
+  "render_pages": 55,
+  "body_numbered_pages": 47,
+  "geometry_valid": true,
+  "positioned_words_checked": 12088,
+  "visual_review_complete": true,
+  "visual_review_basis": "All 55 final rendered pages inspected; TOC, Airflow task page, PySpark source page and last appendix also inspected as full-size renders.",
+  "exact_source_snippets_verified": 21,
+  "heading_physical_pages": {
+    "MỞ ĐẦU": 9,
+    "CHƯƠNG 1 NGUỒN DỮ LIỆU VÀ PHẠM VI NGHIÊN CỨU": 11,
+    "CHƯƠNG 2 KIẾN TRÚC VÀ CÁC CÔNG NGHỆ BIG DATA": 14,
+    "CHƯƠNG 3 XỬ LÝ PHÂN TÍCH DỮ LIỆU VÀ MACHINE LEARNING": 24,
+    "CHƯƠNG 4 CÀI ĐẶT VÀ TRÌNH BÀY SẢN PHẨM": 34,
+    "CHƯƠNG 5 KIỂM CHỨNG ĐÁNH GIÁ VÀ QUÁ TRÌNH THỰC HIỆN": 41,
+    "KẾT LUẬN": 48,
+    "TÀI LIỆU THAM KHẢO": 49,
+    "PHỤ LỤC A KIẾN THỨC VÀ CÂU HỎI BẢO VỆ": 50,
+    "PHỤ LỤC B BẢN ĐỒ MÃ NGUỒN VÀ HỒ SƠ NỘP": 55
+  },
+  "output_sha256": "cd5070a225707ca3fbb1f89a8cc3b2135c30588a1c2340621bc7d3fbba4b74b1",
+  "output_bytes": 9445841,
+  "cached_main_toc_and_lists": "Refreshed in Microsoft Word",
+  "all_source_and_evidence_hashes_match": true
+}

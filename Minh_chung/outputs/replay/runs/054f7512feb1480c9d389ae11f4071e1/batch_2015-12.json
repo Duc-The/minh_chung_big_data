@@ -1,0 +1,32 @@
+{
+  "month": "2015-12",
+  "platforms": {
+    "Lazada": {
+      "reviews": 596,
+      "low": 83,
+      "rating_sum": 2470
+    },
+    "Sendo": {
+      "reviews": 608,
+      "low": 68,
+      "rating_sum": 2596
+    },
+    "Shopee": {
+      "reviews": 237,
+      "low": 34,
+      "rating_sum": 988
+    },
+    "Tiki": {
+      "reviews": 40,
+      "low": 4,
+      "rating_sum": 164
+    }
+  },
+  "reviews": 1481,
+  "hdfs_source": "hdfs://namenode:9000/ecommerce/replay/prepared/2cb23c585ec1407699f72835daf57c55/month=2015-12",
+  "files": 1,
+  "bytes": 144537,
+  "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/054f7512feb1480c9d389ae11f4071e1/loaded/month=2015-12",
+  "loaded_utc": "2026-10-15T00:05:31.902627+00:00",
+  "cumulative_reviews": 14855
+}

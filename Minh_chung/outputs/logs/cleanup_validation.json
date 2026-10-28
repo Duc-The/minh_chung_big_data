@@ -1,0 +1,57 @@
+{
+  "verification": "passed",
+  "unit_tests": {
+    "passed": 20,
+    "failed": 0,
+    "command": "docker compose exec -T spark-client python -m unittest discover -s tests -v"
+  },
+  "spark_inspect": {
+    "raw_rows": 1300086,
+    "source": "hdfs://namenode:9000/ecommerce/raw/reviews.csv",
+    "log": "outputs/logs/cleanup_spark_inspect.log"
+  },
+  "hdfs_fsck": "HEALTHY",
+  "airflow_import_errors": 0,
+  "dashboard_restarted": true,
+  "browser": {
+    "verification": "passed",
+    "checks": [
+      "page renders",
+      "platform filter",
+      "month filter",
+      "clear restores full combined data",
+      "lookup matches total",
+      "model prediction",
+      "replay endpoint",
+      "live timeline",
+      "demo page"
+    ],
+    "historical_reviews": 1299873,
+    "combined_reviews": 1301068,
+    "live_reviews": 1210,
+    "browser_errors": []
+  },
+  "zip": {
+    "path": "submission/ReviewLens_Source.zip",
+    "bytes": 115544,
+    "sha256": "6d76348f40774d277d1bfa9e37f36c7839d5012419524483f77b9540b6532e43",
+    "files": 68,
+    "integrity": "passed",
+    "credential_scan": "passed",
+    "fresh_extraction_and_compose_config": "passed"
+  },
+  "cleanup_mode": "Non-runtime files relocated outside project after bulk deletion was blocked by automatic approval review (no detailed reason returned)",
+  "archive_folder": "C:\\Users\\Trong Vi\\Downloads\\ReviewLens_Tai_lieu_20261021",
+  "remaining_report": "output/docx/Bao_cao_do_an_Big_Data_ReviewLens_Tinh_gon.docx is open in Word and excluded from source ZIP",
+  "data_preserved": [
+    "CSV",
+    "audit input",
+    "SQLite index",
+    "model and cube outputs",
+    "live snapshots",
+    "Kafka/HDFS checkpoints",
+    "Docker volumes",
+    ".env",
+    ".git"
+  ]
+}

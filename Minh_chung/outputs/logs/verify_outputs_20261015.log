@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/scripts/verify_outputs.py", line 43, in <module>
+    verify(args.root, args.require_stream)
+  File "/workspace/scripts/verify_outputs.py", line 27, in verify
+    ml = json.loads((root / 'sentiment_evaluation.json').read_text(encoding='utf-8'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/exports/sentiment_evaluation.json'

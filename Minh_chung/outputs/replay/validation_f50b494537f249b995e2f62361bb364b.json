@@ -1,0 +1,10 @@
+{
+  "verification": "passed",
+  "run_id": "f50b494537f249b995e2f62361bb364b",
+  "actual_hdfs_rows": 1299873,
+  "unique_keys": 1299873,
+  "monthly_cells": 377,
+  "source_generation": "e30bc0ca30184d7d8bf4a10e5ff12bf5",
+  "hdfs_loaded_source": "hdfs://namenode:9000/ecommerce/replay/runs/f50b494537f249b995e2f62361bb364b/loaded",
+  "verified_utc": "2026-10-15T00:24:45.812971+00:00"
+}

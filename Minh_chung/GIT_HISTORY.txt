@@ -1,0 +1,356 @@
+commit dd8165d4d01315e4ff8ca17f3d53a278775bcad3
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-21T06:33:10+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-21T06:33:10+07:00
+
+    chore: simplify source package and preserve runtime data
+
+ .gitignore                            |   2 +-
+ HUONG_DAN_NOP.md                      |   7 -
+ README.md                             | 121 ++++------
+ docs/ANNOTATION_GUIDE.md              |  34 ---
+ docs/ARCHITECTURE.md                  |  77 ------
+ docs/DATA_AUDIT.md                    |  50 ----
+ docs/DEFENSE_GUIDE.md                 | 106 ---------
+ docs/IMPLEMENTATION_JOURNAL.md        |  38 ---
+ docs/LITERATURE_REVIEW.md             |  13 --
+ docs/LIVE_RUNBOOK.md                  |  40 ----
+ docs/MEMBER_TASK_AUDIT.md             |  25 --
+ docs/PHAN_CONG_5_TUAN.json            |  39 ----
+ docs/PHAN_CONG_GOC.txt                |  28 ---
+ docs/PRODUCT_GUIDE.md                 |  80 -------
+ docs/REPLAY_RUNBOOK.md                |  46 ----
+ docs/REQUIREMENTS_AUDIT.md            |  24 --
+ docs/RESULTS_BASELINE.md              |  42 ----
+ docs/ROADMAP.md                       |  97 --------
+ docs/RUNBOOK.md                       | 151 ------------
+ docs/STATUS.md                        |  23 --
+ docs/figures/reviewlens-overview.jpg  | Bin 147118 -> 0 bytes
+ docs/templates/01_Bao_cao_tien_do.pdf | Bin 606723 -> 0 bytes
+ requirements-visuals.txt              |   2 -
+ scripts/build_final_report.py         | 429 ----------------------------------
+ scripts/build_progress_report.py      | 245 -------------------
+ scripts/capture_dashboard_demo.py     |  47 ----
+ scripts/capture_live_dashboard.py     |  34 ---
+ scripts/capture_replay_current.py     |  14 --
+ scripts/check_submission.py           |  20 +-
+ scripts/package_submission.py         | 175 ++++++--------
+ scripts/render_report_charts.py       | 134 -----------
+ scripts/validate_final_report.py      | 252 --------------------
+ 32 files changed, 126 insertions(+), 2269 deletions(-)
+
+commit 0fbabf67fa1a3a5526a75090a76d3484088a2190
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T17:24:12+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T17:24:12+07:00
+
+    clean-obsolete-documents-and-package-submission-under-20mb
+
+ .dockerignore                                      |   3 +
+ .gitignore                                         |   1 +
+ README.md                                          |   8 +
+ docs/IMPLEMENTATION_JOURNAL.md                     |   4 +
+ docs/MEMBER_TASK_AUDIT.md                          |   2 +-
+ .../PHAN_CONG_5_TUAN.json                          |   0
+ docs/ROADMAP.md                                    |   2 +-
+ docs/templates/01_Bao_cao_tien_do.pdf              | Bin 0 -> 606723 bytes
+ scripts/build_progress_report.py                   | 245 +++++++++++++++++++++
+ scripts/package_submission.py                      |  37 +++-
+ 10 files changed, 293 insertions(+), 9 deletions(-)
+
+commit ab59bb7aeeccadf91641b2f2095d2a44536fe22c
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:30:16+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:30:16+07:00
+
+    summarize-pipeline-history-with-full-bundle-reference
+
+ scripts/build_final_report.py | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 0beb7b42687e02cc700fd3bb088cfdc16f1c4506
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:27:37+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:27:37+07:00
+
+    remove-orphan-report-headings-and-short-continuations
+
+ scripts/build_final_report.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 39b5c6260a845bbba196e7aede5374c81dd23f3a
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:24:16+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:24:16+07:00
+
+    keep-architecture-evidence-on-one-page
+
+ scripts/build_final_report.py | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 947de0d9ccd0ad9891c5c6334006cd6507ede1a1
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:23:20+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:23:20+07:00
+
+    tighten-report-architecture-layout
+
+ scripts/build_final_report.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 24553b378febd3c2a84544231676fd7b8e9bd339
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:21:20+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:21:20+07:00
+
+    fix-vietnamese-glyphs-in-pdf-code-listings
+
+ scripts/build_final_report.py | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 8cf85d85f3770de0cd92189ad391e9d9fc0aaac6
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T10:18:38+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T10:18:38+07:00
+
+    add-verified-final-report-and-hdfs-kafka-airflow-defense-notes
+
+ .gitignore                       |   3 +
+ HUONG_DAN_NOP.md                 |   2 +-
+ README.md                        |  14 +-
+ docs/IMPLEMENTATION_JOURNAL.md   |   4 +
+ docs/REQUIREMENTS_AUDIT.md       |   6 +-
+ docs/STATUS.md                   |   6 +-
+ scripts/build_final_report.py    | 420 +++++++++++++++++++++++++++++++++++++++
+ scripts/check_submission.py      |  14 +-
+ scripts/package_submission.py    |  22 +-
+ scripts/validate_final_report.py | 252 +++++++++++++++++++++++
+ 10 files changed, 730 insertions(+), 13 deletions(-)
+
+commit 74c1d9622cf538b65f0f60206b58ab07c7ce2e59
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T08:12:29+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T08:12:29+07:00
+
+    keep-immutable-evidence-consistent-as-real-reviews-update
+
+ docs/IMPLEMENTATION_JOURNAL.md    |  2 ++
+ docs/STATUS.md                    |  2 ++
+ scripts/capture_replay_current.py | 14 ++++++++++++++
+ scripts/check_submission.py       |  9 +++++----
+ scripts/package_submission.py     | 10 +++++++---
+ 5 files changed, 30 insertions(+), 7 deletions(-)
+
+commit 88cd728d852b437b320212c54489c68c23f106b9
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T08:07:03+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T08:07:03+07:00
+
+    add-verified-hdfs-month-replay-and-animated-sliding-charts
+
+ README.md                          |  2 +
+ compose.yaml                       | 12 ++++-
+ dags/historical_replay_pipeline.py |  7 +++
+ dashboard/server.py                | 37 ++++++++++++---
+ dashboard/web/app.js               | 10 ++---
+ dashboard/web/index.html           | 17 ++++++-
+ dashboard/web/replay.js            | 51 +++++++++++++++++++++
+ dashboard/web/styles.css           |  2 +
+ docs/IMPLEMENTATION_JOURNAL.md     |  4 ++
+ docs/PRODUCT_GUIDE.md              |  2 +
+ docs/REPLAY_RUNBOOK.md             | 46 +++++++++++++++++++
+ docs/STATUS.md                     |  2 +
+ jobs/prepare_replay.py             | 56 +++++++++++++++++++++++
+ jobs/replay_months.py              | 92 ++++++++++++++++++++++++++++++++++++++
+ scripts/check_submission.py        |  7 ++-
+ scripts/package_submission.py      | 13 ++++--
+ scripts/start_replay.sh            | 10 +++++
+ scripts/validate_replay_browser.py | 73 ++++++++++++++++++++++++++++++
+ scripts/verify_live_outputs.py     | 15 +++++++
+ scripts/verify_replay_restart.py   | 33 ++++++++++++++
+ tests/test_replay.py               | 35 +++++++++++++++
+ 21 files changed, 509 insertions(+), 17 deletions(-)
+
+commit 949c1f00970d3d65a3f7e4db016fe5adf1038ff4
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T06:30:01+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T06:30:01+07:00
+
+    restore-full-dataset-on-clear-and-deduplicate-live-review-versions
+
+ README.md                         |   8 +++
+ dashboard/server.py               | 131 ++++++++++++++++++++++++++++++++------
+ dashboard/web/app.js              |  55 +++++++++-------
+ dashboard/web/index.html          |   5 +-
+ docs/IMPLEMENTATION_JOURNAL.md    |   2 +
+ docs/LIVE_RUNBOOK.md              |   8 +++
+ docs/PRODUCT_GUIDE.md             |   8 +++
+ docs/STATUS.md                    |   2 +
+ scripts/check_submission.py       |   6 +-
+ scripts/package_submission.py     |   2 +-
+ scripts/validate_auto_filters.py  |  11 ----
+ scripts/validate_clear_filters.py |  49 ++++++++++++++
+ scripts/verify_combined_source.py |  28 ++++++++
+ tests/test_dashboard.py           |  56 +++++++++++++++-
+ 14 files changed, 315 insertions(+), 56 deletions(-)
+
+commit 746c51057c9e9155d7d3b0274f626dd85e4e15a9
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T06:10:36+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T06:10:36+07:00
+
+    automate-real-review-ingestion-and-dashboard-filters
+
+ README.md                         |   4 +-
+ compose.yaml                      |   8 +++
+ dags/live_reviews_pipeline.py     |  37 ++++++++++++
+ dashboard/server.py               |  44 ++++++++++++--
+ dashboard/web/app.js              | 120 ++++++++++++++++++++++++++++++--------
+ dashboard/web/index.html          |  14 ++---
+ dashboard/web/styles.css          |   6 +-
+ docs/IMPLEMENTATION_JOURNAL.md    |   6 ++
+ docs/LIVE_RUNBOOK.md              |  32 ++++++++++
+ docs/PRODUCT_GUIDE.md             |  12 ++--
+ docs/REQUIREMENTS_AUDIT.md        |   4 ++
+ docs/STATUS.md                    |   4 ++
+ infra/Dockerfile.airflow          |   2 +-
+ jobs/collect_live_reviews.py      |  86 +++++++++++++++++++++++++++
+ jobs/publish_live_dashboard.py    |  71 ++++++++++++++++++++++
+ jobs/stream_reviews.py            |  26 ++++++---
+ requirements-runtime.txt          |   1 +
+ scripts/capture_dashboard_demo.py |   8 +--
+ scripts/capture_live_dashboard.py |  34 +++++++++++
+ scripts/check_submission.py       |  10 +++-
+ scripts/package_submission.py     |  13 ++++-
+ scripts/probe_live_reviews.py     |   8 +++
+ scripts/start_live.sh             |  16 +++++
+ scripts/validate_auto_filters.py  |  79 +++++++++++++++++++++++++
+ scripts/verify_live_outputs.py    |  10 ++++
+ src/review_analytics/spark_ops.py |   9 ++-
+ tests/test_live_collector.py      |  22 +++++++
+ tests/test_spark_logic.py         |  22 +++++++
+ 28 files changed, 644 insertions(+), 64 deletions(-)
+
+commit a55241273c487481d6ba4ace5845995931057bab
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T00:55:21+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T00:55:21+07:00
+
+    match-dashboard-task-count-and-verify-source-model-fingerprints
+
+ dashboard/web/app.js              |  6 +++---
+ scripts/capture_dashboard_demo.py |  2 ++
+ scripts/check_submission.py       | 10 ++++++++++
+ 3 files changed, 15 insertions(+), 3 deletions(-)
+
+commit e12c5bf61abda0b89333828912ca89e2770079d8
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T00:52:32+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T00:52:32+07:00
+
+    verify-complete-airflow-run-and-finalize-source-evidence
+
+ HUONG_DAN_NOP.md                  |   8 +--
+ README.md                         |   4 +-
+ config/aspects.json               |   9 ++++
+ dashboard/web/demo.html           |   2 +-
+ docs/IMPLEMENTATION_JOURNAL.md    |   2 +-
+ docs/MEMBER_TASK_AUDIT.md         |   2 +-
+ docs/REQUIREMENTS_AUDIT.md        |   6 ++-
+ docs/STATUS.md                    |   2 +-
+ scripts/capture_dashboard_demo.py |   9 +++-
+ scripts/check_submission.py       |   4 +-
+ scripts/package_submission.py     |  58 ++++++++++++++++++++++
+ scripts/validate_dashboard.py     |   3 +-
+ tests/test_dashboard.py           | 101 ++++++++++++++++++++++++++++++++++++++
+ tests/test_io.py                  |  28 +++++++++++
+ tests/test_spark_logic.py         |  64 ++++++++++++++++++++++++
+ tests/test_text.py                |  22 +++++++++
+ 16 files changed, 307 insertions(+), 17 deletions(-)
+
+commit 73335896c594179b4a35cdabdcbe24a6f8cc4ad4
+Author:     Codex-Automation <codex-automation@local.invalid>
+AuthorDate: 2026-10-15T00:38:49+07:00
+Commit:     Codex-Automation <codex-automation@local.invalid>
+CommitDate: 2026-10-15T00:38:49+07:00
+
+    restore-runtime-and-complete-reproducible-bigdata-pipeline
+
+ .dockerignore                        |   9 +
+ .env.example                         |   3 +
+ .gitignore                           |  21 +++
+ HUONG_DAN_NOP.md                     |   7 +
+ Phan_cong_5_tuan.json                |  39 +++++
+ README.md                            |  83 +++++++++
+ compose.low-memory.yaml              |  15 ++
+ compose.yaml                         | 187 ++++++++++++++++++++
+ dags/ecommerce_pipeline.py           |  37 ++++
+ dashboard/__init__.py                |   1 +
+ dashboard/server.py                  | 322 +++++++++++++++++++++++++++++++++++
+ dashboard/web/app.js                 | 139 +++++++++++++++
+ dashboard/web/demo.html              |   1 +
+ dashboard/web/index.html             |  52 ++++++
+ dashboard/web/styles.css             |   6 +
+ docs/ANNOTATION_GUIDE.md             |  34 ++++
+ docs/ARCHITECTURE.md                 |  77 +++++++++
+ docs/DATA_AUDIT.md                   |  50 ++++++
+ docs/DEFENSE_GUIDE.md                | 106 ++++++++++++
+ docs/IMPLEMENTATION_JOURNAL.md       |  16 ++
+ docs/LITERATURE_REVIEW.md            |  13 ++
+ docs/MEMBER_TASK_AUDIT.md            |  25 +++
+ docs/PHAN_CONG_GOC.txt               |  28 +++
+ docs/PRODUCT_GUIDE.md                |  68 ++++++++
+ docs/REQUIREMENTS_AUDIT.md           |  18 ++
+ docs/RESULTS_BASELINE.md             |  42 +++++
+ docs/ROADMAP.md                      |  97 +++++++++++
+ docs/RUNBOOK.md                      | 151 ++++++++++++++++
+ docs/STATUS.md                       |   9 +
+ docs/figures/reviewlens-overview.jpg | Bin 0 -> 147118 bytes
+ infra/Dockerfile                     |  26 +++
+ infra/Dockerfile.airflow             |  17 ++
+ infra/Dockerfile.qa                  |   3 +
+ infra/entrypoint.sh                  |  23 +++
+ infra/hadoop/core-site.xml           |   5 +
+ infra/hadoop/hdfs-site.xml           |  12 ++
+ jobs/batch_pipeline.py               | 229 +++++++++++++++++++++++++
+ jobs/prepare_dashboard.py            |  61 +++++++
+ jobs/replay_kafka.py                 |  79 +++++++++
+ jobs/stream_reviews.py               |  71 ++++++++
+ jobs/train_sentiment.py              | 118 +++++++++++++
+ jobs/validate_persisted.py           |  55 ++++++
+ requirements-runtime.txt             |   3 +
+ requirements-visuals.txt             |   2 +
+ scripts/audit_dataset.py             | 207 ++++++++++++++++++++++
+ scripts/bootstrap_hdfs.py            |  53 ++++++
+ scripts/build_dashboard_index.py     | 102 +++++++++++
+ scripts/capture_dashboard_demo.py    |  40 +++++
+ scripts/capture_evidence.py          |  53 ++++++
+ scripts/check_submission.py          |  42 +++++
+ scripts/demo_review.py               |  15 ++
+ scripts/download_dataset.py          |  36 ++++
+ scripts/init_local_env.py            |  13 ++
+ scripts/prepare_shared_outputs.py    |  12 ++
+ scripts/render_report_charts.py      | 134 +++++++++++++++
+ scripts/run_pipeline.sh              |  29 ++++
+ scripts/validate_dashboard.py        |  43 +++++
+ scripts/verify_outputs.py            |  44 +++++
+ src/review_analytics/__init__.py     |   2 +
+ src/review_analytics/io.py           |  28 +++
+ src/review_analytics/sentiment.py    |  38 +++++
+ src/review_analytics/spark_ops.py    |  72 ++++++++
+ src/review_analytics/text.py         |  12 ++
+ 63 files changed, 3335 insertions(+)
